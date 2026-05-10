@@ -4,8 +4,8 @@
 const isGitHubPagesBuild =
   process.env.GITHUB_PAGES === 'true' || process.env.GITHUB_ACTIONS === 'true';
 const isGitLabPagesBuild = process.env.GITLAB_CI === 'true';
-const githubRepository = process.env.GITHUB_REPOSITORY ?? 'jpagali/kfc-atlas-wiki';
-const [, githubProjectName = 'kfc-atlas-wiki'] = githubRepository.split('/');
+const githubRepository = process.env.GITHUB_REPOSITORY ?? 'jpagali/kfc-atlas-wiki-uat';
+const [, githubProjectName = 'kfc-atlas-wiki-uat'] = githubRepository.split('/');
 const gitLabPagesUrl = process.env.CI_PAGES_URL;
 const buildUpdatedDate = new Intl.DateTimeFormat('en-US', {
   month: '2-digit',
@@ -36,7 +36,7 @@ const siteBaseUrl = isGitHubPagesBuild
     : '/';
 
 const config = {
-  title: 'KFC Atlas Wiki',
+  title: 'KFC Atlas Wiki UAT',
   tagline: 'Everything you need to operate the KFC Atlas Platform.',
   favicon: 'img/atlas-favicon.png',
   organizationName: 'jpagali',
@@ -87,14 +87,14 @@ const config = {
 
       announcementBar: {
         id: 'welcome',
-        content: '👋 Welcome to the KFC Atlas Wiki — your guide to operating the platform.',
+        content: 'UAT environment: KFC Atlas Wiki validation site. Production remains at KFCAtlas-Wiki.',
         backgroundColor: '#13100C',
         textColor: '#ffffff',
         isCloseable: true,
       },
 
       navbar: {
-        title: 'Atlas Wiki',
+        title: 'Atlas Wiki UAT',
         style: 'dark',
         logo: {
           alt: 'KFC Atlas Logo',
