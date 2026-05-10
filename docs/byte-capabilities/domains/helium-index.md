@@ -1,0 +1,53 @@
+---
+title: Byte Helium Capabilities
+description: All customer-facing capabilities owned by Byte Helium — the web and app front-end of the KFC Atlas platform.
+sidebar_label: Overview
+---
+
+# 🎨 Byte Helium Capabilities
+
+**Byte Helium** is Yum!'s enterprise design system and front-end foundation. In Atlas, KFC's global front-end is built on Helium and skinned for the KFC brand, covering everything from sign-in and menu browsing through to checkout, payment, and post-order tracking.
+
+In the Atlas context, Helium renders what the backend provides. It does not own pricing, promo eligibility, order state, or content — those belong to Byte Commerce, Promo Engine, and CMS respectively. Helium's job is to provide the front-end foundation that Atlas presents through the KFC brand and customer journey.
+
+---
+
+## Byte Helium Capability Domains
+
+| Domain | What It Covers |
+|---|---|
+| [Identity & Sign-In](/docs/byte-capabilities/domains/identity) | Account creation, OTP sign-in, Google/Apple OAuth, profile, privacy |
+| [Localisation & Order Mode](/docs/byte-capabilities/domains/localisation) | Market detection, delivery vs. collection mode, store locator |
+| [Menu Browse & PDP](/docs/byte-capabilities/domains/menu) | Product listing, item detail, modifiers, nutrition/allergens |
+| [Cart](/docs/byte-capabilities/domains/cart) | Add/update/remove items, apply promo codes, attach loyalty rewards |
+| [Checkout](/docs/byte-capabilities/domains/checkout) | Guest and registered checkout, delivery and collection variants |
+| [Payments & Tenders](/docs/byte-capabilities/domains/payments) | Card, saved card, voucher, split tender, gift card |
+| [Promotions & Loyalty](/docs/byte-capabilities/domains/promotions-loyalty) | Offers feed, rewards, challenges, loyalty onboarding, comms prefs |
+| [Donations & Tips](/docs/byte-capabilities/domains/donations-tips) | Add-Hope charitable donations, delivery driver tips |
+| [Order Tracking & History](/docs/byte-capabilities/domains/order-tracking) | Real-time delivery tracking, order history, receipts, reorder, favourites |
+| [Content & Legal](/docs/byte-capabilities/domains/content-legal) | CMS brand pages, legal documents, cookie consent |
+| [Engagement & Messaging](/docs/byte-capabilities/domains/engagement) | In-app inbox, push and email notification preferences |
+
+---
+
+:::caution What Byte Helium does not own
+Byte Helium renders but does not own: pricing (Commerce Backend), promo eligibility (Promo Engine), loyalty points (Loyalty service), payment capture (PSP), menu content (Byte Menu), legal content (Legal CMS), or store state (Byte Portal + POS). See [Capability Boundaries](/docs/byte-capabilities/enablement/capability-boundaries) for the full ownership map.
+:::
+
+---
+
+## Technical Sources
+
+<details>
+<summary>📎 Technical Source: Byte Helium Capability Overview</summary>
+
+- **FRD References:** [FRD-HEL-001](https://yumbrands.atlassian.net/wiki/spaces/ITBFR/pages/4123951223/ITBFR-Functional+Requirements+-+Helium#FRD-HEL-001), [FRD-HEL-011](https://yumbrands.atlassian.net/wiki/spaces/ITBFR/pages/4123951223/ITBFR-Functional+Requirements+-+Helium#FRD-HEL-011), [FRD-HEL-048](https://yumbrands.atlassian.net/wiki/spaces/ITBFR/pages/4123951223/ITBFR-Functional+Requirements+-+Helium#FRD-HEL-048), [FRD-HEL-072](https://yumbrands.atlassian.net/wiki/spaces/ITBFR/pages/4123951223/ITBFR-Functional+Requirements+-+Helium#FRD-HEL-072)
+- **TRD Domains:** Identity, Localisation, Menu, Cart, Checkout, Payments, Loyalty, Tracking, Content
+- **Key Interfaces / APIs:** App shell, Context/Store selection, Menu, Cart, Checkout, Payment, Order Status
+- **Data Contracts:** Session context, cart, checkout session, payment intent, order summary, order status
+- **Source Summary:**
+  - Byte Helium is the customer-facing front-end foundation and orchestration surface for the KFC digital journey
+  - Backend systems remain the source of truth for pricing, eligibility, order state, and most configuration
+  - Domain-level technical details live in the linked capability pages below, each with its own source notes where needed
+
+</details>
