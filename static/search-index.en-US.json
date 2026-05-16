@@ -3031,16 +3031,21 @@
   },
   {
     "locale": "en-US",
-    "title": "Step 3 Find Deals and Rewards",
+    "title": "Rewards, Offers and Loyalty",
     "headings": [
-      "Pages in This Section"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
-    "summary": "This step covers how customers find offers, understand value, and move from an offer into an orderable experience.",
+    "summary": "Rewards, Offers and Loyalty",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-deals-and-rewards/",
-    "normalizedTitle": "step 3 find deals and rewards",
-    "normalizedHeadings": "pages in this section",
-    "normalizedSummary": "this step covers how customers find offers understand value and move from an offer into an orderable experience",
+    "normalizedTitle": "rewards offers and loyalty",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "rewards offers and loyalty",
     "normalizedSection": "frontend"
   },
   {
@@ -3087,16 +3092,21 @@
   },
   {
     "locale": "en-US",
-    "title": "BYOB Select",
+    "title": "Build Your Own Bucket",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
-    "summary": "BYOB Select",
+    "summary": "Build Your Own Bucket",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/byob-select/",
-    "normalizedTitle": "byob select",
-    "normalizedHeadings": "why this step is designed this way",
-    "normalizedSummary": "byob select",
+    "normalizedTitle": "build your own bucket",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "build your own bucket",
     "normalizedSection": "frontend"
   },
   {
@@ -3156,16 +3166,21 @@
   },
   {
     "locale": "en-US",
-    "title": "Home Page",
+    "title": "Homepage",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
-    "summary": "Home Page",
+    "summary": "Homepage",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/home-page/",
-    "normalizedTitle": "home page",
-    "normalizedHeadings": "why this step is designed this way",
-    "normalizedSummary": "home page",
+    "normalizedTitle": "homepage",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "homepage",
     "normalizedSection": "frontend"
   },
   {
@@ -3173,58 +3188,73 @@
     "title": "Step 2 Find Products",
     "headings": [
       "Pages in This Section",
-      "PDP Subpages"
+      "PDP Subpages",
+      "Prototype Backed Scope"
     ],
     "summary": "This step covers how customers discover what they can order once the ordering context is set.",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/",
     "normalizedTitle": "step 2 find products",
-    "normalizedHeadings": "pages in this section pdp subpages",
+    "normalizedHeadings": "pages in this section pdp subpages prototype backed scope",
     "normalizedSummary": "this step covers how customers discover what they can order once the ordering context is set",
     "normalizedSection": "frontend"
   },
   {
     "locale": "en-US",
-    "title": "Menu Landing",
+    "title": "Menu Landing / Category",
     "headings": [
-      "Screen Summary",
-      "Placeholder Notes",
-      "Why This Step Is Designed This Way",
-      "What The Design Is Doing",
-      "Why The Design Works",
-      "1. Improved Structure And Comprehension",
-      "2. Strategic Nudges And Education",
-      "3. High Impact Craveability",
-      "4. Better Secret Menu Entry Point",
-      "5. Stronger Convention With Better Scalability",
-      "Design Takeaway",
-      "Next Screen"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
-    "summary": "Menu Landing",
+    "summary": "Menu Landing / Category",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/menu-landing/",
-    "normalizedTitle": "menu landing",
-    "normalizedHeadings": "screen summary placeholder notes why this step is designed this way what the design is doing why the design works 1 improved structure and comprehension 2 strategic nudges and education 3 high impact craveability 4 better secret menu entry point 5 stronger convention with better scalability design takeaway next screen",
-    "normalizedSummary": "menu landing",
+    "normalizedTitle": "menu landing category",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "menu landing category",
     "normalizedSection": "frontend"
   },
   {
     "locale": "en-US",
     "title": "PLP (Product Listing Page)",
     "headings": [
-      "Why This Is A PLP",
-      "Why This Step Is Designed This Way",
-      "Placeholder Notes",
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
       "What This Screen Should Usually Communicate",
-      "Design Read On This Screen",
-      "Placeholder Commentary To Reuse For Future Uploads"
+      "Design Read On This Screen"
     ],
     "summary": "PLP (Product Listing Page)",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/menu-listing/",
     "normalizedTitle": "plp product listing page",
-    "normalizedHeadings": "why this is a plp why this step is designed this way placeholder notes what this screen should usually communicate design read on this screen placeholder commentary to reuse for future uploads",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should usually communicate design read on this screen",
     "normalizedSummary": "plp product listing page",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "en-US",
+    "title": "Secret Menu",
+    "headings": [
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "Secret Menu PDP Customization",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
+    ],
+    "summary": "Secret Menu",
+    "section": "frontend",
+    "url": "/docs/frontend/customer-journey/find-products/secret-menu/",
+    "normalizedTitle": "secret menu",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way secret menu pdp customization wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "secret menu",
     "normalizedSection": "frontend"
   },
   {
@@ -3360,13 +3390,18 @@
     "locale": "en-US",
     "title": "Cart",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Cart",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/cart/",
     "normalizedTitle": "cart",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "cart",
     "normalizedSection": "frontend"
   },
@@ -3374,13 +3409,18 @@
     "locale": "en-US",
     "title": "Checkout",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Checkout",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/checkout/",
     "normalizedTitle": "checkout",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "checkout",
     "normalizedSection": "frontend"
   },
@@ -3388,13 +3428,14 @@
     "locale": "en-US",
     "title": "Step 4 Order and Get",
     "headings": [
-      "Pages in This Section"
+      "Pages in This Section",
+      "Prototype Backed Scope"
     ],
     "summary": "This step covers the conversion stage, where the customer moves from intent into a completed order.",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/",
     "normalizedTitle": "step 4 order and get",
-    "normalizedHeadings": "pages in this section",
+    "normalizedHeadings": "pages in this section prototype backed scope",
     "normalizedSummary": "this step covers the conversion stage where the customer moves from intent into a completed order",
     "normalizedSection": "frontend"
   },
@@ -3402,21 +3443,18 @@
     "locale": "en-US",
     "title": "Add on and Cross sell",
     "headings": [
+      "Screen Capture Sequence",
+      "What This Feature Is",
       "Why This Step Is Designed This Way",
-      "What This Screen Is Doing",
-      "Why The Design Works",
-      "1. It Respects The Primary Decision",
-      "2. It Keeps Merchandising Timed Correctly",
-      "3. It Makes Optionality Feel Lightweight",
-      "4. It Extends The KFC Decision Moment",
-      "Design Principle",
-      "Design Takeaway"
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Add on and Cross sell",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/add-on-and-cross-sell/",
     "normalizedTitle": "add on and cross sell",
-    "normalizedHeadings": "why this step is designed this way what this screen is doing why the design works 1 it respects the primary decision 2 it keeps merchandising timed correctly 3 it makes optionality feel lightweight 4 it extends the kfc decision moment design principle design takeaway",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "add on and cross sell",
     "normalizedSection": "frontend"
   },
@@ -3424,22 +3462,18 @@
     "locale": "en-US",
     "title": "Product Customization",
     "headings": [
+      "Screen Capture Sequence",
+      "What This Feature Is",
       "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
       "What This Screen Should Communicate",
-      "What The Design Is Doing",
-      "Why The Design Works",
-      "1. It Supports Confidence Through Structure",
-      "2. It Keeps The Product Legible",
-      "3. It Makes Personalization Feel Safe",
-      "4. It Prepares The Customer For Confirmation",
-      "Design Notes",
-      "Design Takeaway"
+      "Design Read On This Screen"
     ],
     "summary": "Product Customization",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/customize/",
     "normalizedTitle": "product customization",
-    "normalizedHeadings": "why this step is designed this way what this screen should communicate what the design is doing why the design works 1 it supports confidence through structure 2 it keeps the product legible 3 it makes personalization feel safe 4 it prepares the customer for confirmation design notes design takeaway",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "product customization",
     "normalizedSection": "frontend"
   },
@@ -3459,36 +3493,39 @@
     "locale": "en-US",
     "title": "Nutrition and Allergen",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Nutrition and Allergen",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/nutrition-and-allergen/",
     "normalizedTitle": "nutrition and allergen",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "nutrition and allergen",
     "normalizedSection": "frontend"
   },
   {
     "locale": "en-US",
-    "title": "Meal Size Prompt",
+    "title": "Product Detail Page (PDP)",
     "headings": [
-      "Why This Step Is Designed This Way",
-      "What This Screen Is Doing",
-      "Why The Design Works",
-      "1. It Reduces Hidden Complexity",
-      "2. It Makes Trade offs Easy To Compare",
-      "3. It Protects Momentum",
-      "4. It Creates A Better Foundation For Customization",
-      "Why This Is PDP",
-      "Design Takeaway"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "Customization Levels",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
-    "summary": "Meal Size Prompt",
+    "summary": "Product Detail Page (PDP)",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/product-detail/",
-    "normalizedTitle": "meal size prompt",
-    "normalizedHeadings": "why this step is designed this way what this screen is doing why the design works 1 it reduces hidden complexity 2 it makes trade offs easy to compare 3 it protects momentum 4 it creates a better foundation for customization why this is pdp design takeaway",
-    "normalizedSummary": "meal size prompt",
+    "normalizedTitle": "product detail page pdp",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way customization levels wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "product detail page pdp",
     "normalizedSection": "frontend"
   },
   {
@@ -3521,6 +3558,25 @@
   },
   {
     "locale": "en-US",
+    "title": "Delivery",
+    "headings": [
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
+    ],
+    "summary": "Delivery",
+    "section": "frontend",
+    "url": "/docs/frontend/customer-journey/setup-order/delivery/",
+    "normalizedTitle": "delivery",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "delivery",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "en-US",
     "title": "Step 1 Setup Order",
     "headings": [
       "Pages in This Section",
@@ -3532,6 +3588,25 @@
     "normalizedTitle": "step 1 setup order",
     "normalizedHeadings": "pages in this section why this comes first",
     "normalizedSummary": "this step covers everything the customer must define before the menu becomes relevant these conditions shape what the customer can see buy schedule or reorder",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "en-US",
+    "title": "Pickup",
+    "headings": [
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
+    ],
+    "summary": "Pickup",
+    "section": "frontend",
+    "url": "/docs/frontend/customer-journey/setup-order/pickup/",
+    "normalizedTitle": "pickup",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedSummary": "pickup",
     "normalizedSection": "frontend"
   },
   {
@@ -3566,13 +3641,18 @@
     "locale": "en-US",
     "title": "Set Order Mode",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why It Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Set Order Mode",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/set-order-mode/",
     "normalizedTitle": "set order mode",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "set order mode",
     "normalizedSection": "frontend"
   },

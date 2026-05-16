@@ -1,96 +1,70 @@
 ---
-title: Menu Landing
+title: Menu Landing / Category
 ---
 
-# Menu Landing
+# Menu Landing / Category
 
-This page covers the first structured menu view. In this concept, the menu lands as a **Category List Page**: a scannable set of category tiles that helps customers understand the menu at a glance before they move into deeper product listing pages.
+Menu Landing is the first structured menu surface after order context is set. It is the category gateway before the customer moves into a Product Listing Page (PLP).
 
-<div style={{ float: 'right', margin: '0.35rem 0 1rem 1.25rem', width: '320px' }}>
-  <img
-    src="/MenuLandingPage%20Screenshot.jpg"
-    alt="Menu Landing Page concept"
-    style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '18px' }}
-  />
-  <p style={{ marginTop: '0.75rem', fontSize: '0.9rem', lineHeight: 1.5 }}>
-    Menu Landing Page concept showing the category-entry surface before the customer moves into the PLP.
-  </p>
+## Screen Capture Sequence
+
+This page only documents the category tile experience. PLP behavior is documented separately in [PLP (Product Listing Page)](/docs/frontend/customer-journey/find-products/menu-listing).
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+  <div>
+    <img src="/img/customer-journey/menu/menu-landing-01-category-top.png" alt="Menu landing page top with featured category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Menu landing top: category tiles act as the table of contents before product comparison.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/menu/menu-landing-02-category-more.png" alt="Menu landing page scrolled to additional category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Scrolled category state: additional categories stay visual and easy to scan.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/menu/menu-landing-03-footer.png" alt="Menu landing lower page with footer links and supporting market content" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Lower state: footer and supporting links remain available without interrupting category browsing.</p>
+  </div>
 </div>
 
-## Screen Summary
+## What This Feature Is
 
-This is the first real menu decision point after the customer enters the browse flow. The goal is not to throw every product on screen immediately. The goal is to help the customer understand the menu shape first, then move into the right product listing with more confidence.
+Menu Landing gives customers a clear overview of the menu structure before they start comparing individual products. The prototype uses category tiles such as Featured Offers, Burgers, Boxed Meals, Chicken, Snack Hacks, Protein Picks, and Everyday Value.
 
-## Placeholder Notes
+This screen is different from a PLP:
 
-Use this structure whenever a new screen design is uploaded:
+- Menu Landing helps the customer choose a category.
+- PLP helps the customer compare products inside a category.
+- PDP helps the customer inspect and customize one product.
 
-- Start with a plain-English explanation of what the screen is trying to help the customer do.
-- Call out the main interaction model before describing visual detail.
-- Explain why the layout is useful for comprehension, not just why it looks good.
-- Add placeholder commentary that can later be replaced with screen-specific observations once the final mockup is attached.
+## Why It Is Designed This Way
 
-Example placeholder notes for this page:
+The category gateway reduces cognitive load. Instead of showing every product immediately, it gives the customer a table of contents for the menu and lets them make an intentional first choice.
 
-- The design should make the menu feel easy to enter, not overwhelming.
-- The customer should understand the main category choices within a few seconds.
-- The layout should create a stronger branded first impression than a generic feed of products.
-- Merchandising priority should be possible without breaking scan speed.
+This is especially useful for global markets because category strategy varies by market. Some markets need stronger value entry points, some need family meals, and others need local category naming. A controlled category surface gives markets merchandising flexibility without making the PLP noisy.
 
-## Why This Step Is Designed This Way
+## WIP: What Can Be Configured On This Screen
 
-Customers often scan before they commit, so the landing experience needs to reduce cognitive load while still guiding them toward the most valuable entry points. The Category List Page approach gives Atlas a clearer structure than a pure endless feed, while still supporting fast navigation once a customer enters a category.
+| Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
+|---|---|---|
+| Category list | Category names, order, visibility, and market-specific groupings | WIP |
+| Category imagery | Tile image, crop, fallback image, and seasonal campaign creative | WIP |
+| Featured category | Whether Featured Offers or another category appears first | WIP |
+| Tile treatments | Accent color, wide tile behavior, and strategic category emphasis | WIP |
+| Category destinations | PLP category, campaign page, Secret Menu entry, or custom destination | WIP |
+| Footer links | Store apps, legal links, support links, and market footer requirements | WIP |
+| Localization | Category labels and legal copy in English, French, Spanish, and German | WIP |
 
-## What The Design Is Doing
+## What This Screen Should Communicate
 
-- It acts like a table of contents for the menu, helping customers understand the available sections immediately.
-- It creates a stronger first menu moment than a plain list by pairing bold category labels with craveable food imagery.
-- It asks the customer to make an intentional category choice, which creates more commitment than passive scrolling.
-- It works as the front door to a hybrid navigation model: category-first entry, then faster in-menu hopping once the user is inside a section.
+- The customer is entering the menu after order context has been set.
+- The menu is organized into clear categories.
+- Category choice comes before product comparison.
+- Strategic categories can be promoted without breaking scan speed.
+- Secret Menu can live as a special category-adjacent entry point.
 
-## Why The Design Works
+## Design Read On This Screen
 
-### 1. Improved Structure And Comprehension
-
-The Category List Page gives customers a clear overview of the menu structure before they enter a PLP. That improves orientation, reduces the effort needed to understand where to start, and helps customers reach the right section faster.
-
-Once inside the menu, horizontal tab navigation can still support quick switching between sections. This hybrid model combines the comprehension benefits of a category landing page with the speed of aggregator-style navigation.
-
-### 2. Strategic Nudges And Education
-
-Because each tile is a controlled surface, the landing page creates room for lightweight guidance and commercial prioritisation.
-
-- Categories can communicate simple format cues such as "Meals for 1" or other decision-shaping labels.
-- High-margin bundles, new ranges, or strategic categories can be positioned higher and given more visual weight.
-- The click into a category is an active choice, which helps make the journey feel more deliberate than a passive scroll through a long feed.
-
-### 3. High-Impact Craveability
-
-Unlike third-party delivery patterns that often compress food imagery into utility-first thumbnails, this page gives Atlas space for more premium, high-resolution visual moments. That helps the experience feel more branded, more hunger-inducing, and less like a generic transactional list.
-
-### 4. Better Secret Menu Entry Point
-
-The category layer is also a cleaner place to reveal the Secret Menu. It creates a natural hop-off point into a more expressive, intentionally different environment without interrupting the main menu flow.
-
-This also removes the need for the previous 11-second pull-down interaction inside the menu itself, which created technical and UX friction, especially on Android and in scroll-heavy contexts.
-
-### 5. Stronger Convention With Better Scalability
-
-This approach aligns with where modern QSR apps are heading. A category-led entry point is easier to scale in a branded environment because it balances utility with brand expression.
-
-Compared with horizontal-only menu navigation, the hybrid pattern improves:
-
-- speed to the right section,
-- understanding of the menu structure,
-- ability to prioritise strategic categories,
-- room for brand storytelling and craveability.
-
-<div style={{ clear: 'both' }} />
-
-## Design Takeaway
-
-The goal of this page is not just to list categories. It is to create a stronger first menu moment: one that improves comprehension, supports faster decision-making, gives the business more merchandising control, and makes the menu feel distinctly KFC rather than purely functional.
-
-## Next Screen
-
-The next screen in this flow should now be referred to as **PLP (Product Listing Page)** rather than **Menu Listing**.
+- The grid creates a fast visual table of contents for the menu.
+- Large category labels make the screen scannable on mobile.
+- Food imagery supports appetite appeal without requiring product-level detail yet.
+- The category-first model creates a cleaner transition into PLP comparison.
+- This pattern gives Atlas more brand expression than a purely utilitarian list.

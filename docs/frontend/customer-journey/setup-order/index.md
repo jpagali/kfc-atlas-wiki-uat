@@ -9,6 +9,8 @@ This step covers everything the customer must define before the menu becomes rel
 ## Pages in This Section
 
 - [Set Order Mode](/docs/frontend/customer-journey/setup-order/set-order-mode)
+- [Pickup](/docs/frontend/customer-journey/setup-order/pickup)
+- [Delivery](/docs/frontend/customer-journey/setup-order/delivery)
 - [Address or Store Selection](/docs/frontend/customer-journey/setup-order/address-or-store-selection)
 - [Change Order Mode](/docs/frontend/customer-journey/setup-order/change-order-mode)
 - [Reorder](/docs/frontend/customer-journey/setup-order/reorder)

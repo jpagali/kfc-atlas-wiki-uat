@@ -11,4 +11,6 @@ This step covers the conversion stage, where the customer moves from intent into
 - [Cart](/docs/frontend/customer-journey/order-and-get/cart)
 - [Checkout](/docs/frontend/customer-journey/order-and-get/checkout)
 
-`<Mockup to be provided here>`
+## Prototype-Backed Scope
+
+Cart and Checkout are currently documented from the latest prototype. Post-checkout and Track Order are not treated as completed customer journey docs because the latest post-checkout design is not available in the prototype yet.

@@ -8,19 +8,18 @@ This step covers how customers discover what they can order once the ordering co
 
 ## Pages in This Section
 
-- [Home Page](/docs/frontend/customer-journey/find-products/home-page)
-- [Menu Landing](/docs/frontend/customer-journey/find-products/menu-landing)
+- [Menu Landing / Category](/docs/frontend/customer-journey/find-products/menu-landing)
 - [PLP (Product Listing Page)](/docs/frontend/customer-journey/find-products/menu-listing)
-- [Product Detail Page (PDP)](/docs/frontend/customer-journey/find-products/format-options)
-- [BYOB Select](/docs/frontend/customer-journey/find-products/byob-select)
-- [Children's Only](/docs/frontend/customer-journey/find-products/childrens-only)
-- [Catering Menu](/docs/frontend/customer-journey/find-products/catering-menu)
+- [Product Detail Page (PDP)](/docs/frontend/customer-journey/preview-product-and-customize/product-detail)
+- [Build Your Own Bucket](/docs/frontend/customer-journey/find-products/byob-select)
+- [Secret Menu](/docs/frontend/customer-journey/find-products/secret-menu)
 
 ## PDP Subpages
 
-- [Meal Size Prompt](/docs/frontend/customer-journey/preview-product-and-customize/product-detail)
 - [Product Customization](/docs/frontend/customer-journey/preview-product-and-customize/customize)
 - [Add-on and Cross-sell](/docs/frontend/customer-journey/preview-product-and-customize/add-on-and-cross-sell)
 - [Nutrition and Allergen](/docs/frontend/customer-journey/preview-product-and-customize/nutrition-and-allergen)
 
-`<Mockup to be provided here>`
+## Prototype-Backed Scope
+
+This section prioritizes the latest prototype journeys. Children's Only and Catering Menu files can remain in the repo as placeholders, but they are not active journey documentation until prototype-backed designs are available.

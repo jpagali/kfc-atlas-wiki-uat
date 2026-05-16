@@ -22,17 +22,15 @@ const sidebars = {
               link: { type: 'doc', id: 'frontend/customer-journey/index' },
               collapsed: false,
               items: [
+                'frontend/customer-journey/find-products/home-page',
                 {
                   type: 'category',
                   label: 'Step 1 - Setup Order',
                   link: { type: 'doc', id: 'frontend/customer-journey/setup-order/index' },
                   items: [
                     'frontend/customer-journey/setup-order/set-order-mode',
-                    'frontend/customer-journey/setup-order/address-or-store-selection',
-                    'frontend/customer-journey/setup-order/change-order-mode',
-                    'frontend/customer-journey/setup-order/reorder',
-                    'frontend/customer-journey/setup-order/review-order-settings',
-                    'frontend/customer-journey/setup-order/store-unavailable-handling',
+                    'frontend/customer-journey/setup-order/pickup',
+                    'frontend/customer-journey/setup-order/delivery',
                   ],
                 },
                 {
@@ -40,35 +38,27 @@ const sidebars = {
                   label: 'Step 2 - Find Products',
                   link: { type: 'doc', id: 'frontend/customer-journey/find-products/index' },
                   items: [
-                    'frontend/customer-journey/find-products/home-page',
                     'frontend/customer-journey/find-products/menu-landing',
                     'frontend/customer-journey/find-products/menu-listing',
                     {
                       type: 'category',
                       label: 'Product Detail Page (PDP)',
-                      link: { type: 'doc', id: 'frontend/customer-journey/find-products/format-options' },
+                      link: { type: 'doc', id: 'frontend/customer-journey/preview-product-and-customize/product-detail' },
                       items: [
-                        'frontend/customer-journey/preview-product-and-customize/product-detail',
                         'frontend/customer-journey/preview-product-and-customize/customize',
                         'frontend/customer-journey/preview-product-and-customize/add-on-and-cross-sell',
                         'frontend/customer-journey/preview-product-and-customize/nutrition-and-allergen',
                       ],
                     },
                     'frontend/customer-journey/find-products/byob-select',
-                    'frontend/customer-journey/find-products/childrens-only',
-                    'frontend/customer-journey/find-products/catering-menu',
+                    'frontend/customer-journey/find-products/secret-menu',
                   ],
                 },
                 {
                   type: 'category',
-                  label: 'Step 3 - Find Deals and Rewards',
+                  label: 'Step 3 - Rewards, Offers and Loyalty',
                   link: { type: 'doc', id: 'frontend/customer-journey/find-deals-and-rewards/index' },
-                  items: [
-                    'frontend/customer-journey/find-deals-and-rewards/loyalty-tile',
-                    'frontend/customer-journey/find-deals-and-rewards/rewards-listing',
-                    'frontend/customer-journey/find-deals-and-rewards/promo-options',
-                    'frontend/customer-journey/find-deals-and-rewards/challenge',
-                  ],
+                  items: [],
                 },
                 {
                   type: 'category',
@@ -77,15 +67,6 @@ const sidebars = {
                   items: [
                     'frontend/customer-journey/order-and-get/cart',
                     'frontend/customer-journey/order-and-get/checkout',
-                  ],
-                },
-                {
-                  type: 'category',
-                  label: 'Step 5 - Track Order',
-                  link: { type: 'doc', id: 'frontend/customer-journey/track-order/index' },
-                  items: [
-                    'frontend/customer-journey/track-order/pickup',
-                    'frontend/customer-journey/track-order/delivery',
                   ],
                 },
                 {

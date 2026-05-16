@@ -1,58 +1,88 @@
 ---
-title: Meal Size Prompt
+title: Product Detail Page (PDP)
 ---
 
-# Meal Size Prompt
+# Product Detail Page (PDP)
 
-This screenshot shows the first PDP decision state after the customer selects a product from the PLP.
+The Product Detail Page is where the customer moves from product comparison into one selected item. It explains the product, exposes price and nutrition context, and starts the customization path.
 
-It is a **meal size prompt**, where the customer chooses the meal format before moving deeper into product customization.
+## Screen Capture Sequence
 
-<div style={{ float: 'right', margin: '0.35rem 0 1rem 1.25rem', width: '320px' }}>
-  <img
-    src="/mealsizeprompt.jpg"
-    alt="Meal size prompt on PDP"
-    style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '18px' }}
-  />
+PDP should be captured as a layered customization sequence because the customer moves from product confirmation into size, component, and bundle decisions.
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+  <div>
+    <img src="/img/customer-journey/pdp/pdp-01-top.png" alt="Product detail page top with product hero, price, quantity, and add button" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Top state: product confirmation, price, quantity, and primary add-to-cart action.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/pdp/pdp-02-size-and-info.png" alt="Product detail page meal size and nutrition information" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Size and information: meal size, nutrition, and supporting product detail become visible on scroll.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/pdp/pdp-03-components.png" alt="Product detail page component groups for burger, side, and drink" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Component groups: bundle parts are shown as editable sections with selected defaults.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/pdp/pdp-04-bundle-customization.png" alt="Product detail page lower customization state with bundle component editing" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Deeper customization: lower sections expose component editing while the PDP remains structured.</p>
+  </div>
 </div>
 
-*Meal size prompt asking the customer how they want the meal configured before continuing.*
+## What This Feature Is
 
-## Why This Step Is Designed This Way
+PDP is the selected-product decision surface. It confirms what the customer chose from the PLP and gives them the controls needed to adjust the item before adding it to cart.
 
-The meal-size decision is a high-impact choice because it affects price, included items, and downstream customization. Surfacing it first keeps the decision model explicit instead of hiding it inside later modifier logic.
+In the current prototype, PDP supports:
 
-## What This Screen Is Doing
+- product hero and summary,
+- price and energy display,
+- allergy and nutrition information,
+- quantity stepper,
+- meal size selection,
+- component groups such as burger, side, and drink,
+- default selections,
+- deeper customization entry points,
+- persistent add-to-cart action.
 
-- It interrupts the PLP flow with a focused decision modal.
-- It asks the customer to choose the meal format before deeper configuration begins.
-- It compares options in a structured way so the trade-off between regular and large is obvious.
-- It uses a single dominant CTA to confirm the choice and move forward.
+## Why It Is Designed This Way
 
-## Why The Design Works
+PDP has to balance confidence and control. The customer needs enough product detail to trust the choice, but not so much complexity that customization feels like a form.
 
-### 1. It Reduces Hidden Complexity
+The prototype uses progressive customization. The first layer confirms the product and price. The next layer shows major meal components. Deeper controls are only opened when the customer chooses to customize a component.
 
-Meal structure is one of the biggest drivers of price and expectation. If the customer does not understand whether they are choosing a standalone item, a regular combo, or a large combo, every later step becomes harder to trust. This screen solves that by making the format choice explicit before anything else happens.
+## Customization Levels
 
-### 2. It Makes Trade-offs Easy To Compare
+| Level | Customer Decision | Example In Prototype | Why It Matters |
+|---|---|---|---|
+| Level 1: Product confirmation | Confirm the selected item and base price | Tower Burger Combo PDP top section | Keeps the customer oriented after PLP selection |
+| Level 2: Meal size | Choose regular, large, or available size variants | `Regular Size` section with `Change` action | Size impacts price, included components, and value perception |
+| Level 3: Component groups | Review included parts of the meal | Burger, side, and drink sections | Makes bundles understandable without forcing every modifier open |
+| Level 4: Component customization | Edit an individual component | `Customize` action inside Burger or component section | Supports personalization while keeping the main PDP readable |
+| Level 5: Add-ons / cross-sell | Add extra items after base product is configured | Complete Your Meal / add-ons sheet | Moves from product completion into basket growth |
 
-The screen presents the options side by side in a consistent visual pattern. That matters because the customer is not just choosing between labels. They are comparing value, quantity, and what feels like the right order size for the occasion.
+## WIP: What Can Be Configured On This Screen
 
-### 3. It Protects Momentum
+| Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
+|---|---|---|
+| PDP layout | Hero treatment, description length, price placement, and nutrition visibility | WIP |
+| Size logic | Available sizes, default size, price deltas, and size labels | WIP |
+| Component groups | Which groups appear, order, required/optional state, and default selections | WIP |
+| Modifier rules | Add, remove, swap, quantity, paid modifiers, and nested customization | WIP |
+| Nutrition/allergen | Data visibility, market labels, legal requirements, and source of truth | WIP |
+| Add CTA | Label, price behavior, disabled states, and cart handoff | WIP |
 
-Although this is a modal interruption, it still feels forward-moving because it asks one clear question and provides one clear action. The customer does not have to interpret a large product page first. They simply choose the meal shape and continue.
+## What This Screen Should Communicate
 
-### 4. It Creates A Better Foundation For Customization
+- The customer is editing one selected product.
+- Price and quantity remain visible while the customer customizes.
+- Defaults are already selected, but the customer can change them.
+- Customization is layered so the page remains understandable.
+- The customer can confidently add the configured item to cart.
 
-Once meal size is selected, downstream customization can be more relevant and more predictable. That improves the coherence of the entire PDP flow.
+## Design Read On This Screen
 
-## Why This Is PDP
-
-- The customer is already past browse and inside a chosen item flow.
-- The screen is specific to one product decision, not category exploration.
-- The purpose is configuration, not product discovery.
-
-## Design Takeaway
-
-The purpose of this screen is not just to ask "regular or large." It is to anchor the product decision early, clarify value, and make the rest of the PDP feel easier to understand.
+- The PDP top section confirms the product before exposing deeper choices.
+- Component sections make a meal legible as parts instead of one opaque bundle.
+- The `Customize` action keeps advanced editing available without overwhelming the page.
+- Persistent add-to-cart controls keep purchase momentum visible during customization.

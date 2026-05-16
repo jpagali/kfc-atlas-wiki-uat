@@ -4,21 +4,56 @@ title: Product Customization
 
 # Product Customization
 
-This screenshot represents the main PDP customization state, where the customer adjusts the chosen meal or item before confirming it.
+Product Customization covers the PDP states where the customer changes size, bundled components, defaults, and deeper modifier options before adding a product to cart.
 
-<div style={{ float: 'right', margin: '0.35rem 0 1rem 1.25rem', width: '320px' }}>
-  <img
-    src="/PDP%20Sample%20for%20customization.jpg"
-    alt="PDP customization state"
-    style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '18px' }}
-  />
+## Screen Capture Sequence
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+  <div>
+    <img src="/img/customer-journey/pdp/product-customization-01-size-selection.png" alt="PDP meal size and product details area" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Meal size and product context: customer confirms the base product before deeper editing.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/pdp/product-customization-02-component-groups.png" alt="PDP component groups for bundled meal customization" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Component groups: meal parts are exposed in a structured, editable order.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/pdp/product-customization-03-deep-customization.png" alt="Deep product customization screen with sectioned options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Deep customization: the customer can edit nested choices without losing the product context.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/pdp/product-customization-04-add-remove-options.png" alt="Add and remove option controls in product customization" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Add/remove controls: defaults and optional modifiers can be adjusted with clear quantity behavior.</p>
+  </div>
 </div>
 
-*Customization state inside the PDP flow.*
+## What This Feature Is
+
+Product Customization is the configuration layer inside PDP. It supports:
+
+- meal size selection
+- selected defaults
+- component groups such as burger, chips, drink, and side
+- deeper customization for nested modifiers
+- price impact through the live add-to-cart total
 
 ## Why This Step Is Designed This Way
 
-Customization needs to feel guided and predictable so customers can personalize items without second-guessing the order.
+Customization needs to feel guided and predictable so customers can personalize items without second-guessing the order. The prototype separates high-level meal structure from deeper editing states so the PDP does not become one long unstructured modifier form.
+
+Defaults reduce effort, while edit controls give customers a clear path to change the parts that matter.
+
+## WIP: What Can Be Configured On This Screen
+
+| Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
+|---|---|---|
+| Size options | Solo, combo, box, feast, or market-specific size formats | WIP |
+| Component groups | Which components are included and whether each is required or optional | WIP |
+| Defaults | Preselected burger, side, drink, sauce, and modifier defaults | WIP |
+| Nested modifiers | Add/remove rules, maximum quantities, default ingredients, and surcharge items | WIP |
+| Price behavior | Base price, upgrade price, add-on price, and live total calculation | WIP |
+| Validation | Required choices, disabled add-to-cart states, and missing selection messages | WIP |
+| Localization | Modifier labels, group descriptions, and legal copy in supported languages | WIP |
 
 ## What This Screen Should Communicate
 
@@ -27,36 +62,10 @@ Customization needs to feel guided and predictable so customers can personalize 
 - Price impact and selected options should stay understandable as the screen grows.
 - The customer should feel like they are progressing toward confirmation, not starting over.
 
-## What The Design Is Doing
+## Design Read On This Screen
 
-- It turns a potentially long modifier list into a more guided editing experience.
-- It frames customization as refinement of one selected product, not as a new browse journey.
-- It keeps the customer focused on completion by making option groups feel ordered and purposeful.
-
-## Why The Design Works
-
-### 1. It Supports Confidence Through Structure
-
-Customers are more willing to customize when the interface makes it clear what is required, what is optional, and what has already been selected. Structure is the difference between feeling empowered and feeling confused.
-
-### 2. It Keeps The Product Legible
-
-The customer should always understand that they are still editing one meal or item. If the page becomes too fragmented, the product itself disappears and the flow starts to feel like a generic form. Strong grouping prevents that.
-
-### 3. It Makes Personalization Feel Safe
-
-Customization screens can easily create second-guessing, especially when price changes or nested choices appear. A well-ordered layout reduces that friction by making the consequence of each choice easier to follow.
-
-### 4. It Prepares The Customer For Confirmation
-
-This is the last major control surface before add-ons and basket progression. That means the screen should leave the customer feeling that the meal is now "theirs" and ready for the next step.
-
-## Design Notes
-
-- Grouping and spacing should make option sets easy to scan.
-- Defaults should reduce effort without hiding choice.
-- The screen should support confident editing, especially for meal components.
-
-## Design Takeaway
-
-The goal of this screen is not just to expose modifiers. It is to make personalization feel understandable, controlled, and worth doing without slowing down purchase intent.
+- Grouping and spacing make option sets easier to scan.
+- Defaults reduce effort without hiding choice.
+- Nested editing keeps deeper customization available without making the main PDP feel overloaded.
+- The live total keeps the customer aware of price impact before they add to cart.
+- The structure supports market variation without requiring a bespoke PDP layout for every product type.

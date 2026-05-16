@@ -4,50 +4,59 @@ title: Add-on and Cross-sell
 
 # Add-on and Cross-sell
 
-This screenshot covers the add-on and cross-sell state shown after the customer has already made the core PDP configuration choices.
+Add-on and Cross-sell covers the moments where Atlas recommends complementary items after the customer has made a primary product decision.
 
-<div style={{ float: 'right', margin: '0.35rem 0 1rem 1.25rem', width: '320px' }}>
-  <img
-    src="/cross-sell%20screenshot%20copy.jpeg"
-    alt="Add-on and cross-sell state"
-    style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '18px' }}
-  />
+## Screen Capture Sequence
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+  <div>
+    <img src="/img/customer-journey/addons/add-on-cross-sell-01-upsell-modal.png" alt="Post-PDP add-on modal with recommended sides and drinks" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Post-PDP upsell: optional recommendations appear after the main product is configured.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/addons/add-on-cross-sell-02-selected-add-on.png" alt="Upsell modal with selected add-on quantity" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Selection state: the customer can add quantities without leaving the modal.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/addons/add-on-cross-sell-03-cart-recommendations.png" alt="Cart page cross-sell recommendation section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Cart recommendations: basket-building continues after the modal is dismissed.</p>
+  </div>
 </div>
 
-*Cross-sell state presented after the main product has been configured.*
+## What This Feature Is
+
+Add-on and Cross-sell is a merchandising pattern used to increase basket value without interrupting the core product decision. The prototype shows two surfaces:
+
+- a post-PDP upsell modal after the main item is added or confirmed
+- a cart recommendation area that remains available during basket review
 
 ## Why This Step Is Designed This Way
 
 Add-on moments are most effective after the customer has shown purchase intent but before they leave the product decision flow.
 
-## What This Screen Is Doing
+The interaction should feel optional. The customer can add extras quickly, continue to order, or review recommendations later in the cart.
+
+## WIP: What Can Be Configured On This Screen
+
+| Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
+|---|---|---|
+| Recommendation source | Static rules, product affinity, campaign logic, or basket-based recommendations | WIP |
+| Eligible products | Sides, drinks, desserts, dips, value add-ons, or market-specific items | WIP |
+| Timing | Post-PDP, cart entry, checkout entry, or disabled for selected journeys | WIP |
+| Quantity behavior | Stepper limits, default quantity, and add/remove behavior | WIP |
+| Pricing | Add-on price, discount treatment, and multi-buy logic | WIP |
+| Suppression rules | Out-of-stock, already-in-cart, fulfillment mode, loyalty eligibility | WIP |
+| Localization | Add-on labels, CTA copy, and promo messaging across supported languages | WIP |
+
+## What This Screen Should Communicate
 
 - It waits until the main meal decision is largely complete.
 - It presents optional extension items instead of blocking the core order path.
 - It tries to increase basket value while the customer is still mentally inside the product decision.
 
-## Why The Design Works
+## Design Read On This Screen
 
-### 1. It Respects The Primary Decision
-
-The customer has already done the hard work of choosing and configuring the main product. That matters because upsell is much more effective when it feels like an extension of a confident decision, not a distraction from an unfinished one.
-
-### 2. It Keeps Merchandising Timed Correctly
-
-Cross-sell is strongest when intent is high but exit has not yet happened. This screen sits in that exact window. It gives the business a chance to increase basket size without interrupting earlier stages that depend on clarity and trust.
-
-### 3. It Makes Optionality Feel Lightweight
-
-The customer should not feel trapped in another long decision tree. The best version of this screen makes it easy to say yes, but also easy to continue without friction.
-
-### 4. It Extends The KFC Decision Moment
-
-If done well, this state is not just a revenue surface. It also extends the appetite and occasion logic of the order. The add-ons should feel like natural complements to the meal the customer has just built.
-
-## Design Principle
-
-Cross-sell should feel like a helpful next step, not a forced detour. The customer should be able to accept or decline quickly and continue to basket-building with minimal friction.
-
-## Design Takeaway
-
-The goal of this screen is not just to sell more. It is to introduce basket expansion at the one moment where it feels most relevant, least disruptive, and most likely to be accepted.
+- The modal respects the primary product decision by appearing after the customer has already committed to the main item.
+- The stepper pattern keeps add-ons fast and low effort.
+- The cart recommendation section gives the business another merchandising surface without forcing a modal interaction.
+- The pattern supports market-specific merchandising while keeping the purchase path clear.

@@ -4,41 +4,56 @@ title: PLP (Product Listing Page)
 
 # PLP (Product Listing Page)
 
-This screenshot is a **PLP (Product Listing Page)**.
+The PLP is the product comparison surface after a customer selects a menu category. It is separate from Menu Landing because the customer is no longer deciding which category to enter. They are comparing products inside an active category and deciding what to open, customize, or add.
 
-It is not a Menu Landing screen. It shows the customer already inside a selected category, with product cards visible in a browsable listing layout.
+## Screen Capture Sequence
 
-<div style={{ float: 'right', margin: '0 0 1.5rem 1.5rem' }}>
-  <img
-    src="/PLP%20Screenshot.jpg"
-    alt="PLP Product Listing Page concept"
-    height="1100"
-    style={{ width: 'auto', display: 'block' }}
-  />
+These captures show the PLP after images have loaded and after multiple scroll positions, so the page documents more than the first visible product row.
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+  <div>
+    <img src="/img/customer-journey/menu/plp-01-featured-top.png" alt="PLP top with active category tabs and featured products" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>PLP top: selected category context, tab rail, and product cards.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/menu/plp-02-product-grid.png" alt="PLP scrolled to loaded product grid" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Product grid: image, title, price, and product recognition are visible together.</p>
+  </div>
+  <div>
+    <img src="/img/customer-journey/menu/plp-03-category-transition.png" alt="PLP scrolled into the next category section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Category transition: customers can keep browsing across categories without returning to Menu Landing.</p>
+  </div>
 </div>
 
-*PLP concept showing category tabs, product-card grid, and persistent order CTA.*
+## What This Feature Is
 
-## Why This Is A PLP
+PLP stands for Product Listing Page. In this prototype, it shows customers a browsable set of products after they choose a category from Menu Landing or switch categories using the PLP tab rail.
 
-- A specific category is already active: `BOXED MEALS`.
-- Individual products are visible immediately in a scrollable product grid.
-- The screen supports in-category browsing and comparison, not category selection as the primary task.
-- The customer is choosing between products, not deciding which menu section to enter first.
+The PLP should support:
 
-## Why This Step Is Designed This Way
+- product comparison within one category
+- quick category switching without losing browse context
+- product recognition through loaded imagery
+- clear movement into PDP customization
+- continued browsing across adjacent categories
+
+## Why It Is Designed This Way
 
 The PLP is where the customer moves from category understanding into real product comparison. It needs to feel fast, scannable, and commercially effective without turning into visual noise.
 
-## Placeholder Notes
+The tab rail keeps the customer anchored in the menu structure, while product cards keep the commercial decision simple: what is it, what does it look like, and what is the entry price.
 
-Use this page for the uploaded PLP screenshot next:
+## WIP: What Can Be Configured On This Screen
 
-- The screen should make it easy to compare products inside one category.
-- Category tabs should support quick switching without losing orientation.
-- Product cards should balance image, title, price, and short descriptor in a way that keeps scanning efficient.
-- Primary ordering actions should stay obvious without overpowering the browse experience.
-- Placeholder annotations can later be replaced with comments tied to the final uploaded design.
+| Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
+|---|---|---|
+| Category tabs | Category order, labels, active default, and visibility | WIP |
+| Product cards | Product title, image, price, tags, calories or nutrition metadata | WIP |
+| Product sorting | Default sort, category order, featured placement, and availability handling | WIP |
+| Promotion treatment | Value labels, limited-time badges, campaign placement, and offer eligibility | WIP |
+| Image fallback | Fallback assets when product images are missing or slow to load | WIP |
+| Out-of-stock state | Disabled cards, substitution logic, and messaging | WIP |
+| Localization | Category and product text in English, French, Spanish, and German | WIP |
 
 ## What This Screen Should Usually Communicate
 
@@ -53,11 +68,4 @@ Use this page for the uploaded PLP screenshot next:
 - The product grid gives strong visual comparison without forcing the user into one-card-at-a-time browsing.
 - The red active tab treatment makes the current category state easy to understand at a glance.
 - Product cards are built around the commercial essentials first: image, title, price, and short supporting descriptor.
-- The persistent `Start Order` CTA creates a clear path forward once the customer is ready to commit.
-
-## Placeholder Commentary To Reuse For Future Uploads
-
-- The page should feel efficient, not editorial.
-- The customer should always know what category they are in.
-- Card design should support quick comparison before deep product exploration.
-- Navigation, merchandising, and basket progression should all remain visible in one screen.
+- The customer can scroll into additional category sections, which supports broad menu discovery without forcing a reset back to the category tile page.
