@@ -43,16 +43,17 @@ export default function SneakPeekPage() {
 }
 
 function SneakPeekContent({content, isPrototypeOnly}) {
-  const prototypeSrc = useBaseUrl('/rna-sneak-peek-prototype.html');
+  const basePrototypeSrc = useBaseUrl('/rna-sneak-peek-prototype.html');
+  const [prototypeSrc, setPrototypeSrc] = React.useState(basePrototypeSrc);
   const iframeRef = React.useRef(null);
   const prototypeOnlyHref = useBaseUrl('/sneak-peek?view=prototype-only');
   const standardViewHref = useBaseUrl('/sneak-peek');
 
   const handleRestartJourney = React.useCallback(() => {
     const frameWindow = iframeRef.current?.contentWindow;
-    if (!frameWindow) return;
-    frameWindow.postMessage({type: 'prototype-restart'}, window.location.origin);
-  }, []);
+    frameWindow?.postMessage({type: 'prototype-restart'}, window.location.origin);
+    setPrototypeSrc(`${basePrototypeSrc}?restart=${Date.now()}`);
+  }, [basePrototypeSrc]);
 
   React.useEffect(() => {
     document.body.classList.toggle('prototype-only-view', isPrototypeOnly);
