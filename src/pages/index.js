@@ -35,7 +35,7 @@ const HOME_CONTENT = {
       { flagCode: 'th', name: 'Thailand' },
     ],
     stats: [
-      { value: 2000, suffix: '+', label: 'Stores', sub: 'Stores Onboard' },
+      { value: 830, suffix: '+', label: 'Stores', sub: 'Stores Onboard' },
       { value: '3', label: 'Core Modules', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
       { value: '1', label: 'Platform', sub: 'Atlas by KFC Global - Brand Experience Team' },
     ],
