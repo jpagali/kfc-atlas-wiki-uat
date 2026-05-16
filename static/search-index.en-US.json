@@ -3169,6 +3169,9 @@
     "title": "Homepage",
     "headings": [
       "Screen Capture Sequence",
+      "Splash Screen",
+      "Full Scroll Screenshot",
+      "Zoomed Detail States",
       "What This Feature Is",
       "Why It Is Designed This Way",
       "WIP: What Can Be Configured On This Screen",
@@ -3179,7 +3182,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/home-page/",
     "normalizedTitle": "homepage",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "screen capture sequence splash screen full scroll screenshot zoomed detail states what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "homepage",
     "normalizedSection": "frontend"
   },
