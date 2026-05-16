@@ -2,6 +2,8 @@
 title: Homepage
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Homepage
 
 The homepage is the signed-in customer's entry point after app launch or return visit. It gives the customer a fast way to start an order, discover current promotions, review rewards, and jump back into familiar ordering behavior.
@@ -12,23 +14,23 @@ The homepage should be documented as a scroll sequence because the screen combin
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/homepage/signed-in-home-01-top.png" alt="Signed-in homepage top state with greeting, location prompt, hero campaign, and Start Order CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/homepage/signed-in-home-01-top.png')} alt="Signed-in homepage top state with greeting, location prompt, hero campaign, and Start Order CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Top state: personalized greeting, location prompt, hero campaign, and primary order entry.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/homepage/signed-in-home-02-offers-rewards.png" alt="Signed-in homepage scrolled to offers and rewards carousel" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/homepage/signed-in-home-02-offers-rewards.png')} alt="Signed-in homepage scrolled to offers and rewards carousel" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Scrolled state: Offers & Rewards carousel appears as the first value-led discovery module.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/homepage/signed-in-home-03-open-late.png" alt="Signed-in homepage scrolled to open late merchandising card" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/homepage/signed-in-home-03-open-late.png')} alt="Signed-in homepage scrolled to open late merchandising card" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Mid-scroll state: store or time-of-day merchandising gives the homepage local commercial relevance.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/homepage/signed-in-home-04-reorder.png" alt="Signed-in homepage scrolled to reorder shortcuts" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/homepage/signed-in-home-04-reorder.png')} alt="Signed-in homepage scrolled to reorder shortcuts" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Reorder state: previous-order shortcuts support speed for returning customers.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/homepage/signed-in-home-05-feature-bottom.png" alt="Signed-in homepage lower content and bottom navigation" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/homepage/signed-in-home-05-feature-bottom.png')} alt="Signed-in homepage lower content and bottom navigation" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Lower state: supporting feature content and bottom navigation complete the signed-in home surface.</p>
   </div>
 </div>

@@ -2,6 +2,8 @@
 title: Product Customization
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Product Customization
 
 Product Customization covers the PDP states where the customer changes size, bundled components, defaults, and deeper modifier options before adding a product to cart.
@@ -10,19 +12,19 @@ Product Customization covers the PDP states where the customer changes size, bun
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/pdp/product-customization-01-size-selection.png" alt="PDP meal size and product details area" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/product-customization-01-size-selection.png')} alt="PDP meal size and product details area" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Meal size and product context: customer confirms the base product before deeper editing.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/product-customization-02-component-groups.png" alt="PDP component groups for bundled meal customization" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/product-customization-02-component-groups.png')} alt="PDP component groups for bundled meal customization" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Component groups: meal parts are exposed in a structured, editable order.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/product-customization-03-deep-customization.png" alt="Deep product customization screen with sectioned options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/product-customization-03-deep-customization.png')} alt="Deep product customization screen with sectioned options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Deep customization: the customer can edit nested choices without losing the product context.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/product-customization-04-add-remove-options.png" alt="Add and remove option controls in product customization" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/product-customization-04-add-remove-options.png')} alt="Add and remove option controls in product customization" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Add/remove controls: defaults and optional modifiers can be adjusted with clear quantity behavior.</p>
   </div>
 </div>

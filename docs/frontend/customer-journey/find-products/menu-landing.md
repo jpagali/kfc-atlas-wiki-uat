@@ -2,6 +2,8 @@
 title: Menu Landing / Category
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Menu Landing / Category
 
 Menu Landing is the first structured menu surface after order context is set. It is the category gateway before the customer moves into a Product Listing Page (PLP).
@@ -12,15 +14,15 @@ This page only documents the category tile experience. PLP behavior is documente
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/menu/menu-landing-01-category-top.png" alt="Menu landing page top with featured category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/menu-landing-01-category-top.png')} alt="Menu landing page top with featured category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Menu landing top: category tiles act as the table of contents before product comparison.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/menu/menu-landing-02-category-more.png" alt="Menu landing page scrolled to additional category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/menu-landing-02-category-more.png')} alt="Menu landing page scrolled to additional category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Scrolled category state: additional categories stay visual and easy to scan.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/menu/menu-landing-03-footer.png" alt="Menu landing lower page with footer links and supporting market content" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/menu-landing-03-footer.png')} alt="Menu landing lower page with footer links and supporting market content" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Lower state: footer and supporting links remain available without interrupting category browsing.</p>
   </div>
 </div>

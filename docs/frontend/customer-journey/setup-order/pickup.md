@@ -2,6 +2,8 @@
 title: Pickup
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Pickup
 
 Pickup is the order-mode path where the customer selects a store before browsing the menu. The store decision controls menu availability, service hours, fulfillment handoff options, and checkout rules.
@@ -12,11 +14,11 @@ Pickup should be documented in both map/list and expanded-store states because t
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/setup-order/pickup-01-map-and-stores.png" alt="Pickup map view with nearby store cards and store selection CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/pickup-01-map-and-stores.png')} alt="Pickup map view with nearby store cards and store selection CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Map and store list: the customer can compare nearby stores, distance, status, and selection actions.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/setup-order/pickup-02-store-details-expanded.png" alt="Pickup store details expanded with hours and handoff information" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/pickup-02-store-details-expanded.png')} alt="Pickup store details expanded with hours and handoff information" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Expanded store detail: hours, address context, and fulfillment detail support the final store decision.</p>
   </div>
 </div>

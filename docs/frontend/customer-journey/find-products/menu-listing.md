@@ -2,6 +2,8 @@
 title: PLP (Product Listing Page)
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # PLP (Product Listing Page)
 
 The PLP is the product comparison surface after a customer selects a menu category. It is separate from Menu Landing because the customer is no longer deciding which category to enter. They are comparing products inside an active category and deciding what to open, customize, or add.
@@ -12,15 +14,15 @@ These captures show the PLP after images have loaded and after multiple scroll p
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/menu/plp-01-featured-top.png" alt="PLP top with active category tabs and featured products" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-01-featured-top.png')} alt="PLP top with active category tabs and featured products" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>PLP top: selected category context, tab rail, and product cards.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/menu/plp-02-product-grid.png" alt="PLP scrolled to loaded product grid" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-02-product-grid.png')} alt="PLP scrolled to loaded product grid" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Product grid: image, title, price, and product recognition are visible together.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/menu/plp-03-category-transition.png" alt="PLP scrolled into the next category section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-03-category-transition.png')} alt="PLP scrolled into the next category section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Category transition: customers can keep browsing across categories without returning to Menu Landing.</p>
   </div>
 </div>

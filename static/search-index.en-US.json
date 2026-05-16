@@ -2207,12 +2207,12 @@
     "headings": [
       "Diagram"
     ],
-    "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
+    "summary": "KFC Full Journey QRG",
     "section": "brand-experience-team.md",
     "url": "/docs/brand-experience-team/",
     "normalizedTitle": "kfc full journey qrg",
     "normalizedHeadings": "diagram",
-    "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
+    "normalizedSummary": "kfc full journey qrg",
     "normalizedSection": "brand experience team md"
   },
   {
@@ -2578,12 +2578,12 @@
       "Platform Hierarchy",
       "System Architecture Diagram"
     ],
-    "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
+    "summary": "🧠 Platform Mental Model",
     "section": "byte-capabilities",
     "url": "/docs/byte-capabilities/mental-model/",
     "normalizedTitle": "platform mental model",
     "normalizedHeadings": "the atlas platform picture platform hierarchy system architecture diagram",
-    "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
+    "normalizedSummary": "platform mental model",
     "normalizedSection": "byte capabilities"
   },
   {
@@ -3725,12 +3725,12 @@
       "Why This Matters for Atlas Markets",
       "Platform Architecture Diagram"
     ],
-    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+    "summary": "KFC Atlas Design System How Our Platform Is Built — From Visual Identity to Your Screen",
     "section": "frontend",
     "url": "/docs/frontend/design-system/",
     "normalizedTitle": "design system",
     "normalizedHeadings": "how our platform is built from visual identity to your screen what is a design system the three layers layer 1 design what it looks like layer 2 code how it gets built layer 3 market applications what goes live why this matters for atlas markets platform architecture diagram",
-    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
+    "normalizedSummary": "kfc atlas design system how our platform is built from visual identity to your screen",
     "normalizedSection": "frontend"
   },
   {

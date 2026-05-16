@@ -2,6 +2,8 @@
 title: Add-on and Cross-sell
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Add-on and Cross-sell
 
 Add-on and Cross-sell covers the moments where Atlas recommends complementary items after the customer has made a primary product decision.
@@ -10,15 +12,15 @@ Add-on and Cross-sell covers the moments where Atlas recommends complementary it
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/addons/add-on-cross-sell-01-upsell-modal.png" alt="Post-PDP add-on modal with recommended sides and drinks" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/addons/add-on-cross-sell-01-upsell-modal.png')} alt="Post-PDP add-on modal with recommended sides and drinks" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Post-PDP upsell: optional recommendations appear after the main product is configured.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/addons/add-on-cross-sell-02-selected-add-on.png" alt="Upsell modal with selected add-on quantity" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/addons/add-on-cross-sell-02-selected-add-on.png')} alt="Upsell modal with selected add-on quantity" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Selection state: the customer can add quantities without leaving the modal.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/addons/add-on-cross-sell-03-cart-recommendations.png" alt="Cart page cross-sell recommendation section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/addons/add-on-cross-sell-03-cart-recommendations.png')} alt="Cart page cross-sell recommendation section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Cart recommendations: basket-building continues after the modal is dismissed.</p>
   </div>
 </div>

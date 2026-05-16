@@ -2,6 +2,8 @@
 title: Product Detail Page (PDP)
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Product Detail Page (PDP)
 
 The Product Detail Page is where the customer moves from product comparison into one selected item. It explains the product, exposes price and nutrition context, and starts the customization path.
@@ -12,19 +14,19 @@ PDP should be captured as a layered customization sequence because the customer 
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/pdp/pdp-01-top.png" alt="Product detail page top with product hero, price, quantity, and add button" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/pdp-01-top.png')} alt="Product detail page top with product hero, price, quantity, and add button" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Top state: product confirmation, price, quantity, and primary add-to-cart action.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/pdp-02-size-and-info.png" alt="Product detail page meal size and nutrition information" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/pdp-02-size-and-info.png')} alt="Product detail page meal size and nutrition information" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Size and information: meal size, nutrition, and supporting product detail become visible on scroll.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/pdp-03-components.png" alt="Product detail page component groups for burger, side, and drink" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/pdp-03-components.png')} alt="Product detail page component groups for burger, side, and drink" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Component groups: bundle parts are shown as editable sections with selected defaults.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/pdp-04-bundle-customization.png" alt="Product detail page lower customization state with bundle component editing" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/pdp-04-bundle-customization.png')} alt="Product detail page lower customization state with bundle component editing" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Deeper customization: lower sections expose component editing while the PDP remains structured.</p>
   </div>
 </div>

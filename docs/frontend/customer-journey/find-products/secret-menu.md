@@ -2,6 +2,8 @@
 title: Secret Menu
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Secret Menu
 
 Secret Menu is a special discovery path that sits outside standard menu browsing. It creates a premium reveal moment for limited-time or campaign-led products, then carries the customer into a Secret Menu PDP where the item can still be reviewed and customized before adding to cart.
@@ -12,27 +14,27 @@ Secret Menu should be captured as an unlock, reveal, and PDP sequence. The value
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/menu/secret-menu-00-unlock-clue.png" alt="Menu landing page showing the hidden Secret Menu clue peeking above the category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/secret-menu-00-unlock-clue.png')} alt="Menu landing page showing the hidden Secret Menu clue peeking above the category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Unlock clue: the Secret Menu is hinted above the category tiles without becoming a normal category.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/menu/secret-menu-01-unlock-countdown.png" alt="Secret Menu countdown state after the customer presses and holds the clue" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/secret-menu-01-unlock-countdown.png')} alt="Secret Menu countdown state after the customer presses and holds the clue" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Unlock action: the customer presses and holds the clue, or pulls down from the top of Menu Landing, until the countdown completes.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/menu/secret-menu-02-reveal-plp.png" alt="Secret Menu reveal screen with dark campaign treatment, product hero, and Order Now CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/menu/secret-menu-02-reveal-plp.png')} alt="Secret Menu reveal screen with dark campaign treatment, product hero, and Order Now CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Reveal state: the customer lands in a distinct Secret Menu surface with product carousel, campaign tags, and `Order Now` CTA.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/secret-menu-pdp-01-top.png" alt="Secret Menu PDP top with hero product, campaign tags, price, quantity, and Add CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/secret-menu-pdp-01-top.png')} alt="Secret Menu PDP top with hero product, campaign tags, price, quantity, and Add CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Secret Menu PDP top: the product remains campaign-led while price, quantity, and add-to-cart controls stay visible.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/secret-menu-pdp-02-customization-groups.png" alt="Secret Menu PDP recipe customization showing lettuce and mayo options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/secret-menu-pdp-02-customization-groups.png')} alt="Secret Menu PDP recipe customization showing lettuce and mayo options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Recipe customization: the customer can toggle included ingredients such as lettuce and mayo.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/secret-menu-pdp-03-extra-options.png" alt="Secret Menu PDP extra customization showing bacon slice add-on quantity options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/secret-menu-pdp-03-extra-options.png')} alt="Secret Menu PDP extra customization showing bacon slice add-on quantity options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Extra customization: the customer can add paid extras, such as bacon, with quantity rules and price deltas.</p>
   </div>
 </div>

@@ -81,6 +81,7 @@ function extractSummary(source, locale) {
     .map((block) => stripMarkdown(block))
     .filter(Boolean)
     .filter((block) => !block.startsWith('---'))
+    .filter((block) => !/^(import|export)\s/.test(block))
     .filter((block) => !/^Part of the\b/.test(block))
     .filter((block) => !/^Step\s+\d+/i.test(block))
     .filter((block) => !/^Step\s+\d+/i.test(block));

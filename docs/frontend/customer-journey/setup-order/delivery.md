@@ -2,6 +2,8 @@
 title: Delivery
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Delivery
 
 Delivery is the order-mode path where the customer provides a delivery address before browsing the menu. The address determines serviceability, delivery store assignment, fees, timing, and eligible offers.
@@ -12,19 +14,19 @@ Delivery should be captured across the full setup flow because the experience mo
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/setup-order/delivery-01-address-selection.png" alt="Delivery address selection screen with saved addresses and current location option" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/delivery-01-address-selection.png')} alt="Delivery address selection screen with saved addresses and current location option" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Address entry: saved addresses, search, and current-location shortcuts start the delivery setup.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/setup-order/delivery-02-results.png" alt="Delivery address search results screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/delivery-02-results.png')} alt="Delivery address search results screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Search results: the customer narrows the address before serviceability is resolved.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/setup-order/delivery-03-map-confirmation.png" alt="Delivery map confirmation screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/delivery-03-map-confirmation.png')} alt="Delivery map confirmation screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Map confirmation: the selected destination is validated before the order context is locked.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/setup-order/delivery-04-store-selection.png" alt="Delivery store assignment and confirmation screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/delivery-04-store-selection.png')} alt="Delivery store assignment and confirmation screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Store assignment: the delivery address connects to the serving store and the customer can continue.</p>
   </div>
 </div>

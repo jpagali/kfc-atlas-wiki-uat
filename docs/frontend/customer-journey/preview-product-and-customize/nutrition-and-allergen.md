@@ -2,6 +2,8 @@
 title: Nutrition and Allergen
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Nutrition and Allergen
 
 Nutrition and Allergen covers the PDP information sheet that gives customers product details close to the purchase decision.
@@ -10,11 +12,11 @@ Nutrition and Allergen covers the PDP information sheet that gives customers pro
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/pdp/nutrition-allergen-01-nutrition.png" alt="PDP nutrition sheet with nutrient values per serve" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/nutrition-allergen-01-nutrition.png')} alt="PDP nutrition sheet with nutrient values per serve" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Nutrition tab: product-level data is shown inside a PDP bottom sheet.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/pdp/nutrition-allergen-02-allergen.png" alt="PDP allergen sheet with allergen legend and product status" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/pdp/nutrition-allergen-02-allergen.png')} alt="PDP allergen sheet with allergen legend and product status" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Allergen tab: allergen status uses a structured legend and product-specific state.</p>
   </div>
 </div>

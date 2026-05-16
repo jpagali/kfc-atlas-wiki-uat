@@ -2,6 +2,8 @@
 title: Cart
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Cart
 
 Cart is the review step before checkout. It lets the customer validate item accuracy, quantity, customization, promos, and order value before they commit to payment.
@@ -12,15 +14,15 @@ Cart should be captured from top review through add-ons and checkout summary bec
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/cart/cart-01-review-top.png" alt="Cart top showing pickup order, configured item, edit controls, remove controls, and quantity controls" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/cart/cart-01-review-top.png')} alt="Cart top showing pickup order, configured item, edit controls, remove controls, and quantity controls" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Review top: fulfillment context, configured item, edit/remove actions, and quantity controls are visible.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/cart/cart-02-add-ons.png" alt="Cart scrolled to add-on recommendations" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/cart/cart-02-add-ons.png')} alt="Cart scrolled to add-on recommendations" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Add-ons: recommendations support basket growth after the confirmed item is reviewed.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/cart/cart-03-summary-checkout.png" alt="Cart lower state showing order summary and checkout CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/cart/cart-03-summary-checkout.png')} alt="Cart lower state showing order summary and checkout CTA" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Summary and checkout: taxes, totals, and checkout progression close the cart review path.</p>
   </div>
 </div>

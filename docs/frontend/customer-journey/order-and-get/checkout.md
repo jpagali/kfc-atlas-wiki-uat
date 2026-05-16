@@ -2,6 +2,8 @@
 title: Checkout
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Checkout
 
 Checkout is the final validation and payment step before order placement. It brings together fulfillment details, basket review, promo or coupon handling, payment selection, and the final submit action.
@@ -10,19 +12,19 @@ Checkout is the final validation and payment step before order placement. It bri
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/checkout/checkout-01-fulfillment-details.png" alt="Checkout top with fulfillment details and store confirmation" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/checkout/checkout-01-fulfillment-details.png')} alt="Checkout top with fulfillment details and store confirmation" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Fulfillment details: customer confirms store, timing, and handoff context.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/checkout/checkout-02-order-review.png" alt="Checkout order review with cart item summary and totals" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/checkout/checkout-02-order-review.png')} alt="Checkout order review with cart item summary and totals" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Order review: item summary and totals are visible before payment.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/checkout/checkout-03-promo-payment-submit.png" alt="Checkout promo coupon payment and final submit area" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/checkout/checkout-03-promo-payment-submit.png')} alt="Checkout promo coupon payment and final submit area" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Promo, payment, and submit: coupon and payment readiness lead into the final CTA.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/checkout/checkout-04-payment-sheet.png" alt="Checkout payment method bottom sheet with stored card and alternate options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/checkout/checkout-04-payment-sheet.png')} alt="Checkout payment method bottom sheet with stored card and alternate options" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Payment sheet: stored and alternate payment methods are selected before submitting.</p>
   </div>
 </div>

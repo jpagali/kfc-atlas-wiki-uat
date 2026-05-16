@@ -2,6 +2,8 @@
 title: Build Your Own Bucket
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Build Your Own Bucket
 
 Build Your Own Bucket is the configurable bundle journey where customers assemble a bucket from guided slots instead of choosing a fixed bundle.
@@ -10,19 +12,19 @@ Build Your Own Bucket is the configurable bundle journey where customers assembl
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/byob/byob-01-menu-entry.png" alt="Menu Landing entry point for Build Your Own Bucket" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/byob/byob-01-menu-entry.png')} alt="Menu Landing entry point for Build Your Own Bucket" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Menu entry: Build Your Own Bucket appears as a specialized menu tile.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/byob/byob-02-builder-top.png" alt="Build Your Own Bucket builder top with product hero and live total" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/byob/byob-02-builder-top.png')} alt="Build Your Own Bucket builder top with product hero and live total" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Builder top: the customer understands the bundle purpose and live price.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/byob/byob-03-builder-slots.png" alt="Build Your Own Bucket configurable chicken slots and quantity controls" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/byob/byob-03-builder-slots.png')} alt="Build Your Own Bucket configurable chicken slots and quantity controls" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Slots and quantity rules: each group communicates limits and selected quantities.</p>
   </div>
   <div>
-    <img src="/img/customer-journey/byob/byob-04-sauce-customization.png" alt="Build Your Own Bucket sauce customization screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/byob/byob-04-sauce-customization.png')} alt="Build Your Own Bucket sauce customization screen" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Deeper customization: sauces and extras can be configured in a focused editing state.</p>
   </div>
 </div>

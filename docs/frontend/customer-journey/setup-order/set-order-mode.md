@@ -2,6 +2,8 @@
 title: Set Order Mode
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Set Order Mode
 
 Set Order Mode is the moment where the customer chooses how they want to receive the order. In the prototype, this begins from the homepage location prompt or `Start Order` CTA and opens a focused order-mode sheet.
@@ -12,7 +14,7 @@ This screen is a compact bottom sheet rather than a long scroll page. The key ca
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
-    <img src="/img/customer-journey/setup-order/set-order-mode-01-sheet.png" alt="Set order mode bottom sheet showing pickup and delivery options over the homepage" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <img src={useBaseUrl('/img/customer-journey/setup-order/set-order-mode-01-sheet.png')} alt="Set order mode bottom sheet showing pickup and delivery options over the homepage" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Order-mode sheet: the customer chooses pickup or delivery before local menu, pricing, and checkout rules are resolved.</p>
   </div>
 </div>
