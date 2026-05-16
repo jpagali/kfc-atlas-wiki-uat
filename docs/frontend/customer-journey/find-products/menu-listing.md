@@ -10,20 +10,108 @@ The PLP is the product comparison surface after a customer selects a menu catego
 
 ## Screen Capture Sequence
 
-These captures show the PLP after images have loaded and after multiple scroll positions, so the page documents more than the first visible product row.
+These captures show the PLP after product images have loaded. The full-scroll capture on the right documents the browse path from Featured Offers into Burgers, while the zoom crops explain the main interaction areas.
 
-<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/menu/plp-01-featured-top.png')} alt="PLP top with active category tabs and featured products" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>PLP top: selected category context, tab rail, and product cards.</p>
+<style>{`
+  .plp-journey-wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+    gap: 1.25rem;
+    align-items: start;
+    margin-bottom: 1.5rem;
+  }
+
+  .plp-journey-copy {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .plp-journey-copy p,
+  .plp-journey-copy li,
+  .plp-zoom-card p {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .plp-journey-copy ul {
+    margin-bottom: 0;
+  }
+
+  .plp-full-scroll-frame {
+    max-height: 780px;
+    overflow-y: auto;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    background: #fff;
+  }
+
+  .plp-full-scroll-frame img,
+  .plp-zoom-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .plp-zoom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .plp-zoom-card img {
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    background: #fff;
+  }
+
+  @media (max-width: 780px) {
+    .plp-journey-wrap {
+      grid-template-columns: 1fr;
+    }
+  }
+`}</style>
+
+<div className="plp-journey-wrap">
+  <div className="plp-journey-copy">
+    <div>
+      <strong>What the full scroll shows</strong>
+      <ul>
+        <li>Order context stays visible at the top so customers know whether they are browsing pickup or delivery.</li>
+        <li>The category rail keeps the customer anchored while they move through a long product list.</li>
+        <li>Product cards combine image, tag, title, price, energy, and short descriptor for fast comparison.</li>
+        <li>The scroll continues into the next category, reducing the need to return to Menu Landing.</li>
+      </ul>
+    </div>
+    <div>
+      <strong>Why this layout matters</strong>
+      <p>The PLP supports high-volume menu browsing. Customers need to compare products quickly, keep category context, and move into PDP customization without losing their place.</p>
+    </div>
   </div>
   <div>
-    <img src={useBaseUrl('/img/customer-journey/menu/plp-02-product-grid.png')} alt="PLP scrolled to loaded product grid" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Product grid: image, title, price, and product recognition are visible together.</p>
+    <div className="plp-full-scroll-frame">
+      <img src={useBaseUrl('/img/customer-journey/menu/plp-00-full-scroll-featured-to-burgers.png')} alt="Full scroll PLP capture from Featured Offers into Burgers with loaded product images" />
+    </div>
+    <p style={{ fontSize: '0.86rem', lineHeight: 1.45, marginTop: '0.5rem' }}>Full-scroll reference: Featured Offers into Burgers.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/menu/plp-03-category-transition.png')} alt="PLP scrolled into the next category section" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Category transition: customers can keep browsing across categories without returning to Menu Landing.</p>
+</div>
+
+<div className="plp-zoom-grid">
+  <div className="plp-zoom-card">
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-01-header.png')} alt="PLP header with back action, order context, filter, and search" />
+    <p><strong>Header:</strong> keeps order context, back navigation, filter, and search within reach.</p>
+  </div>
+  <div className="plp-zoom-card">
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-02-category-tabs.png')} alt="PLP category tab rail with Featured Offers active" />
+    <p><strong>Category rail:</strong> shows the active category and supports quick switching across menu sections.</p>
+  </div>
+  <div className="plp-zoom-card">
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-03-product-grid-top.png')} alt="PLP product grid with loaded product images and product card metadata" />
+    <p><strong>Product grid:</strong> pairs image, title, price, energy, and short copy for comparison.</p>
+  </div>
+  <div className="plp-zoom-card">
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-04-category-transition.png')} alt="PLP scroll transition from Featured Offers into Burgers" />
+    <p><strong>Category transition:</strong> lets customers continue browsing into the next category without returning to Menu Landing.</p>
   </div>
 </div>
 
