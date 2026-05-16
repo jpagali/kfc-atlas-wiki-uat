@@ -12,55 +12,53 @@ The homepage is the signed-in customer's entry point after app launch or return 
 
 The homepage should be documented as a scroll sequence because the screen combines multiple jobs: app entry, signed-in recognition, campaign discovery, rewards exposure, local merchandising, and reorder shortcuts.
 
-### Splash Screen
+### State Map
 
-The splash screen is the branded loading state before the customer reaches the signed-in home surface.
-
-<div style={{ maxWidth: '320px', marginBottom: '1.5rem' }}>
-  <img src={useBaseUrl('/img/customer-journey/homepage/homepage-00-splash-screen.png')} alt="KFC Atlas splash screen with red background and white KFC bucket mark" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-  <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>The splash screen gives the experience a native app entry point while the prototype initializes the app shell, fonts, customer state, and runtime data.</p>
-</div>
-
-### Full Scroll Screenshot
-
-This capture shows the current signed-in homepage as one continuous scroll. Use it as the reference for module order and page structure.
-
-<div style={{ maxWidth: '360px', marginBottom: '1.5rem' }}>
-  <img src={useBaseUrl('/img/customer-journey/homepage/homepage-01-full-scroll.png')} alt="Full scroll screenshot of the signed-in homepage showing order context, greeting, hero campaign, offers and rewards, store-led merchandising, reorder shortcuts, supporting feature content, and bottom navigation" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', alignItems: 'start', marginBottom: '1.25rem' }}>
+  <div style={{ display: 'grid', gap: '0.55rem' }}>
+    <strong>Splash Screen</strong>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-00-splash-screen.png')} alt="KFC Atlas splash screen with red background and white KFC bucket mark" style={{ width: '100%', maxHeight: '420px', objectFit: 'contain', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.86rem', lineHeight: 1.45 }}>Branded loading state while the app shell, fonts, customer state, and runtime data initialize.</p>
+  </div>
+  <div style={{ display: 'grid', gap: '0.55rem' }}>
+    <strong>Full Scroll Screenshot</strong>
+    <div style={{ maxHeight: '720px', overflowY: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }}>
+      <img src={useBaseUrl('/img/customer-journey/homepage/homepage-01-full-scroll.png')} alt="Full scroll screenshot of the signed-in homepage showing order context, greeting, hero campaign, offers and rewards, store-led merchandising, reorder shortcuts, supporting feature content, and bottom navigation" style={{ width: '100%', height: 'auto', display: 'block' }} />
+    </div>
+    <p style={{ margin: 0, fontSize: '0.86rem', lineHeight: 1.45 }}>Reference for module order: context, greeting, campaign, value, local merchandising, reorder, support content, navigation.</p>
+  </div>
 </div>
 
 ### Zoomed Detail States
 
-These crops explain what each major homepage element is trying to achieve.
-
-<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-01-order-context.png')} alt="Homepage order context bar showing pickup order mode and estimated time" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Order context bar:</strong> keeps fulfillment type and estimated timing visible so customers understand the context used for availability, pricing, and checkout readiness.</p>
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '0.85rem', marginBottom: '1.5rem' }}>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-01-order-context.png')} alt="Homepage order context bar showing pickup order mode and estimated time" style={{ width: '100%', maxHeight: '220px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Order context:</strong> makes fulfillment type and timing visible for availability, pricing, and checkout readiness.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-02-personalized-greeting.png')} alt="Homepage personalized greeting for a signed-in customer" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Personalized greeting:</strong> confirms the customer is signed in and shifts the screen from a generic landing page into a returning-customer experience.</p>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-02-personalized-greeting.png')} alt="Homepage personalized greeting for a signed-in customer" style={{ width: '100%', maxHeight: '220px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Greeting:</strong> confirms signed-in state and makes the page feel like a returning-customer surface.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-03-hero-campaign.png')} alt="Homepage hero campaign carousel with promotional food imagery and Order Now CTA" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Hero campaign carousel:</strong> gives markets a high-impact area for appetite appeal, featured campaigns, and direct entry into ordering or menu browsing.</p>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-03-hero-campaign.png')} alt="Homepage hero campaign carousel with promotional food imagery and Order Now CTA" style={{ width: '100%', maxHeight: '260px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Hero campaign:</strong> creates appetite appeal and routes customers into ordering or menu browsing.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-04-offers-rewards.png')} alt="Homepage Offers and Rewards section with offer cards and reward pricing" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Offers & Rewards:</strong> exposes value, reward eligibility, and deal messaging early in the journey without forcing customers to leave the homepage.</p>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-04-offers-rewards.png')} alt="Homepage Offers and Rewards section with offer cards and reward pricing" style={{ width: '100%', maxHeight: '260px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Offers & Rewards:</strong> exposes value and reward eligibility without sending customers away from Home.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-05-store-led-merchandising.png')} alt="Homepage store-led merchandising card promoting open late pickup availability" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Store-led merchandising:</strong> gives the homepage local commercial relevance, such as late-night trading, pickup messaging, or time-of-day promotions.</p>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-05-store-led-merchandising.png')} alt="Homepage store-led merchandising card promoting open late pickup availability" style={{ width: '100%', maxHeight: '260px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Store-led merchandising:</strong> supports local messages such as late trading, pickup, or time-of-day offers.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-06-reorder-shortcuts.png')} alt="Homepage reorder shortcuts with previous order cards and review order actions" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Reorder shortcuts:</strong> reduce repeat-order effort by giving returning customers a quick route back to familiar baskets.</p>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-06-reorder-shortcuts.png')} alt="Homepage reorder shortcuts with previous order cards and review order actions" style={{ width: '100%', maxHeight: '260px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Reorder shortcuts:</strong> gives returning customers a quick path back to familiar baskets.</p>
   </div>
-  <div>
-    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-07-return-order-prompt.png')} alt="Homepage returning order prompt asking whether to keep the previous order setting" style={{ width: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}><strong>Return order prompt:</strong> confirms whether the customer wants to keep the previous order setting before continuing, which helps prevent accidental ordering against the wrong fulfillment context.</p>
+  <div style={{ display: 'grid', gap: '0.5rem', overflowWrap: 'anywhere' }}>
+    <img src={useBaseUrl('/img/customer-journey/homepage/homepage-detail-07-return-order-prompt.png')} alt="Homepage returning order prompt asking whether to keep the previous order setting" style={{ width: '100%', maxHeight: '260px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '10px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ margin: 0, fontSize: '0.84rem', lineHeight: 1.42 }}><strong>Return prompt:</strong> confirms prior fulfillment context before the customer continues ordering.</p>
   </div>
 </div>
 
