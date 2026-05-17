@@ -10,12 +10,16 @@ Secret Menu is a special discovery path that sits outside standard menu browsing
 
 ## Screen Capture Sequence
 
-Secret Menu should be captured as an unlock, reveal, and PDP sequence. The value is not only the final product card; it is the hidden entry mechanic, the premium reveal moment, and the customization path that follows.
+Secret Menu should be captured as an unlock, reveal, suppression, and PDP sequence. The value is not only the final product card; it is the hidden entry mechanic, the premium reveal moment, the fallback state when the customer does not engage, and the customization path that follows.
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
     <img src={useBaseUrl('/img/customer-journey/menu/secret-menu-00-unlock-clue.png')} alt="Menu landing page showing the hidden Secret Menu clue peeking above the category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
     <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Unlock clue: the Secret Menu is hinted above the category tiles without becoming a normal category.</p>
+  </div>
+  <div>
+    <img src={useBaseUrl('/img/customer-journey/menu/secret-menu-03-not-interested.png')} alt="Menu landing page after Secret Menu clue is suppressed for the session" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Not Interested state: if the customer does not engage, the clue is suppressed for the session and normal menu browsing stays focused.</p>
   </div>
   <div>
     <img src={useBaseUrl('/img/customer-journey/menu/secret-menu-01-unlock-countdown.png')} alt="Secret Menu countdown state after the customer presses and holds the clue" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
@@ -41,7 +45,7 @@ Secret Menu should be captured as an unlock, reveal, and PDP sequence. The value
 
 ## What This Feature Is
 
-Secret Menu is a controlled campaign surface for products that should feel more exclusive than standard menu items. In the prototype, it uses a hidden clue on Menu Landing, a press-and-hold countdown, a darker reveal environment, product carousel behavior, campaign tags, and a direct `Order Now` path into Secret Menu PDP.
+Secret Menu is a controlled campaign surface for products that should feel more exclusive than standard menu items. In the prototype, it uses a hidden clue on Menu Landing, a press-and-hold countdown, a session-level Not Interested state when the customer does not engage, a darker reveal environment, product carousel behavior, campaign tags, and a direct `Order Now` path into Secret Menu PDP.
 
 The Secret Menu PDP then supports product-level customization before add-to-cart:
 
@@ -55,7 +59,7 @@ The Secret Menu PDP then supports product-level customization before add-to-cart
 
 The Secret Menu is designed to create a reveal, not just another category. It gives the business a way to promote limited-time products, surprise-and-delight mechanics, or market-specific campaigns without diluting the main menu structure.
 
-Keeping Secret Menu separate also protects the normal menu journey. Customers who want standard browsing can continue through category and PLP, while customers who engage with the reveal get a more expressive experience.
+Keeping Secret Menu separate also protects the normal menu journey. Customers who want standard browsing can continue through category and PLP, while customers who engage with the reveal get a more expressive experience. The Not Interested state supports this by removing the clue for the session when the customer does not interact.
 
 The PDP customization layer is important because Secret Menu products still need to behave like orderable commerce items, not only campaign content. The product can feel exclusive while still supporting practical controls for ingredients, extras, pricing, and final cart confirmation.
 
@@ -74,6 +78,7 @@ The PDP customization layer is important because Secret Menu products still need
 | Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
 |---|---|---|
 | Unlock behavior | Visible tile, hidden gesture, countdown, campaign link, or direct entry | WIP |
+| Not Interested handling | Inactivity timer, session persistence, reset rules, and re-entry eligibility | WIP |
 | Campaign copy | Secret label, product kicker, limited-time messaging, and eligibility copy | WIP |
 | Product set | Which products appear, order, availability, and fallback when sold out | WIP |
 | Visual treatment | Dark theme, product poster art, carousel behavior, and animation intensity | WIP |
@@ -86,6 +91,7 @@ The PDP customization layer is important because Secret Menu products still need
 
 - The customer has entered a special menu experience.
 - The customer understands how the hidden Secret Menu is unlocked.
+- The customer can continue normal menu browsing if they do not engage with the clue.
 - The product is limited, campaign-led, or intentionally different from the core menu.
 - The customer can move directly from reveal to product detail or ordering.
 - The customer can still customize the Secret Menu item before adding it to cart.
@@ -97,4 +103,5 @@ The PDP customization layer is important because Secret Menu products still need
 - Large product imagery makes the reveal feel premium and focused.
 - Tags like `Secret` and `Limited Time Only` explain why the item is treated differently.
 - A single primary CTA keeps the experience commercial, not just decorative.
+- The Not Interested state prevents the hidden mechanic from repeatedly interrupting standard browsing.
 - PDP customization keeps the experience operationally credible because the campaign item still follows orderable product rules.

@@ -6,20 +6,20 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Menu Landing / Category
 
-Menu Landing is the first structured menu surface after order context is set. It is the category gateway before the customer moves into a Product Listing Page (PLP).
+Menu Landing is the first structured menu surface after order context is set. It is the category gateway before the customer moves into a Product Listing Page (PLP), campaign destination, or guided builder.
 
 ## Screen Capture Sequence
 
-This page only documents the category tile experience. PLP behavior is documented separately in [PLP (Product Listing Page)](/docs/frontend/customer-journey/find-products/menu-listing).
+This page documents the category tile experience after the customer already has an order context. PLP behavior is documented separately in [PLP (Product Listing Page)](/docs/frontend/customer-journey/find-products/menu-listing).
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
   <div>
     <img src={useBaseUrl('/img/customer-journey/menu/menu-landing-01-category-top.png')} alt="Menu landing page top with featured category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Menu landing top: category tiles act as the table of contents before product comparison.</p>
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Menu landing top: once order context is set, category tiles become the primary menu entry surface.</p>
   </div>
   <div>
     <img src={useBaseUrl('/img/customer-journey/menu/menu-landing-02-category-more.png')} alt="Menu landing page scrolled to additional category tiles" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Scrolled category state: additional categories stay visual and easy to scan.</p>
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>Scrolled category state: strategic categories and guided journeys remain discoverable deeper in the grid.</p>
   </div>
   <div>
     <img src={useBaseUrl('/img/customer-journey/menu/menu-landing-03-footer.png')} alt="Menu landing lower page with footer links and supporting market content" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
@@ -29,7 +29,9 @@ This page only documents the category tile experience. PLP behavior is documente
 
 ## What This Feature Is
 
-Menu Landing gives customers a clear overview of the menu structure before they start comparing individual products. The prototype uses category tiles such as Featured Offers, Burgers, Boxed Meals, Chicken, Snack Hacks, Protein Picks, and Everyday Value.
+Menu Landing gives customers a clear overview of the menu structure before they start comparing individual products. The prototype uses category tiles such as Featured Offers, Burgers, Boxed Meals, Chicken, Snack Hacks, Protein Picks, Everyday Value, and Build Your Own Bucket.
+
+In the latest prototype, the standalone start-order block is hidden once the customer already has an order context. This keeps the screen focused on browsing and avoids asking the customer to repeat a decision that has already been made.
 
 This screen is different from a PLP:
 
@@ -51,13 +53,15 @@ This is especially useful for global markets because category strategy varies by
 | Category imagery | Tile image, crop, fallback image, and seasonal campaign creative | WIP |
 | Featured category | Whether Featured Offers or another category appears first | WIP |
 | Tile treatments | Accent color, wide tile behavior, and strategic category emphasis | WIP |
-| Category destinations | PLP category, campaign page, Secret Menu entry, or custom destination | WIP |
+| Category destinations | PLP category, campaign page, Secret Menu entry, BYOB builder, or custom destination | WIP |
+| Order context behavior | Whether the start-order prompt appears before order context and hides after order context is set | WIP |
 | Footer links | Store apps, legal links, support links, and market footer requirements | WIP |
 | Localization | Category labels and legal copy in English, French, Spanish, and German | WIP |
 
 ## What This Screen Should Communicate
 
 - The customer is entering the menu after order context has been set.
+- The customer does not need to reselect order context before browsing.
 - The menu is organized into clear categories.
 - Category choice comes before product comparison.
 - Strategic categories can be promoted without breaking scan speed.
@@ -69,4 +73,5 @@ This is especially useful for global markets because category strategy varies by
 - Large category labels make the screen scannable on mobile.
 - Food imagery supports appetite appeal without requiring product-level detail yet.
 - The category-first model creates a cleaner transition into PLP comparison.
+- Hiding the start-order block after context is set keeps the page focused on menu discovery.
 - This pattern gives Atlas more brand expression than a purely utilitarian list.
