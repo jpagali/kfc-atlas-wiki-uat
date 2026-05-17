@@ -614,3 +614,356 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Atlas prototype remodel while preserving page structure */
+.hero {
+  background:
+    linear-gradient(90deg, rgba(245, 0, 43, 0.9) 0 82px, transparent 82px 100%),
+    #000000;
+  border-bottom: 4px solid var(--kc-red-action);
+  color: #ffffff;
+}
+
+.heroTexture {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 100%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 100%);
+  background-size: 100% 82px, 82px 100%;
+  opacity: 0.24;
+}
+
+.heroInner {
+  max-width: 1080px;
+  min-height: 640px;
+  padding: 84px 24px 72px;
+}
+
+.heroContent {
+  max-width: 820px;
+}
+
+.badge {
+  border-radius: 4px;
+  border-color: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.badgeDot {
+  background: var(--kc-red-action);
+}
+
+.badgeText,
+.sectionLabel,
+.prototypeEyebrow,
+.cardLabel,
+.upcomingMarketsLabel,
+.statLabel {
+  font-family: var(--font-ui);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.badgeText {
+  color: #ffffff;
+}
+
+.heroTitle {
+  color: #ffffff;
+  font-family: var(--font-hero);
+  font-size: clamp(3.6rem, 9vw, 7.2rem);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 0.82;
+  text-transform: none;
+}
+
+.heroTitleAccent {
+  color: var(--kc-red-action);
+}
+
+.heroSummary {
+  color: rgba(255, 255, 255, 0.78);
+  font-family: var(--font-ui);
+  font-size: 1.05rem;
+  font-weight: var(--kc-body-weight);
+}
+
+.heroVideo {
+  opacity: 0.42;
+  filter: saturate(0.9) contrast(1.12) brightness(0.58);
+}
+
+.heroMediaOverlay {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.5), #000000),
+    linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.78) 42%, rgba(0, 0, 0, 0.42) 100%);
+}
+
+.button {
+  border-radius: 4px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+
+.buttonPrimary,
+.prototypeButton,
+.cardButton {
+  background: var(--kc-red-action);
+  color: #ffffff;
+}
+
+.buttonSecondary,
+.buttonTertiary {
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+
+.buttonPrimary:hover,
+.buttonSecondary:hover,
+.buttonTertiary:hover,
+.prototypeButton:hover,
+.cardButton:hover {
+  background: #ffffff;
+  color: #000000;
+  box-shadow: none;
+}
+
+.statsBar {
+  gap: 0;
+  padding: 0;
+  background: #ffffff;
+  border-bottom: 4px solid #000000;
+}
+
+.statCard {
+  flex: 1 1 220px;
+  min-height: 118px;
+  padding: 22px 24px;
+  border-right: 1px solid #000000;
+  background: #ffffff;
+}
+
+.statCard:last-child {
+  border-right: 0;
+}
+
+.statValue {
+  color: #000000;
+  font-family: var(--font-hero);
+  font-size: 2.35rem;
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+.statLabel {
+  color: var(--kc-red-action);
+}
+
+.statSub {
+  color: rgba(35, 24, 21, 0.66);
+  font-family: var(--font-ui);
+  font-weight: var(--kc-body-weight);
+}
+
+.marketsSection,
+.sectionsSection {
+  background:
+    linear-gradient(90deg, rgba(228, 0, 43, 0.1) 0 72px, transparent 72px 100%),
+    var(--kc-canvas);
+}
+
+.prototypeCallout,
+.marketCard,
+.upcomingMarketCard,
+.sectionCard {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.prototypeCallout {
+  border: 2px solid #000000;
+  background:
+    linear-gradient(90deg, rgba(245, 0, 43, 0.96) 0 86px, transparent 86px 100%),
+    #ffffff;
+}
+
+:global([data-theme='dark']) .prototypeCallout {
+  border-color: rgba(255, 255, 255, 0.82);
+  background:
+    linear-gradient(90deg, rgba(245, 0, 43, 0.96) 0 86px, transparent 86px 100%),
+    #111111;
+}
+
+.prototypeTitle,
+.sectionTitle,
+.cardTitle {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.prototypeTitle {
+  color: var(--kc-ink);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+}
+
+.prototypeBody,
+.cardDescription,
+.cardListItem,
+.marketsSublabel,
+.upcomingMarketName {
+  font-family: var(--font-ui);
+  font-weight: var(--kc-body-weight);
+}
+
+.marketCard,
+.upcomingMarketCard {
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+
+:global([data-theme='dark']) .marketCard,
+:global([data-theme='dark']) .upcomingMarketCard {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: #111111;
+}
+
+.marketFlag,
+.upcomingMarketFlag {
+  border-radius: 4px;
+  background: var(--kc-red-action);
+}
+
+.marketFlagImage,
+.upcomingMarketFlagImage {
+  border-radius: 2px;
+}
+
+.sectionTitle {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+.sectionCard {
+  border: 1px solid #000000;
+  border-top: 6px solid var(--kc-red-action);
+  background: #ffffff;
+}
+
+:global([data-theme='dark']) .sectionCard {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: #111111;
+}
+
+.sectionEmoji {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  background: #000000;
+  color: #ffffff;
+}
+
+:global([data-theme='dark']) .sectionEmoji {
+  background: #ffffff;
+  color: #000000;
+}
+
+.cardButton {
+  align-self: flex-start;
+  border-radius: 4px;
+}
+
+:global([data-theme='dark']) .cardButton {
+  background: var(--kc-red-action);
+  color: #ffffff;
+}
+
+:global([data-theme='dark']) .cardButton:hover {
+  background: #ffffff;
+  color: #000000;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 996px) {
+  .hero {
+    background: #000000;
+  }
+
+  .statCard {
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+  }
+
+  .marketsSection,
+  .sectionsSection {
+    background: var(--kc-canvas);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .heroInner {
+    padding: 60px 18px 48px;
+  }
+
+  .heroContent {
+    max-width: min(100%, 22rem);
+    padding-inline: 0;
+  }
+
+  .heroVideo {
+    opacity: 0.24;
+    filter: saturate(0.85) contrast(1.12) brightness(0.42);
+  }
+
+  .heroMediaOverlay {
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.76), #000000),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.68));
+  }
+
+  .heroTitle,
+  .heroTitle.localeJa {
+    max-width: 100%;
+    font-size: clamp(2.8rem, 17vw, 4.1rem);
+    line-height: 0.86;
+    overflow-wrap: anywhere;
+  }
+
+  .heroSummary {
+    max-width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .statsBar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .statCard {
+    min-height: 112px;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+  }
+
+  .buttonSecondary,
+  .buttonTertiary {
+    background: rgba(0, 0, 0, 0.64);
+  }
+}
