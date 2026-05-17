@@ -2949,13 +2949,18 @@
     "locale": "en-US",
     "title": "Sign In",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Sign In",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/sign-in/",
     "normalizedTitle": "sign in",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "sign in",
     "normalizedSection": "frontend"
   },
@@ -2963,13 +2968,18 @@
     "locale": "en-US",
     "title": "Sign Up",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "Screen Capture Sequence",
+      "What This Feature Is",
+      "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "What This Screen Should Communicate",
+      "Design Read On This Screen"
     ],
     "summary": "Sign Up",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/sign-up/",
     "normalizedTitle": "sign up",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "sign up",
     "normalizedSection": "frontend"
   },
