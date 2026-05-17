@@ -3378,13 +3378,16 @@
     "locale": "en-US",
     "title": "Nutrition and Allergen",
     "headings": [
-      "Why This Step Is Designed This Way"
+      "What This Feature Is",
+      "Why This Step Is Designed This Way",
+      "WIP: What Can Be Configured On This Screen",
+      "Documentation Status"
     ],
     "summary": "Nutrition and Allergen",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/learn-about-kfc/nutrition-and-allergen/",
     "normalizedTitle": "nutrition and allergen",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "what this feature is why this step is designed this way wip what can be configured on this screen documentation status",
     "normalizedSummary": "nutrition and allergen",
     "normalizedSection": "frontend"
   },
