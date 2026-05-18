@@ -12,13 +12,13 @@ title: Account
 
 ### A. Signed-In User
 
-_Current library note: no prototype-backed GIF is available for this customer state in this pass._
+![Signed-in account-aware destination](/img/customer-journey/gif-library/signed-in/S01-signed-in-home.gif)
 
 **What this shows**
 
-- No dedicated signed-in account management GIF is included in the current library.
-- Keep detailed account-management behavior marked as supporting documentation.
-- Use this page to clarify the expected account-aware capability set without inventing unsupported screens.
+- Shows the signed-in state after account authentication has succeeded.
+- Confirms that account-aware homepage, rewards, and saved context are available to the customer.
+- Serves as the current prototype-backed baseline until a dedicated signed-in account-management GIF is available.
 
 </div>
 
@@ -42,7 +42,9 @@ _Current library note: no prototype-backed GIF is available for this customer st
 
 This page covers profile tools such as order history, favorite orders, saved stores and addresses, communication preferences, settings, and gift cards.
 
-`<Mockup to be provided here>`
+## Prototype Coverage Note
+
+The current GIF library includes the guest account gate and the signed-in destination state. It does not yet include a dedicated signed-in account-management walkthrough for profile details, order history, saved stores, or communication preferences.
 
 ## Why This Step Is Designed This Way
 

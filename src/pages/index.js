@@ -18,6 +18,10 @@ const HOME_CONTENT = {
     heroPrimaryCta: 'Start with the Front-end Guide →',
     heroSecondaryCta: 'Start with the Byte Portal Guide →',
     heroCapabilitiesCta: 'Explore Tech Stack →',
+    storyTitle: 'Atlas Story',
+    storyBody:
+      'Watch a short film on how Atlas brings the customer journey, platform standards, and market enablement story together.',
+    storyVideoLabel: 'Atlas hype production video',
     sectionEyebrow: 'Three sections',
     sectionTitle: 'Built for everyone who operates the platform',
     prototypeCardEyebrow: 'Interactive preview',
@@ -84,6 +88,10 @@ const HOME_CONTENT = {
     heroPrimaryCta: 'Commencer par le guide Front-End →',
     heroSecondaryCta: 'Commencer par le guide Byte Portal →',
     heroCapabilitiesCta: 'Explorer le Tech Stack →',
+    storyTitle: 'Histoire Atlas',
+    storyBody:
+      'Regardez un court film sur la manière dont Atlas relie le parcours client, les standards de plateforme et l’activation des marchés.',
+    storyVideoLabel: 'Vidéo de présentation Atlas',
     sectionEyebrow: 'Trois sections',
     sectionTitle: 'Conçu pour toutes les équipes qui exploitent la plateforme',
     prototypeCardEyebrow: 'Aperçu interactif',
@@ -148,6 +156,10 @@ const HOME_CONTENT = {
     heroPrimaryCta: 'Empezar con la guía Front-End →',
     heroSecondaryCta: 'Empezar con la guía Byte Portal →',
     heroCapabilitiesCta: 'Explorar Tech Stack →',
+    storyTitle: 'Historia de Atlas',
+    storyBody:
+      'Mira un breve video sobre cómo Atlas conecta el recorrido del cliente, los estándares de plataforma y la habilitación de mercados.',
+    storyVideoLabel: 'Video de presentación de Atlas',
     sectionEyebrow: 'Tres secciones',
     sectionTitle: 'Diseñado para todos los equipos que operan la plataforma',
     prototypeCardEyebrow: 'Vista previa interactiva',
@@ -212,6 +224,10 @@ const HOME_CONTENT = {
     heroPrimaryCta: 'Mit dem Front-End Guide starten →',
     heroSecondaryCta: 'Mit dem Byte Portal Guide starten →',
     heroCapabilitiesCta: 'Tech Stack erkunden →',
+    storyTitle: 'Atlas Story',
+    storyBody:
+      'Ein kurzer Film darüber, wie Atlas Customer Journey, Plattformstandards und Market Enablement zusammenführt.',
+    storyVideoLabel: 'Atlas Präsentationsvideo',
     sectionEyebrow: 'Drei Bereiche',
     sectionTitle: 'Gebaut für alle Teams, die die Plattform betreiben',
     prototypeCardEyebrow: 'Interaktive Vorschau',
@@ -298,6 +314,8 @@ export default function Home() {
   const locale = HOME_CONTENT[currentLocale] ? currentLocale : 'en-US';
   const content = HOME_CONTENT[locale];
   const heroVideoSrc = useBaseUrl('/video/colonel-sanders-cooking-chicken.mp4');
+  const storyVideoSrc = useBaseUrl('/video/atlas-hype-production-video-FINAL-1080p.mp4');
+  const storyPosterSrc = useBaseUrl('/img/atlas-hype-video-poster.jpg');
 
   return (
     <Layout title="Home" description={content.description}>
@@ -374,6 +392,30 @@ export default function Home() {
           </div>
         ))}
       </div>
+
+      <section className={styles.storySection} aria-labelledby="atlas-story-title">
+        <div className={styles.storyInner}>
+          <div className={styles.storyCopy}>
+            <h2 id="atlas-story-title" className={localeClass(styles.storyTitle)}>
+              {content.storyTitle}
+            </h2>
+            <p className={styles.storyBody}>{content.storyBody}</p>
+          </div>
+          <div className={styles.storyVideoCard}>
+            <video
+              id="atlas-story-video"
+              className={styles.storyVideo}
+              controls
+              playsInline
+              preload="none"
+              poster={storyPosterSrc}
+              aria-label={content.storyVideoLabel}
+            >
+              <source src={storyVideoSrc} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
 
       <div className={styles.marketsSection}>
         <div className={styles.prototypeCallout}>

@@ -243,6 +243,55 @@
   background: rgba(255, 255, 255, 0.72);
 }
 
+.storySection {
+  padding: 56px 24px;
+  background: #000000;
+  color: #ffffff;
+}
+
+.storyInner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
+  gap: 36px;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.storyCopy {
+  max-width: 460px;
+}
+
+.storyTitle {
+  margin: 0 0 14px;
+  color: #ffffff;
+  font-size: clamp(2.1rem, 4vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.storyBody {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.storyVideoCard {
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.82);
+  border-radius: 10px;
+  background: #111111;
+}
+
+.storyVideo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000000;
+  object-fit: cover;
+}
+
 .marketsSection {
   padding: 48px 24px;
   text-align: center;
@@ -791,6 +840,7 @@
 }
 
 .prototypeTitle,
+.storyTitle,
 .sectionTitle,
 .cardTitle {
   font-family: var(--font-display);
@@ -805,6 +855,7 @@
 }
 
 .prototypeBody,
+.storyBody,
 .cardDescription,
 .cardListItem,
 .marketsSublabel,
@@ -978,4 +1029,37 @@
   .buttonTertiary {
     background: rgba(0, 0, 0, 0.64);
   }
+}
+
+@media screen and (max-width: 996px) {
+  .storyInner {
+    grid-template-columns: 1fr;
+  }
+
+  .storyCopy {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .storySection {
+    padding: 36px 18px;
+  }
+
+  .storyInner {
+    gap: 22px;
+  }
+
+  .storyVideoCard {
+    order: -1;
+  }
+
+  .storyTitle {
+    font-size: clamp(2rem, 13vw, 3rem);
+  }
+
+  .storyBody {
+    font-size: 0.95rem;
+  }
+
 }
