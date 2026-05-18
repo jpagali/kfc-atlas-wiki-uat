@@ -40,7 +40,7 @@ const HOME_CONTENT = {
       { flagCode: 'th', name: 'Thailand' },
     ],
     stats: [
-      { value: 830, suffix: '+', label: 'Stores', sub: 'Stores Onboard' },
+      { value: 830, suffix: '+', label: 'Stores', sub: 'Stores Onboarding' },
       { value: '3', label: 'Core Modules', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
       { value: '1', label: 'Platform', sub: 'Atlas by KFC Global - Brand Experience Team' },
     ],
@@ -110,7 +110,7 @@ const HOME_CONTENT = {
       { flagCode: 'th', name: 'Thaïlande' },
     ],
     stats: [
-      { value: 830, suffix: '+', label: 'Restaurants', sub: 'Restaurants intégrés' },
+      { value: 830, suffix: '+', label: 'Restaurants', sub: 'Onboarding restaurants' },
       { value: '3', label: 'Modules clés', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
       { value: '1', label: 'Plateforme', sub: 'Atlas par KFC Global - Brand Experience Team' },
     ],
@@ -178,7 +178,7 @@ const HOME_CONTENT = {
       { flagCode: 'th', name: 'Tailandia' },
     ],
     stats: [
-      { value: 830, suffix: '+', label: 'Restaurantes', sub: 'Restaurantes incorporados' },
+      { value: 830, suffix: '+', label: 'Restaurantes', sub: 'Onboarding de restaurantes' },
       { value: '3', label: 'Módulos clave', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
       { value: '1', label: 'Plataforma', sub: 'Atlas por KFC Global - Brand Experience Team' },
     ],
@@ -246,7 +246,7 @@ const HOME_CONTENT = {
       { flagCode: 'th', name: 'Thailand' },
     ],
     stats: [
-      { value: 830, suffix: '+', label: 'Restaurants', sub: 'Restaurants onboarded' },
+      { value: 830, suffix: '+', label: 'Restaurants', sub: 'Restaurant-Onboarding' },
       { value: '3', label: 'Kernmodule', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
       { value: '1', label: 'Plattform', sub: 'Atlas von KFC Global - Brand Experience Team' },
     ],
