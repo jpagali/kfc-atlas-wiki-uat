@@ -32,7 +32,7 @@ sidebar_position: 3
       <h3>Release 2026.05.04</h3>
       <p>
         Atlas Peek now reflects the current KFC AU prototype, the wiki has cleaner restart and fullscreen review
-        controls, and the retired Japan locale has been removed to simplify the site and shrink the build footprint.
+        controls, and the retired retired market locale has been removed to simplify the site and shrink the build footprint.
       </p>
       <div className="release-pill-row">
         <span className="release-pill">Atlas Peek</span>
@@ -59,7 +59,7 @@ sidebar_position: 3
         </div>
         <h3>Release 2026.05.04</h3>
         <p>
-          Atlas Peek now runs the current AU prototype in the wiki, and the retired Japan locale has been removed to
+          Atlas Peek now runs the current AU prototype in the wiki, and the retired retired market locale has been removed to
           simplify Atlas Wiki and reduce the amount of content and build output it carries.
         </p>
         <a className="release-link" href="/docs/release-notes/2026-05-04">

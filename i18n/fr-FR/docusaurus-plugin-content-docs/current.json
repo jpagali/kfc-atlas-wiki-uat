@@ -1,0 +1,206 @@
+{
+  "version.label": {
+    "message": "Suivant",
+    "description": "The label for version current"
+  },
+  "sidebar.frontendSidebar.category.Front-end Overview": {
+    "message": "Aperçu de l'avant-plan",
+    "description": "The label for category 'Front-end Overview' in sidebar 'frontendSidebar'"
+  },
+  "sidebar.frontendSidebar.category.Customer Experience": {
+    "message": "Expérience client",
+    "description": "The label for category 'Customer Experience' in sidebar 'frontendSidebar'"
+  },
+  "sidebar.frontendSidebar.category.Customer Engagement Surveys": {
+    "message": "Enquêtes auprès des clients",
+    "description": "The label for category 'Customer Engagement Surveys' in sidebar 'frontendSidebar'"
+  },
+  "sidebar.frontendSidebar.category.Market Configurations": {
+    "message": "Configurations du marché",
+    "description": "The label for category 'Market Configurations' in sidebar 'frontendSidebar'"
+  },
+  "sidebar.frontendSidebar.category.Features": {
+    "message": "Caractéristiques",
+    "description": "The label for category 'Features' in sidebar 'frontendSidebar'"
+  },
+  "sidebar.frontendSidebar.category.Contentful": {
+    "message": "Contenu",
+    "description": "The label for category 'Contentful' in sidebar 'frontendSidebar'"
+  },
+  "sidebar.adminSidebar.category.Admin Portal Guide": {
+    "message": "Guide du portail administratif",
+    "description": "The label for category 'Admin Portal Guide' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Stores": {
+    "message": "Magasins",
+    "description": "The label for category 'Stores' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Publish History": {
+    "message": "Publier l'historique",
+    "description": "The label for category 'Publish History' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Store Tasks": {
+    "message": "Tâches de stockage",
+    "description": "The label for category 'Store Tasks' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Beneficaries": {
+    "message": "Bénéficiaires",
+    "description": "The label for category 'Beneficaries' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Dayparts": {
+    "message": "Jours",
+    "description": "The label for category 'Dayparts' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Menus": {
+    "message": "Menus",
+    "description": "The label for category 'Menus' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Named Prices": {
+    "message": "Prix",
+    "description": "The label for category 'Named Prices' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Categories": {
+    "message": "Catégories",
+    "description": "The label for category 'Categories' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Patches": {
+    "message": "Patches",
+    "description": "The label for category 'Patches' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Menu Tasks": {
+    "message": "Tâches du menu",
+    "description": "The label for category 'Menu Tasks' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Products": {
+    "message": "Produits",
+    "description": "The label for category 'Products' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Product Tasks": {
+    "message": "Tâches de produits",
+    "description": "The label for category 'Product Tasks' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Options": {
+    "message": "Options",
+    "description": "The label for category 'Options' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Option Value": {
+    "message": "Valeur de l'option",
+    "description": "The label for category 'Option Value' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Slots": {
+    "message": "Fentes",
+    "description": "The label for category 'Slots' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Modifier": {
+    "message": "Modificateur",
+    "description": "The label for category 'Modifier' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Weights": {
+    "message": "Poids",
+    "description": "The label for category 'Weights' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Variants": {
+    "message": "Variantes",
+    "description": "The label for category 'Variants' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Promotions": {
+    "message": "Promotions",
+    "description": "The label for category 'Promotions' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Promotion Tasks": {
+    "message": "Tâches de promotion",
+    "description": "The label for category 'Promotion Tasks' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Store Group Tasks": {
+    "message": "Tâches de groupe de stockage",
+    "description": "The label for category 'Store Group Tasks' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Advanced Promotions Search": {
+    "message": "Recherche avancée de promotions",
+    "description": "The label for category 'Advanced Promotions Search' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Store Groups": {
+    "message": "Groupes de stockage",
+    "description": "The label for category 'Store Groups' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Store Groups - Taxes": {
+    "message": "Groupes de magasins - Impôts",
+    "description": "The label for category 'Store Groups - Taxes' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Store Groups - Promotions": {
+    "message": "Groupes de magasins - Promotions",
+    "description": "The label for category 'Store Groups - Promotions' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.In-Store Devices": {
+    "message": "Dispositifs en magasin",
+    "description": "The label for category 'In-Store Devices' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Bundles": {
+    "message": "Ensembles",
+    "description": "The label for category 'Bundles' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Bundle Tasks": {
+    "message": "Tâches groupées",
+    "description": "The label for category 'Bundle Tasks' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Choices": {
+    "message": "Choix",
+    "description": "The label for category 'Choices' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Agents": {
+    "message": "Agents",
+    "description": "The label for category 'Agents' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Customer Support": {
+    "message": "Soutien à la clientèle",
+    "description": "The label for category 'Customer Support' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Orders": {
+    "message": "Ordonnances",
+    "description": "The label for category 'Orders' in sidebar 'adminSidebar'"
+  },
+  "sidebar.adminSidebar.category.Customers": {
+    "message": "Clients",
+    "description": "The label for category 'Customers' in sidebar 'adminSidebar'"
+  },
+  "sidebar.byteCapabilitiesSidebar.category.Byte Capabilities": {
+    "message": "Capacités Byte",
+    "description": "The label for category 'Byte Capabilities' in sidebar 'byteCapabilitiesSidebar'"
+  },
+  "sidebar.byteCapabilitiesSidebar.category.🎨 Byte Helium": {
+    "message": "Le nombre d'heures de travail est le suivant:",
+    "description": "The label for category '🎨 Byte Helium' in sidebar 'byteCapabilitiesSidebar'"
+  },
+  "sidebar.byteCapabilitiesSidebar.category.⚙️ Byte Commerce Backend": {
+    "message": "Moteur de commerce Byte",
+    "description": "The label for category '⚙️ Byte Commerce Backend' in sidebar 'byteCapabilitiesSidebar'"
+  },
+  "sidebar.byteCapabilitiesSidebar.category.🛠 Byte Portal": {
+    "message": "Portail Byte",
+    "description": "The label for category '🛠 Byte Portal' in sidebar 'byteCapabilitiesSidebar'"
+  },
+  "sidebar.byteCapabilitiesSidebar.category.⚠️ Enablement": {
+    "message": "Activer",
+    "description": "The label for category '⚠️ Enablement' in sidebar 'byteCapabilitiesSidebar'"
+  },
+  "sidebar.byteCapabilitiesSidebar.category.📚 Reference": {
+    "message": "Référence",
+    "description": "The label for category '📚 Reference' in sidebar 'byteCapabilitiesSidebar'"
+  },
+  "sidebar.playbooksSidebar.category.Promotions": {
+    "message": "Promotions",
+    "description": "The label for category 'Promotions' in sidebar 'playbooksSidebar'"
+  },
+  "sidebar.playbooksSidebar.category.Promotion Recipes": {
+    "message": "Recettes de promotion",
+    "description": "The label for category 'Promotion Recipes' in sidebar 'playbooksSidebar'"
+  },
+  "sidebar.playbooksSidebar.category.Braze & Rewards": {
+    "message": "Braze & Récompenses",
+    "description": "The label for category 'Braze & Rewards' in sidebar 'playbooksSidebar'"
+  },
+  "sidebar.aboutSidebar.category.About": {
+    "message": "À propos",
+    "description": "The label for category 'About' in sidebar 'aboutSidebar'"
+  }
+}

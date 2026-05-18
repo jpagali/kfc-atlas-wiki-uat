@@ -512,14 +512,15 @@ const sidebars = {
     },
   ],
 
-  // ─── BYTE CAPABILITIES ─────────────────────────────────────────────────────
+  // ─── TECH STACK ────────────────────────────────────────────────────────────
   // Platform knowledge layer — what the platform does, domain-by-domain
   byteCapabilitiesSidebar: [
+    'tech-stack/index',
     {
       type: 'category',
       label: 'Byte Capabilities',
       link: { type: 'doc', id: 'byte-capabilities/index' },
-      collapsed: false,
+      collapsed: true,
       items: [
         'byte-capabilities/mental-model',
         'byte-capabilities/platform-layers',

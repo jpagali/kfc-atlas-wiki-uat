@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import SearchBox from '@site/src/components/SearchBox';
@@ -16,7 +17,7 @@ const HOME_CONTENT = {
     heroSearchPlaceholder: 'Search guides, articles, and headings',
     heroPrimaryCta: 'Start with the Front-end Guide →',
     heroSecondaryCta: 'Start with the Byte Portal Guide →',
-    heroCapabilitiesCta: 'Explore Byte Capabilities →',
+    heroCapabilitiesCta: 'Explore Tech Stack →',
     sectionEyebrow: 'Three sections',
     sectionTitle: 'Built for everyone who operates the platform',
     prototypeCardEyebrow: 'Interactive preview',
@@ -72,6 +73,198 @@ const HOME_CONTENT = {
       { flagCode: 'au', name: 'Australia' },
     ],
   },
+  'fr-FR': {
+    description: 'Wiki de la plateforme KFC Atlas',
+    badge: 'Plateforme Atlas · Wiki',
+    titleLead: 'Atlas.',
+    titleAccent: 'Bien exécuté.',
+    summary:
+      'Tout ce dont vous avez besoin pour lancer, exploiter et faire évoluer Atlas, de l’expérience client aux opérations restaurant.',
+    heroSearchPlaceholder: 'Rechercher des guides, articles et sections',
+    heroPrimaryCta: 'Commencer par le guide Front-End →',
+    heroSecondaryCta: 'Commencer par le guide Byte Portal →',
+    heroCapabilitiesCta: 'Explorer le Tech Stack →',
+    sectionEyebrow: 'Trois sections',
+    sectionTitle: 'Conçu pour toutes les équipes qui exploitent la plateforme',
+    prototypeCardEyebrow: 'Aperçu interactif',
+    prototypeCardTitle: 'Atlas Peek',
+    prototypeCardBody:
+      'Explorez un prototype de parcours client multilingue avec état, qui se comporte comme une mini application plutôt qu’un diaporama linéaire.',
+    prototypeCardCta: 'Ouvrir l’aperçu',
+    marketsLabel: 'Marchés',
+    marketsSublabel: 'Onboarding — déploiement jusqu’à fin 2026',
+    upcomingMarketsLabel: 'À venir',
+    upcomingMarkets: [
+      { flagCode: 'ca', name: 'Canada' },
+      { flagCode: 'fr', name: 'France' },
+      { flagCode: 'de', name: 'Allemagne' },
+      { flagCode: 'es', name: 'Espagne' },
+      { flagCode: 'th', name: 'Thaïlande' },
+    ],
+    stats: [
+      { value: 830, suffix: '+', label: 'Restaurants', sub: 'Restaurants intégrés' },
+      { value: '3', label: 'Modules clés', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
+      { value: '1', label: 'Plateforme', sub: 'Atlas par KFC Global - Brand Experience Team' },
+    ],
+    sections: [
+      {
+        emoji: '🖥️',
+        label: 'Guide Front-End',
+        title: 'Ce que vivent vos clients',
+        desc: 'Comprenez le parcours de commande de bout en bout, de la découverte au paiement. Couvre les configurations par marché pour la fidélité, les promotions et les canaux de commande en Australie et sur les futurs marchés de déploiement.',
+        link: '/docs/frontend/overview',
+        cta: 'Lire le guide',
+        items: ['Parcours client', 'Canaux de commande', 'Enquêtes d’engagement client'],
+      },
+      {
+        emoji: '⚙️',
+        label: 'Guide Byte Portal',
+        title: 'Comment exploiter la plateforme',
+        desc: 'Instructions étape par étape pour les équipes restaurant et régionales sur l’utilisation du Byte Commerce Admin Portal : configuration restaurant, gestion du menu et contrôles d’accès.',
+        link: '/docs/admin-portal-guide/',
+        cta: 'Lire le guide',
+        items: ['Configuration restaurant', 'Gestion du menu', 'Utilisateurs et permissions'],
+      },
+      {
+        emoji: '📋',
+        label: 'Playbooks',
+        title: 'Playbooks de campagne prêts pour KFC',
+        desc: 'Playbooks opérationnels pour l’exécution des campagnes, de la création de promotions dans Atlas au lancement de récompenses de cycle de vie dans Braze pour les clients KFC.',
+        link: '/docs/playbooks/onboarding',
+        cta: 'Voir les playbooks',
+        items: ['Créer des promotions', 'Promo Achetez 1, recevez 1', 'Braze Welcome Reward Canvas'],
+      },
+    ],
+    markets: [{ flagCode: 'au', name: 'Australie' }],
+  },
+  'es-ES': {
+    description: 'Wiki de la plataforma KFC Atlas',
+    badge: 'Plataforma Atlas · Wiki',
+    titleLead: 'Atlas.',
+    titleAccent: 'Bien ejecutado.',
+    summary:
+      'Todo lo que necesitas para lanzar, operar y escalar Atlas, desde la experiencia del cliente hasta las operaciones del restaurante.',
+    heroSearchPlaceholder: 'Buscar guías, artículos y secciones',
+    heroPrimaryCta: 'Empezar con la guía Front-End →',
+    heroSecondaryCta: 'Empezar con la guía Byte Portal →',
+    heroCapabilitiesCta: 'Explorar Tech Stack →',
+    sectionEyebrow: 'Tres secciones',
+    sectionTitle: 'Diseñado para todos los equipos que operan la plataforma',
+    prototypeCardEyebrow: 'Vista previa interactiva',
+    prototypeCardTitle: 'Atlas Peek',
+    prototypeCardBody:
+      'Explora un prototipo multilingüe del recorrido del cliente con estado, que se comporta como una mini app en lugar de una presentación lineal.',
+    prototypeCardCta: 'Abrir vista previa',
+    marketsLabel: 'Mercados',
+    marketsSublabel: 'Onboarding — despliegue hasta finales de 2026',
+    upcomingMarketsLabel: 'Próximamente',
+    upcomingMarkets: [
+      { flagCode: 'ca', name: 'Canadá' },
+      { flagCode: 'fr', name: 'Francia' },
+      { flagCode: 'de', name: 'Alemania' },
+      { flagCode: 'es', name: 'España' },
+      { flagCode: 'th', name: 'Tailandia' },
+    ],
+    stats: [
+      { value: 830, suffix: '+', label: 'Restaurantes', sub: 'Restaurantes incorporados' },
+      { value: '3', label: 'Módulos clave', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
+      { value: '1', label: 'Plataforma', sub: 'Atlas por KFC Global - Brand Experience Team' },
+    ],
+    sections: [
+      {
+        emoji: '🖥️',
+        label: 'Guía Front-End',
+        title: 'Lo que experimentan tus clientes',
+        desc: 'Comprende el recorrido de pedido de extremo a extremo, desde el descubrimiento hasta el pago. Cubre configuraciones específicas por mercado para fidelización, promociones y canales de pedido en Australia y futuros mercados de despliegue.',
+        link: '/docs/frontend/overview',
+        cta: 'Leer la guía',
+        items: ['Recorrido del cliente', 'Canales de pedido', 'Encuestas de engagement del cliente'],
+      },
+      {
+        emoji: '⚙️',
+        label: 'Guía Byte Portal',
+        title: 'Cómo operar la plataforma',
+        desc: 'Guía paso a paso para equipos de restaurante y regionales sobre el uso de Byte Commerce Admin Portal: configuración del restaurante, gestión de menús y controles de acceso.',
+        link: '/docs/admin-portal-guide/',
+        cta: 'Leer la guía',
+        items: ['Configuración del restaurante', 'Gestión de menús', 'Usuarios y permisos'],
+      },
+      {
+        emoji: '📋',
+        label: 'Playbooks',
+        title: 'Playbooks de campaña listos para KFC',
+        desc: 'Playbooks operativos para ejecutar campañas, desde crear promociones en Atlas hasta lanzar recompensas de ciclo de vida en Braze para clientes KFC.',
+        link: '/docs/playbooks/onboarding',
+        cta: 'Ver playbooks',
+        items: ['Crear promociones', 'Promo Compra 1 y recibe 1', 'Braze Welcome Reward Canvas'],
+      },
+    ],
+    markets: [{ flagCode: 'au', name: 'Australia' }],
+  },
+  'de-DE': {
+    description: 'KFC Atlas Plattform-Wiki',
+    badge: 'Atlas Plattform · Wiki',
+    titleLead: 'Atlas.',
+    titleAccent: 'Richtig umgesetzt.',
+    summary:
+      'Alles, was du brauchst, um Atlas einzuführen, zu betreiben und zu skalieren, von der Customer Experience bis zum Restaurantbetrieb.',
+    heroSearchPlaceholder: 'Guides, Artikel und Abschnitte suchen',
+    heroPrimaryCta: 'Mit dem Front-End Guide starten →',
+    heroSecondaryCta: 'Mit dem Byte Portal Guide starten →',
+    heroCapabilitiesCta: 'Tech Stack erkunden →',
+    sectionEyebrow: 'Drei Bereiche',
+    sectionTitle: 'Gebaut für alle Teams, die die Plattform betreiben',
+    prototypeCardEyebrow: 'Interaktive Vorschau',
+    prototypeCardTitle: 'Atlas Peek',
+    prototypeCardBody:
+      'Erkunde einen zustandsbasierten, mehrsprachigen Customer-Journey-Prototyp, der sich wie eine Mini-App verhält statt wie eine lineare Präsentation.',
+    prototypeCardCta: 'Vorschau öffnen',
+    marketsLabel: 'Märkte',
+    marketsSublabel: 'Onboarding — Rollout bis Ende 2026',
+    upcomingMarketsLabel: 'Danach geplant',
+    upcomingMarkets: [
+      { flagCode: 'ca', name: 'Kanada' },
+      { flagCode: 'fr', name: 'Frankreich' },
+      { flagCode: 'de', name: 'Deutschland' },
+      { flagCode: 'es', name: 'Spanien' },
+      { flagCode: 'th', name: 'Thailand' },
+    ],
+    stats: [
+      { value: 830, suffix: '+', label: 'Restaurants', sub: 'Restaurants onboarded' },
+      { value: '3', label: 'Kernmodule', subItems: ['Front-End', 'Byte Commerce', 'Byte Connect'] },
+      { value: '1', label: 'Plattform', sub: 'Atlas von KFC Global - Brand Experience Team' },
+    ],
+    sections: [
+      {
+        emoji: '🖥️',
+        label: 'Front-End Guide',
+        title: 'Was deine Kunden erleben',
+        desc: 'Verstehe die komplette Bestellreise vom Entdecken bis zum Checkout. Enthält marktspezifische Konfigurationen für Loyalty, Promotions und Bestellkanäle in Australien und zukünftigen Rollout-Märkten.',
+        link: '/docs/frontend/overview',
+        cta: 'Guide lesen',
+        items: ['Customer Journey', 'Bestellkanäle', 'Customer-Engagement-Umfragen'],
+      },
+      {
+        emoji: '⚙️',
+        label: 'Byte Portal Guide',
+        title: 'So wird die Plattform betrieben',
+        desc: 'Schritt-für-Schritt-Anleitungen für Restaurant- und Regionalteams zur Nutzung des Byte Commerce Admin Portal, einschließlich Restaurant-Setup, Menüverwaltung und Zugriffskontrollen.',
+        link: '/docs/admin-portal-guide/',
+        cta: 'Guide lesen',
+        items: ['Restaurant-Setup', 'Menüverwaltung', 'Benutzer und Berechtigungen'],
+      },
+      {
+        emoji: '📋',
+        label: 'Playbooks',
+        title: 'KFC-fertige Kampagnen-Playbooks',
+        desc: 'Operative Playbooks für die Kampagnenausführung, von der Erstellung von Promotions in Atlas bis zum Start von Lifecycle Rewards in Braze für KFC-Kunden.',
+        link: '/docs/playbooks/onboarding',
+        cta: 'Playbooks ansehen',
+        items: ['Promotions erstellen', 'Buy 1 Get 1 Promo', 'Braze Welcome Reward Canvas'],
+      },
+    ],
+    markets: [{ flagCode: 'au', name: 'Australien' }],
+  },
 };
 
 function formatStatValue(stat, locale) {
@@ -99,7 +292,10 @@ function MarketFlag({ flagCode, name, compact = false }) {
 }
 
 export default function Home() {
-  const locale = 'en-US';
+  const {
+    i18n: {currentLocale},
+  } = useDocusaurusContext();
+  const locale = HOME_CONTENT[currentLocale] ? currentLocale : 'en-US';
   const content = HOME_CONTENT[locale];
   const heroVideoSrc = useBaseUrl('/video/colonel-sanders-cooking-chicken.mp4');
 
@@ -149,7 +345,7 @@ export default function Home() {
               <Link to="/docs/admin-portal-guide/" className={`${styles.button} ${styles.buttonSecondary}`}>
                 {content.heroSecondaryCta}
               </Link>
-              <Link to="/docs/byte-capabilities/" className={`${styles.button} ${styles.buttonTertiary}`}>
+              <Link to="/docs/tech-stack/" className={`${styles.button} ${styles.buttonTertiary}`}>
                 {content.heroCapabilitiesCta}
               </Link>
             </div>

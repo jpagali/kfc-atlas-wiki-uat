@@ -10,6 +10,21 @@ const localeConfigs = [
     docsDir,
     outputPath: path.join(rootDir, 'static', 'search-index.en-US.json'),
   },
+  {
+    locale: 'fr-FR',
+    docsDir: path.join(rootDir, 'i18n', 'fr-FR', 'docusaurus-plugin-content-docs', 'current'),
+    outputPath: path.join(rootDir, 'static', 'search-index.fr-FR.json'),
+  },
+  {
+    locale: 'es-ES',
+    docsDir: path.join(rootDir, 'i18n', 'es-ES', 'docusaurus-plugin-content-docs', 'current'),
+    outputPath: path.join(rootDir, 'static', 'search-index.es-ES.json'),
+  },
+  {
+    locale: 'de-DE',
+    docsDir: path.join(rootDir, 'i18n', 'de-DE', 'docusaurus-plugin-content-docs', 'current'),
+    outputPath: path.join(rootDir, 'static', 'search-index.de-DE.json'),
+  },
 ];
 
 function walkMarkdownFiles(dir) {
@@ -19,7 +34,7 @@ function walkMarkdownFiles(dir) {
   return entries.flatMap((entry) => {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) return walkMarkdownFiles(fullPath);
-    if (entry.isFile() && fullPath.endsWith('.md')) return [fullPath];
+    if (entry.isFile() && (fullPath.endsWith('.md') || fullPath.endsWith('.mdx'))) return [fullPath];
     return [];
   });
 }
@@ -63,7 +78,16 @@ function extractHeadings(source) {
 }
 
 function extractSummary(source, locale) {
-  const summaryHeadingPatterns = [/^##\s+What this guide covers\s*$/m, /^##\s+Goal\s*$/m];
+  const summaryHeadingPatterns = [
+    /^##\s+What this guide covers\s*$/m,
+    /^##\s+Ce que couvre ce guide\s*$/m,
+    /^##\s+Qué cubre esta guía\s*$/m,
+    /^##\s+Was dieser Leitfaden abdeckt\s*$/m,
+    /^##\s+Goal\s*$/m,
+    /^##\s+Objectif\s*$/m,
+    /^##\s+Objetivo\s*$/m,
+    /^##\s+Ziel\s*$/m,
+  ];
 
   for (const pattern of summaryHeadingPatterns) {
     const match = source.match(pattern);
@@ -81,7 +105,6 @@ function extractSummary(source, locale) {
     .map((block) => stripMarkdown(block))
     .filter(Boolean)
     .filter((block) => !block.startsWith('---'))
-    .filter((block) => !/^(import|export)\s/.test(block))
     .filter((block) => !/^Part of the\b/.test(block))
     .filter((block) => !/^Step\s+\d+/i.test(block))
     .filter((block) => !/^Step\s+\d+/i.test(block));
@@ -110,23 +133,22 @@ function stripMarkdown(source) {
     .trim();
 }
 
-function toDocUrl(locale, filePath) {
-  const docsRoot = docsDir;
+function toDocUrl(locale, docsRoot, filePath) {
   const relativePath = path.relative(docsRoot, filePath).replace(/\\/g, '/');
-  const withoutExtension = relativePath.replace(/\.md$/, '');
+  const withoutExtension = relativePath.replace(/\.mdx?$/, '');
   const normalizedPath = withoutExtension.replace(/\/index$/, '');
-  const prefix = '/docs';
+  const prefix = locale === 'en-US' ? '/docs' : `/${locale}/docs`;
   return normalizedPath ? `${prefix}/${normalizedPath}/` : `${prefix}/`;
 }
 
-function createRecord(locale, filePath) {
+function createRecord(locale, localeDocsDir, filePath) {
   const source = fs.readFileSync(filePath, 'utf8');
   const {frontMatter, content} = parseFrontMatter(source);
   const headings = extractHeadings(content);
   const title = stripMarkdown(frontMatter.title || headings[0] || path.basename(path.dirname(filePath)));
   const summary = extractSummary(content, locale);
 
-  const relativePath = path.relative(docsDir, filePath).replace(/\\/g, '/');
+  const relativePath = path.relative(localeDocsDir, filePath).replace(/\\/g, '/');
   const section = relativePath.split('/')[0] || 'docs';
 
   return {
@@ -135,7 +157,7 @@ function createRecord(locale, filePath) {
     headings: headings.slice(1),
     summary,
     section,
-    url: toDocUrl(locale, filePath),
+    url: toDocUrl(locale, localeDocsDir, filePath),
     ...buildNormalizedSearchFields({
       title,
       headings: headings.slice(1),
@@ -146,7 +168,7 @@ function createRecord(locale, filePath) {
 }
 
 localeConfigs.forEach(({locale, docsDir: localeDocsDir, outputPath}) => {
-  const records = walkMarkdownFiles(localeDocsDir).map((filePath) => createRecord(locale, filePath));
+  const records = walkMarkdownFiles(localeDocsDir).map((filePath) => createRecord(locale, localeDocsDir, filePath));
   fs.writeFileSync(outputPath, JSON.stringify(records, null, 2));
   console.log(`Wrote ${records.length} ${locale} search records to ${outputPath}`);
 });

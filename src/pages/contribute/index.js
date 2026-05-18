@@ -33,9 +33,9 @@ const DEFAULT_EDITOR_HTML = `
 
 const LOCATION_PRESETS = [
   {
-    key: 'byte-capabilities',
-    path: '/docs/byte-capabilities/',
-    label: {'en-US': 'Byte Capabilities'},
+    key: 'tech-stack',
+    path: '/docs/tech-stack/',
+    label: {'en-US': 'Tech Stack'},
   },
   {
     key: 'admin-portal-guide',

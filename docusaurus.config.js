@@ -1,8 +1,7 @@
 // @ts-check
 
 /** @type {import('@docusaurus/types').Config} */
-const isGitHubPagesBuild =
-  process.env.GITHUB_PAGES === 'true' || process.env.GITHUB_ACTIONS === 'true';
+const isGitHubPagesBuild = process.env.GITHUB_PAGES === 'true';
 const isGitLabPagesBuild = process.env.GITLAB_CI === 'true';
 const githubRepository = process.env.GITHUB_REPOSITORY ?? 'jpagali/kfc-atlas-wiki-uat';
 const [, githubProjectName = 'kfc-atlas-wiki-uat'] = githubRepository.split('/');
@@ -54,11 +53,23 @@ const config = {
 
   i18n: {
     defaultLocale: 'en-US',
-    locales: ['en-US'],
+    locales: ['en-US', 'fr-FR', 'es-ES', 'de-DE'],
     localeConfigs: {
       'en-US': {
         htmlLang: 'en-US',
-        label: 'EN',
+        label: 'English',
+      },
+      'fr-FR': {
+        htmlLang: 'fr-FR',
+        label: 'Français',
+      },
+      'es-ES': {
+        htmlLang: 'es-ES',
+        label: 'Español',
+      },
+      'de-DE': {
+        htmlLang: 'de-DE',
+        label: 'Deutsch',
       },
     },
   },
@@ -68,6 +79,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        debug: false,
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: undefined,
@@ -105,7 +117,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'byteCapabilitiesSidebar',
             position: 'left',
-            label: 'Byte Capabilities',
+            label: 'Tech Stack',
             className: 'navbar-item--byte-capabilities',
           },
           {
@@ -136,12 +148,6 @@ const config = {
             className: 'navbar-item--whats-new',
           },
           {
-            to: '/renegade-atlas-parity-qrg',
-            position: 'left',
-            label: 'Renegade-Atlas Parity QRG',
-            className: 'navbar-item--parity-qrg',
-          },
-          {
             to: '/sneak-peek',
             position: 'left',
             label: 'Atlas Peek',
@@ -156,6 +162,12 @@ const config = {
             type: 'custom-theme-toggle',
             position: 'right',
             className: 'navbar-item--theme',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+            className: 'navbar-item--locale',
+            dropdownItemsAfter: [],
           },
         ],
       },
@@ -200,9 +212,10 @@ const config = {
             ],
           },
           {
-            title: '🧩 Byte Capabilities',
+            title: '🧩 Tech Stack',
             items: [
-              { label: 'Start Here', to: '/docs/byte-capabilities/' },
+              { label: 'Atlas Tech Stack', to: '/docs/tech-stack/' },
+              { label: 'Byte Capabilities', to: '/docs/byte-capabilities/' },
               { label: 'Mental Model', to: '/docs/byte-capabilities/mental-model' },
               { label: 'Domains', to: '/docs/byte-capabilities/domains/identity' },
               { label: 'Reality Check', to: '/docs/byte-capabilities/enablement/reality-check' },

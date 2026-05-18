@@ -1,0 +1,4163 @@
+[
+  {
+    "locale": "es-ES",
+    "title": "Acerca de Atlas Wiki",
+    "headings": [
+      "Qué es Atlas Wiki",
+      "Quién creó Atlas Wiki",
+      "¿Por qué lo estamos construyendo?",
+      "A quien se le pide que vaya a",
+      "Lo que Atlas Wiki pretende hacer",
+      "Características básicas",
+      "Principios de diseño",
+      "Función a largo plazo",
+      "En una oración"
+    ],
+    "summary": "Acerca de Atlas Wiki",
+    "section": "about-knowledge-center.md",
+    "url": "/es-ES/docs/about-knowledge-center/",
+    "normalizedTitle": "acerca de atlas wiki",
+    "normalizedHeadings": "qué es atlas wiki quién creó atlas wiki por qué lo estamos construyendo a quien se le pide que vaya a lo que atlas wiki pretende hacer características básicas principios de diseño función a largo plazo en una oración",
+    "normalizedSummary": "acerca de atlas wiki",
+    "normalizedSection": "about knowledge center md"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un agente",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Establece una nueva cuenta de usuario con funciones y permisos específicos, otorgando a los operadores de mercado o el acceso del personal de apoyo para gestionar el Portal de A...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/agents/create-an-agent/",
+    "normalizedTitle": "crear un agente",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "establece una nueva cuenta de usuario con funciones y permisos específicos otorgando a los operadores de mercado o el acceso del personal de apoyo para gestionar el portal de a",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un agente",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza los detalles de la cuenta de un agente existente, roles o permisos de acceso.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/agents/edit-an-agent/",
+    "normalizedTitle": "editar un agente",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza los detalles de la cuenta de un agente existente roles o permisos de acceso",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Agentes",
+    "headings": [
+      "Temas"
+    ],
+    "summary": "Agentes",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/agents/",
+    "normalizedTitle": "agentes",
+    "normalizedHeadings": "temas",
+    "normalizedSummary": "agentes",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir una imagen a un Bundle",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Sube o enlaza una imagen de visualización a un paquete para que los clientes vean el combo correcto visual al pedir en los canales en línea.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/add-an-image-to-a-bundle/",
+    "normalizedTitle": "añadir una imagen a un bundle",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "sube o enlaza una imagen de visualización a un paquete para que los clientes vean el combo correcto visual al pedir en los canales en línea",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un Bundle",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Adjunta datos personalizados de valor clave a un paquete para las integraciones, el cumplimiento o el seguimiento interno, sólo agregue metafields si su equipo técnico ha especi...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/add-metafields-to-a-bundle/",
+    "normalizedTitle": "añadir metafields a un bundle",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "adjunta datos personalizados de valor clave a un paquete para las integraciones el cumplimiento o el seguimiento interno sólo agregue metafields si su equipo técnico ha especi",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un Bundle",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica un paquete existente para crear rápidamente ofertas similares con las mismas opciones y configuración.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/copy-a-bundle/",
+    "normalizedTitle": "copiar un bundle",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica un paquete existente para crear rápidamente ofertas similares con las mismas opciones y configuración",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar una Elección",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica una opción existente para crear rápidamente ranuras de selección similares para otros paquetes.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/copy-a-choice/",
+    "normalizedTitle": "copiar una elección",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica una opción existente para crear rápidamente ranuras de selección similares para otros paquetes",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un Bundle",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Construye un acuerdo de combo o comida agrupando productos junto con un solo objeto de compra, con su propio código, precios e información de visualización.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/create-a-bundle/",
+    "normalizedTitle": "crear un bundle",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "construye un acuerdo de combo o comida agrupando productos junto con un solo objeto de compra con su propio código precios e información de visualización",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear una elección",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea una ranura de selección dentro de un paquete (por ejemplo, \"Elige tu lado\" o \"Selecciona tu bebida\"), permitiendo a los clientes personalizar su combo seleccionando de los...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/create-a-choice/",
+    "normalizedTitle": "crear una elección",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea una ranura de selección dentro de un paquete por ejemplo elige tu lado o selecciona tu bebida permitiendo a los clientes personalizar su combo seleccionando de los",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Borrar un Bundle",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina permanentemente un paquete del catálogo y todos los menús donde se le asigna.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/delete-a-bundle/",
+    "normalizedTitle": "borrar un bundle",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina permanentemente un paquete del catálogo y todos los menús donde se le asigna",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar una elección",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina una elección y sus productos/varios asociados del sistema permanentemente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/delete-a-choice/",
+    "normalizedTitle": "eliminar una elección",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina una elección y sus productos varios asociados del sistema permanentemente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un Bundle",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza el nombre, código, opciones, precios o descripción de un paquete existente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/edit-a-bundle/",
+    "normalizedTitle": "editar un bundle",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza el nombre código opciones precios o descripción de un paquete existente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar una elección",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza el nombre, los productos, las variantes o la cantidad min/max.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/edit-a-choice/",
+    "normalizedTitle": "editar una elección",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza el nombre los productos las variantes o la cantidad min max",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Bundles",
+    "headings": [
+      "Temas",
+      "Bundles",
+      "Opciones"
+    ],
+    "summary": "Bundles",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/bundles/",
+    "normalizedTitle": "bundles",
+    "normalizedHeadings": "temas bundles opciones",
+    "normalizedSummary": "bundles",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Búsqueda de clientes",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Encuentra una cuenta de cliente por nombre, correo electrónico o número de teléfono para ver su perfil y su historial de pedidos — utilizado por equipos de soporte para ayudar a...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/customer-support/customer-search/",
+    "normalizedTitle": "búsqueda de clientes",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "encuentra una cuenta de cliente por nombre correo electrónico o número de teléfono para ver su perfil y su historial de pedidos utilizado por equipos de soporte para ayudar a",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Atención al cliente",
+    "headings": [
+      "Temas",
+      "Órdenes",
+      "Clientes"
+    ],
+    "summary": "Atención al cliente",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/customer-support/",
+    "normalizedTitle": "atención al cliente",
+    "normalizedHeadings": "temas órdenes clientes",
+    "normalizedSummary": "atención al cliente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Búsqueda de orden",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Resending Receipts",
+      "Issuing Refunds",
+      "Consejos de navegación",
+      "Guías relacionadas"
+    ],
+    "summary": "Encuentra una orden de cliente específica usando filtros como ID de pedido, fecha o nombre del cliente: la herramienta principal para los agentes de soporte que investigan cuest...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/customer-support/order-search/",
+    "normalizedTitle": "búsqueda de orden",
+    "normalizedHeadings": "qué cubre esta guía pasos resending receipts issuing refunds consejos de navegación guías relacionadas",
+    "normalizedSummary": "encuentra una orden de cliente específica usando filtros como id de pedido fecha o nombre del cliente la herramienta principal para los agentes de soporte que investigan cuest",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Días de personalización en el nivel de la tienda",
+    "headings": [
+      "Resumen",
+      "Cómo personalizar las piezas de día en el nivel de tienda en Byte Portal",
+      "Cómo restablecer un día de regreso a la configuración de nivel de org",
+      "Guías relacionadas"
+    ],
+    "summary": "Días de personalización en el nivel de la tienda",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/dayparts/customizing-dayparts-at-the-store-level/",
+    "normalizedTitle": "días de personalización en el nivel de la tienda",
+    "normalizedHeadings": "resumen cómo personalizar las piezas de día en el nivel de tienda en byte portal cómo restablecer un día de regreso a la configuración de nivel de org guías relacionadas",
+    "normalizedSummary": "días de personalización en el nivel de la tienda",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Definir Dayparts",
+    "headings": [
+      "Resumen",
+      "Definir las piezas de día en Byte Portal",
+      "Edición de salidas",
+      "Eliminar las partidas del día",
+      "Guías relacionadas"
+    ],
+    "summary": "Definir Dayparts",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/dayparts/define-dayparts/",
+    "normalizedTitle": "definir dayparts",
+    "normalizedHeadings": "resumen definir las piezas de día en byte portal edición de salidas eliminar las partidas del día guías relacionadas",
+    "normalizedSummary": "definir dayparts",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Salidas del día",
+    "headings": [
+      "¿Qué es un día?",
+      "Casos comunes de uso diario",
+      "Capacidades de plataforma Byte",
+      "Guías relacionadas"
+    ],
+    "summary": "Salidas del día",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/dayparts/",
+    "normalizedTitle": "salidas del día",
+    "normalizedHeadings": "qué es un día casos comunes de uso diario capacidades de plataforma byte guías relacionadas",
+    "normalizedSummary": "salidas del día",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Setting Daypart Precios y Disponibilidad",
+    "headings": [
+      "Resumen",
+      "Precios",
+      "Item A",
+      "Disponibilidad",
+      "Ajuste de los precios del día en las variantes",
+      "Ajuste de los precios del día en los paquetes",
+      "Configuración de disponibilidad de Daypart en productos",
+      "Configuración de la disponibilidad de Daypart en variantes",
+      "Configuración de disponibilidad de parte del día en paquetes",
+      "Guías relacionadas"
+    ],
+    "summary": "Setting Daypart Precios y Disponibilidad",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/dayparts/setting-daypart-prices-and-availability/",
+    "normalizedTitle": "setting daypart precios y disponibilidad",
+    "normalizedHeadings": "resumen precios item a disponibilidad ajuste de los precios del día en las variantes ajuste de los precios del día en los paquetes configuración de disponibilidad de daypart en productos configuración de la disponibilidad de daypart en variantes configuración de disponibilidad de parte del día en paquetes guías relacionadas",
+    "normalizedSummary": "setting daypart precios y disponibilidad",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Configuración Visibilidad de Daypart en Categorías",
+    "headings": [
+      "Resumen",
+      "Configuración de la visibilidad del día en las categorías",
+      "Guías relacionadas"
+    ],
+    "summary": "Configuración Visibilidad de Daypart en Categorías",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/dayparts/setting-daypart-visibility-on-categories/",
+    "normalizedTitle": "configuración visibilidad de daypart en categorías",
+    "normalizedHeadings": "resumen configuración de la visibilidad del día en las categorías guías relacionadas",
+    "normalizedSummary": "configuración visibilidad de daypart en categorías",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Desactivar In Store",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Deshabilita un terminal de POS o un quiosco de recibir actualizaciones del menú y pedidos de procesamiento.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/in-store-devices/deactivate-in-store/",
+    "normalizedTitle": "desactivar in store",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "deshabilita un terminal de pos o un quiosco de recibir actualizaciones del menú y pedidos de procesamiento",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Generar contraseña de un tiempo",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea un código de autenticación temporal para un terminal o quiosco POS, utilizado durante la configuración inicial del dispositivo o cuando vuelva a actualizar un dispositivo e...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/in-store-devices/generate-one-time-password/",
+    "normalizedTitle": "generar contraseña de un tiempo",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea un código de autenticación temporal para un terminal o quiosco pos utilizado durante la configuración inicial del dispositivo o cuando vuelva a actualizar un dispositivo e",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Dispositivos intraestables",
+    "headings": [
+      "Temas"
+    ],
+    "summary": "Dispositivos intraestables",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/in-store-devices/",
+    "normalizedTitle": "dispositivos intraestables",
+    "normalizedHeadings": "temas",
+    "normalizedSummary": "dispositivos intraestables",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ver detalles del dispositivo dentro de la página",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra la información completa para un terminal o quiosco POS, incluyendo el nombre de dispositivo, tipo, estado y el historial de publicación de menús, utilizado para la audit...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/in-store-devices/view-in-store-device-details/",
+    "normalizedTitle": "ver detalles del dispositivo dentro de la página",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "muestra la información completa para un terminal o quiosco pos incluyendo el nombre de dispositivo tipo estado y el historial de publicación de menús utilizado para la audit",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Guía del Portal de Admin",
+    "headings": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "summary": "Guía del Portal de Admin",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/",
+    "normalizedTitle": "guía del portal de admin",
+    "normalizedHeadings": "",
+    "normalizedSummary": "guía del portal de admin",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a una categoría",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Adjunta datos personalizados de valor clave a una categoría para la integración con sistemas externos o requisitos específicos del mercado.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/add-metafields-to-a-category/",
+    "normalizedTitle": "añadir metafields a una categoría",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "adjunta datos personalizados de valor clave a una categoría para la integración con sistemas externos o requisitos específicos del mercado",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Asignar un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Enlaces un menú a tiendas específicas y canales de pedidos para que el catálogo correcto sea servido a los clientes.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/assign-a-menu/",
+    "normalizedTitle": "asignar un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "enlaces un menú a tiendas específicas y canales de pedidos para que el catálogo correcto sea servido a los clientes",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Asignar un parche (Añadir a la lista de parches)",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Añade un parche a la lista de parches activos de una tienda sin eliminar los parches existentes.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/assign-a-patch-add-to-patch-list/",
+    "normalizedTitle": "asignar un parche añadir a la lista de parches",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "añade un parche a la lista de parches activos de una tienda sin eliminar los parches existentes",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Assign a Patch (Replace Existing List)",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Reemplaza toda la lista de parches de una tienda con un nuevo parche único, eliminando los parches previamente asignados.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/assign-a-patch-replace-existing-list/",
+    "normalizedTitle": "assign a patch replace existing list",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "reemplaza toda la lista de parches de una tienda con un nuevo parche único eliminando los parches previamente asignados",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar una categoría",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica una categoría existente para acelerar la estructuración del menú sin tener que recrearlo desde cero.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/copy-a-category/",
+    "normalizedTitle": "copiar una categoría",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica una categoría existente para acelerar la estructuración del menú sin tener que recrearlo desde cero",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica un menú existente para usar como punto de partida para un nuevo menú, ahorrando tiempo de configuración significativo.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/copy-a-menu/",
+    "normalizedTitle": "copiar un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica un menú existente para usar como punto de partida para un nuevo menú ahorrando tiempo de configuración significativo",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un parche",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica un parche existente para usar como punto de partida para un conjunto similar de overrides.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/copy-a-patch/",
+    "normalizedTitle": "copiar un parche",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica un parche existente para usar como punto de partida para un conjunto similar de overrides",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear una categoría",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea una etiqueta de agrupación (por ejemplo, 'Chicken', 'Sides', 'Desserts') para organizar productos dentro de un menú para los clientes que navegan por la interfaz de pedido.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/create-a-category/",
+    "normalizedTitle": "crear una categoría",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea una etiqueta de agrupación por ejemplo chicken sides desserts para organizar productos dentro de un menú para los clientes que navegan por la interfaz de pedido",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Construye una nueva estructura de menús en Atlas que se puede asignar a tiendas y canales, definiendo el catálogo de productos y paquetes disponibles para el pedido.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/create-a-menu/",
+    "normalizedTitle": "crear un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "construye una nueva estructura de menús en atlas que se puede asignar a tiendas y canales definiendo el catálogo de productos y paquetes disponibles para el pedido",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un precio llamado",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Define una etiqueta de precio reutilizable que se puede aplicar a través de múltiples productos o variantes, permitiendo una gestión de precios consistente a escala.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/create-a-named-price/",
+    "normalizedTitle": "crear un precio llamado",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "define una etiqueta de precio reutilizable que se puede aplicar a través de múltiples productos o variantes permitiendo una gestión de precios consistente a escala",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un parche",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea un parche de menú: una anulación dirigida que modifique elementos específicos (productos, paquetes o variantes) en un menú sin reemplazar el menú completo.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/create-a-patch/",
+    "normalizedTitle": "crear un parche",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea un parche de menú una anulación dirigida que modifique elementos específicos productos paquetes o variantes en un menú sin reemplazar el menú completo",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Suprímase una categoría",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina permanentemente una categoría del sistema cuando ya no es necesaria.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/delete-a-category/",
+    "normalizedTitle": "suprímase una categoría",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina permanentemente una categoría del sistema cuando ya no es necesaria",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina permanentemente un menú del sistema cuando ya no está en uso.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/delete-a-menu/",
+    "normalizedTitle": "eliminar un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina permanentemente un menú del sistema cuando ya no está en uso",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un parche",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina permanentemente un parche del sistema.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/delete-a-patch/",
+    "normalizedTitle": "eliminar un parche",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina permanentemente un parche del sistema",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Precio suprimido",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina permanentemente un precio que ya no está en uso. Elimina la etiqueta de precio solamente — los productos que la utilizan deben ser reasignados a un precio diferente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/delete-named-price/",
+    "normalizedTitle": "precio suprimido",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina permanentemente un precio que ya no está en uso elimina la etiqueta de precio solamente los productos que la utilizan deben ser reasignados a un precio diferente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar una categoría",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza el nombre de una categoría, configuración de visualización o configuración.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/edit-a-category/",
+    "normalizedTitle": "editar una categoría",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza el nombre de una categoría configuración de visualización o configuración",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza la configuración de un menú existente, como su nombre, elementos asignados o estructura de categoría.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/edit-a-menu/",
+    "normalizedTitle": "editar un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza la configuración de un menú existente como su nombre elementos asignados o estructura de categoría",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un parche",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza el nombre, las operaciones o los elementos de un parche existente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/edit-a-patch/",
+    "normalizedTitle": "editar un parche",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza el nombre las operaciones o los elementos de un parche existente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Precio Editado",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza un valor de precio o nombre existente. Todos los productos que utilicen este precio reflejarán automáticamente el valor actualizado.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/edit-named-price/",
+    "normalizedTitle": "precio editado",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza un valor de precio o nombre existente todos los productos que utilicen este precio reflejarán automáticamente el valor actualizado",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Menús",
+    "headings": [
+      "Menús",
+      "Categorías",
+      "Patrones",
+      "Precios nombrados",
+      "Dominio relacionado"
+    ],
+    "summary": "Menús",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/",
+    "normalizedTitle": "menús",
+    "normalizedHeadings": "menús categorías patrones precios nombrados dominio relacionado",
+    "normalizedSummary": "menús",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Publicar un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Empuja un menú asignado para vivir canales de pedidos digitales. Este proceso pone el menú a disposición de los clientes para solicitarlo.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/menus/publish-a-menu/",
+    "normalizedTitle": "publicar un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "empuja un menú asignado para vivir canales de pedidos digitales este proceso pone el menú a disposición de los clientes para solicitarlo",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir una imagen a un producto",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Sube y asigna imágenes de visualización a un producto para que los clientes vean visuales precisas al ordenar a través de canales digitales.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-an-image-to-a-product/",
+    "normalizedTitle": "añadir una imagen a un producto",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "sube y asigna imágenes de visualización a un producto para que los clientes vean visuales precisas al ordenar a través de canales digitales",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un Modificador",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar un Metafield existente",
+      "Para copiar un Metafield",
+      "Para eliminar un Metafield",
+      "Notas"
+    ],
+    "summary": "Adjunta datos personalizados estructurados a un modificador para fines de integración o cumplimiento.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-metafields-to-a-modifier/",
+    "normalizedTitle": "añadir metafields a un modificador",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar un metafield existente para copiar un metafield para eliminar un metafield notas",
+    "normalizedSummary": "adjunta datos personalizados estructurados a un modificador para fines de integración o cumplimiento",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un producto",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar un Metafield existente",
+      "Para copiar un Metafield",
+      "Para eliminar un Metafield",
+      "Notas"
+    ],
+    "summary": "Adjunta metadatos personalizados a un producto para requisitos de datos específicos del mercado, como etiquetas regulatorias, campos de integración o información de cumplimiento.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-metafields-to-a-product/",
+    "normalizedTitle": "añadir metafields a un producto",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar un metafield existente para copiar un metafield para eliminar un metafield notas",
+    "normalizedSummary": "adjunta metadatos personalizados a un producto para requisitos de datos específicos del mercado como etiquetas regulatorias campos de integración o información de cumplimiento",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a una Ranura",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar un Metafield existente",
+      "Para copiar un Metafield",
+      "Para eliminar un Metafield",
+      "Notas"
+    ],
+    "summary": "Adjunta metadatos personalizados a una ranura para las necesidades de integración del sistema o requisitos específicos del mercado.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-metafields-to-a-slot/",
+    "normalizedTitle": "añadir metafields a una ranura",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar un metafield existente para copiar un metafield para eliminar un metafield notas",
+    "normalizedSummary": "adjunta metadatos personalizados a una ranura para las necesidades de integración del sistema o requisitos específicos del mercado",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un Variant",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar un Metafield existente",
+      "Para copiar un Metafield",
+      "Para eliminar un Metafield",
+      "Notas"
+    ],
+    "summary": "Adjunta datos estructurados específicos para el mercado a una variante de producto para la integración del sistema o los requerimientos de aguas abajo.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-metafields-to-a-variant/",
+    "normalizedTitle": "añadir metafields a un variant",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar un metafield existente para copiar un metafield para eliminar un metafield notas",
+    "normalizedSummary": "adjunta datos estructurados específicos para el mercado a una variante de producto para la integración del sistema o los requerimientos de aguas abajo",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un peso",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar un Metafield existente",
+      "Para copiar un Metafield",
+      "Para eliminar un Metafield",
+      "Notas"
+    ],
+    "summary": "Adjunta metadatos personalizados a una entrada de peso para las necesidades de integración del sistema o requisitos específicos del mercado.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-metafields-to-a-weight/",
+    "normalizedTitle": "añadir metafields a un peso",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar un metafield existente para copiar un metafield para eliminar un metafield notas",
+    "normalizedSummary": "adjunta metadatos personalizados a una entrada de peso para las necesidades de integración del sistema o requisitos específicos del mercado",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un valor de opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar un Metafield existente",
+      "Para copiar un Metafield",
+      "Para eliminar un Metafield",
+      "Notas"
+    ],
+    "summary": "Adjunta metadatos personalizados a un valor de opción para requisitos de datos específicos del mercado o necesidades de integración del sistema.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/add-metafields-to-an-option-value/",
+    "normalizedTitle": "añadir metafields a un valor de opción",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar un metafield existente para copiar un metafield para eliminar un metafield notas",
+    "normalizedSummary": "adjunta metadatos personalizados a un valor de opción para requisitos de datos específicos del mercado o necesidades de integración del sistema",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un Modificador",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Duplica un modificador para construir rápidamente complementos similares sin volver a introducir toda la información.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/copy-a-modifier/",
+    "normalizedTitle": "copiar un modificador",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "duplica un modificador para construir rápidamente complementos similares sin volver a introducir toda la información",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un producto",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Duplica un producto existente como punto de partida, reduciendo la entrada de datos al crear artículos similares en el catálogo.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/copy-a-product/",
+    "normalizedTitle": "copiar un producto",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "duplica un producto existente como punto de partida reduciendo la entrada de datos al crear artículos similares en el catálogo",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar una Ranura",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Duplica una ranura para acelerar la configuración del producto al crear estructuras de personalización similares.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/copy-a-slot/",
+    "normalizedTitle": "copiar una ranura",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "duplica una ranura para acelerar la configuración del producto al crear estructuras de personalización similares",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un peso",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Duplica una entrada de peso para reducir el tiempo de configuración al crear configuraciones de peso similares.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/copy-a-weight/",
+    "normalizedTitle": "copiar un peso",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "duplica una entrada de peso para reducir el tiempo de configuración al crear configuraciones de peso similares",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar una opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Duplica un grupo de opción para ahorrar tiempo al crear conjuntos de personalización similares a través de múltiples productos.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/copy-an-option/",
+    "normalizedTitle": "copiar una opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "duplica un grupo de opción para ahorrar tiempo al crear conjuntos de personalización similares a través de múltiples productos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un valor de opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Duplica un valor de opción para crear rápidamente opciones similares dentro de un grupo de opciones.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/copy-an-option-value/",
+    "normalizedTitle": "copiar un valor de opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "duplica un valor de opción para crear rápidamente opciones similares dentro de un grupo de opciones",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un Modificador",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Crea un elemento adicional o de personalización (por ejemplo, “Extra Cheese”) que puede vincularse con productos a través de ranuras, permitiendo a los clientes personalizar su...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/create-a-modifier/",
+    "normalizedTitle": "crear un modificador",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "crea un elemento adicional o de personalización por ejemplo extra cheese que puede vincularse con productos a través de ranuras permitiendo a los clientes personalizar su",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un producto",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Página 1: Información básica sobre productos",
+      "Página 2: Opciones",
+      "Página 3: Variantes",
+      "Página 4: Ranuras",
+      "Página 5: Acciones a granel",
+      "Página 6: Variant Tags",
+      "Página 7: Examen",
+      "Notas"
+    ],
+    "summary": "Construye un producto completo desde cero, definiendo su código, nombre, variantes, opciones, precios, ranuras, modificadores y ventanas de disponibilidad para que esté listo pa...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/create-a-product/",
+    "normalizedTitle": "crear un producto",
+    "normalizedHeadings": "qué cubre esta guía pasos página 1 información básica sobre productos página 2 opciones página 3 variantes página 4 ranuras página 5 acciones a granel página 6 variant tags página 7 examen notas",
+    "normalizedSummary": "construye un producto completo desde cero definiendo su código nombre variantes opciones precios ranuras modificadores y ventanas de disponibilidad para que esté listo pa",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear una Ranura",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Paso 1: Información básica de Ranura",
+      "Paso 2: Añadir Modificadores",
+      "Paso 3: Agregar pesos",
+      "Notas"
+    ],
+    "summary": "Crea una posición dentro de un producto donde se pueden colocar los modificadores (por ejemplo, “Selección de Sauce”, “Opciones de Queso”), estructurando cómo se presentan los c...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/create-a-slot/",
+    "normalizedTitle": "crear una ranura",
+    "normalizedHeadings": "qué cubre esta guía pasos paso 1 información básica de ranura paso 2 añadir modificadores paso 3 agregar pesos notas",
+    "normalizedSummary": "crea una posición dentro de un producto donde se pueden colocar los modificadores por ejemplo selección de sauce opciones de queso estructurando cómo se presentan los c",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un Peso",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Define una configuración de peso o porción para un producto, utilizado en los mercados donde los artículos son rastreados o precio por peso.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/create-a-weight/",
+    "normalizedTitle": "crear un peso",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "define una configuración de peso o porción para un producto utilizado en los mercados donde los artículos son rastreados o precio por peso",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear una opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Crea un grupo de personalización (por ejemplo, “Tamaño”, “Spice Level”) que puede estar vinculado a productos, permitiendo a los clientes personalizar su pedido con opciones.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/create-an-option/",
+    "normalizedTitle": "crear una opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "crea un grupo de personalización por ejemplo tamaño spice level que puede estar vinculado a productos permitiendo a los clientes personalizar su pedido con opciones",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un valor de opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Añade una opción individual dentro de un grupo de opciones (por ejemplo, “Large” bajo “Size”), dando a los clientes elementos seleccionables durante el pedido.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/create-an-option-value/",
+    "normalizedTitle": "crear un valor de opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "añade una opción individual dentro de un grupo de opciones por ejemplo large bajo size dando a los clientes elementos seleccionables durante el pedido",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un Modificador",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Elimina permanentemente un modificador del sistema cuando ya no es necesario.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/delete-a-modifier/",
+    "normalizedTitle": "eliminar un modificador",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "elimina permanentemente un modificador del sistema cuando ya no es necesario",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un producto",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Elimina permanentemente un producto del sistema cuando se suspende o se creó en error.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/delete-a-product/",
+    "normalizedTitle": "eliminar un producto",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "elimina permanentemente un producto del sistema cuando se suspende o se creó en error",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar una Ranura",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Elimina una ranura del sistema cuando la configuración ya no es necesaria.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/delete-a-slot/",
+    "normalizedTitle": "eliminar una ranura",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "elimina una ranura del sistema cuando la configuración ya no es necesaria",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un peso",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Elimina una configuración de peso cuando ya no es aplicable.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/delete-a-weight/",
+    "normalizedTitle": "eliminar un peso",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "elimina una configuración de peso cuando ya no es aplicable",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Suprimir una opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Elimina un grupo de opciones del sistema cuando ya no es necesario.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/delete-an-option/",
+    "normalizedTitle": "suprimir una opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "elimina un grupo de opciones del sistema cuando ya no es necesario",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Suprimir un valor de opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Elimina una elección específica de un grupo de opciones cuando se suspende o ya no se necesita.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/delete-an-option-value/",
+    "normalizedTitle": "suprimir un valor de opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "elimina una elección específica de un grupo de opciones cuando se suspende o ya no se necesita",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un Modificador",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Actualiza los detalles de un modificador como nombre, precio, imágenes u otras propiedades.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-a-modifier/",
+    "normalizedTitle": "editar un modificador",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "actualiza los detalles de un modificador como nombre precio imágenes u otras propiedades",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un producto",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Actualiza la información de un producto existente como nombre, descripción, imágenes, precios o disponibilidad para reflejar cambios de menú, correcciones o actualizaciones de m...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-a-product/",
+    "normalizedTitle": "editar un producto",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "actualiza la información de un producto existente como nombre descripción imágenes precios o disponibilidad para reflejar cambios de menú correcciones o actualizaciones de m",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar una Ranura",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Actualiza la configuración de una ranura existente, como su etiqueta, cantidades mínimas/máximo, modificadores o pesos.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-a-slot/",
+    "normalizedTitle": "editar una ranura",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "actualiza la configuración de una ranura existente como su etiqueta cantidades mínimas máximo modificadores o pesos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar una variable",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Código Variante",
+      "Precios",
+      "Disponibilidad",
+      "Información sobre nutrición",
+      "Alérgenos/Exclusiones",
+      "Imágenes",
+      "Notas"
+    ],
+    "summary": "Actualiza el código de una variante de producto, precios, ranuras, disponibilidad, información nutricional, alérgenos, exclusiones o imágenes después de que el producto haya sid...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-a-variant/",
+    "normalizedTitle": "editar una variable",
+    "normalizedHeadings": "qué cubre esta guía pasos código variante precios disponibilidad información sobre nutrición alérgenos exclusiones imágenes notas",
+    "normalizedSummary": "actualiza el código de una variante de producto precios ranuras disponibilidad información nutricional alérgenos exclusiones o imágenes después de que el producto haya sid",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un peso",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Actualiza una definición de peso existente como el nombre, el valor máximo o el estado predeterminado.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-a-weight/",
+    "normalizedTitle": "editar un peso",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "actualiza una definición de peso existente como el nombre el valor máximo o el estado predeterminado",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar una opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Actualiza el nombre o configuración de una opción existente para reflejar los cambios de menú o UX.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-an-option/",
+    "normalizedTitle": "editar una opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "actualiza el nombre o configuración de una opción existente para reflejar los cambios de menú o ux",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un valor de opción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Actualiza el nombre del valor de opción existente, las propiedades de visualización o las imágenes para reflejar los cambios del menú.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-an-option-value/",
+    "normalizedTitle": "editar un valor de opción",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "actualiza el nombre del valor de opción existente las propiedades de visualización o las imágenes para reflejar los cambios del menú",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar artículo",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas"
+    ],
+    "summary": "Establece ventanas de disponibilidad basadas en el tiempo para un producto o modificador, controlando cuando aparece en el menú y está disponible para ordenar (por ejemplo, “Bre...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/edit-item-availability/",
+    "normalizedTitle": "editar artículo",
+    "normalizedHeadings": "qué cubre esta guía pasos notas",
+    "normalizedSummary": "establece ventanas de disponibilidad basadas en el tiempo para un producto o modificador controlando cuando aparece en el menú y está disponible para ordenar por ejemplo bre",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Productos",
+    "headings": [
+      "Productos",
+      "Opciones",
+      "Valores de la opción",
+      "Ranuras",
+      "Modificadores",
+      "Pesos",
+      "Variantes"
+    ],
+    "summary": "Productos",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/products/",
+    "normalizedTitle": "productos",
+    "normalizedHeadings": "productos opciones valores de la opción ranuras modificadores pesos variantes",
+    "normalizedSummary": "productos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir metadatos a la promoción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Adjunta metadatos personalizados (pares de valor clave) a una promoción para la integración del sistema o necesidades de seguimiento específicas del mercado.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/add-metadata-to-promotion/",
+    "normalizedTitle": "añadir metadatos a la promoción",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "adjunta metadatos personalizados pares de valor clave a una promoción para la integración del sistema o necesidades de seguimiento específicas del mercado",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Búsqueda avanzada de promociones",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Proporciona capacidades de filtración y búsqueda mejoradas en todas las promociones, permitiendo a los operadores localizar promociones específicas por criterios complejos — úti...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/advanced-promotions-search/",
+    "normalizedTitle": "búsqueda avanzada de promociones",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "proporciona capacidades de filtración y búsqueda mejoradas en todas las promociones permitiendo a los operadores localizar promociones específicas por criterios complejos úti",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Archive a Promotion",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para encontrar y restaurar promociones archivadas",
+      "Guías relacionadas"
+    ],
+    "summary": "Marca una promoción como archivada para eliminarla de uso activo al tiempo que conserva su historial de presentación de informes históricos.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/archive-a-promotion/",
+    "normalizedTitle": "archive a promotion",
+    "normalizedHeadings": "qué cubre esta guía pasos para encontrar y restaurar promociones archivadas guías relacionadas",
+    "normalizedSummary": "marca una promoción como archivada para eliminarla de uso activo al tiempo que conserva su historial de presentación de informes históricos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Assign Promotions to Store Groups",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Enlaces promociones existentes para almacenar grupos, haciéndolos activos para todas las tiendas dentro de esos grupos simultáneamente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/assign-promotions-to-store-groups/",
+    "normalizedTitle": "assign promotions to store groups",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "enlaces promociones existentes para almacenar grupos haciéndolos activos para todas las tiendas dentro de esos grupos simultáneamente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copy Promotion",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica una promoción existente como punto de partida para una nueva, reduciendo el tiempo de configuración para ofertas similares.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/copy-promotion/",
+    "normalizedTitle": "copy promotion",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica una promoción existente como punto de partida para una nueva reduciendo el tiempo de configuración para ofertas similares",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "ID de promoción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Copia el ID único de una promoción a su portapapeles para su uso en tickets de soporte, integraciones del sistema o referencias cruzadas con otros sistemas.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/copy-promotion-id/",
+    "normalizedTitle": "id de promoción",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "copia el id único de una promoción a su portapapeles para su uso en tickets de soporte integraciones del sistema o referencias cruzadas con otros sistemas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear una promoción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Construye una nueva regla promocional en Atlas —definiendo el tipo de descuento, las condiciones, el período de validez y los grupos de tiendas aplicables— para que pueda ser su...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/create-a-promotion/",
+    "normalizedTitle": "crear una promoción",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "construye una nueva regla promocional en atlas definiendo el tipo de descuento las condiciones el período de validez y los grupos de tiendas aplicables para que pueda ser su",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea una agrupación nombrada de tiendas que comparten menú, promoción o configuraciones tributarias, una estructura fundamental para gestionar múltiples ubicaciones a escala.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/create-a-store-group/",
+    "normalizedTitle": "crear un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea una agrupación nombrada de tiendas que comparten menú promoción o configuraciones tributarias una estructura fundamental para gestionar múltiples ubicaciones a escala",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear Código Serializado",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Genera códigos promocionales únicos atados a una promoción, utilizados para campañas de redención rastreadas donde cada cliente recibe un código distinto.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/create-serialized-code/",
+    "normalizedTitle": "crear código serializado",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "genera códigos promocionales únicos atados a una promoción utilizados para campañas de redención rastreadas donde cada cliente recibe un código distinto",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas",
+      "Información adicional"
+    ],
+    "summary": "Elimina permanentemente un grupo de tiendas del sistema.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/delete-a-store-group/",
+    "normalizedTitle": "eliminar un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos notas información adicional",
+    "normalizedSummary": "elimina permanentemente un grupo de tiendas del sistema",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar una promoción",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza la configuración de una promoción existente, como fechas de validez, valores de descuento o ajustes de requisitos y efectos.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/edit-a-promotion/",
+    "normalizedTitle": "editar una promoción",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza la configuración de una promoción existente como fechas de validez valores de descuento o ajustes de requisitos y efectos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Notas",
+      "Información adicional"
+    ],
+    "summary": "Actualiza los detalles o la membresía de un grupo de tiendas.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/edit-a-store-group/",
+    "normalizedTitle": "editar un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos notas información adicional",
+    "normalizedSummary": "actualiza los detalles o la membresía de un grupo de tiendas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Encontrar Código Serializado",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Localiza un código de promoción serializado específico dentro de Atlas, utilizado al verificar el estado de redención, resolver problemas o gestionar la validez de código.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/find-serialized-code/",
+    "normalizedTitle": "encontrar código serializado",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "localiza un código de promoción serializado específico dentro de atlas utilizado al verificar el estado de redención resolver problemas o gestionar la validez de código",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Promociones de importación para un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Las asignaciones de promoción de Bulk imports de un grupo de tienda a otro, utilizadas al configurar grandes campañas de promoción en muchas tiendas o duplicar promociones de un...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/import-promotions-for-a-store-group/",
+    "normalizedTitle": "promociones de importación para un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "las asignaciones de promoción de bulk imports de un grupo de tienda a otro utilizadas al configurar grandes campañas de promoción en muchas tiendas o duplicar promociones de un",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Promociones",
+    "headings": [
+      "Temas",
+      "Guías",
+      "Promociones",
+      "Grupos de tiendas",
+      "Búsqueda avanzada de promociones"
+    ],
+    "summary": "Promociones",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/",
+    "normalizedTitle": "promociones",
+    "normalizedHeadings": "temas guías promociones grupos de tiendas búsqueda avanzada de promociones",
+    "normalizedSummary": "promociones",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "View Promotions for a Store Group",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Lista todas las promociones asignadas a un grupo de tiendas para fines de visibilidad y auditoría.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/promotions/view-promotions-for-a-store-group/",
+    "normalizedTitle": "view promotions for a store group",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "lista todas las promociones asignadas a un grupo de tiendas para fines de visibilidad y auditoría",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Assign Promotions",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Assigns one or more promotions to a store group, activating them across all member stores simultaneously.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/assign-promotions/",
+    "normalizedTitle": "assign promotions",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "assigns one or more promotions to a store group activating them across all member stores simultaneously",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Copiar un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Duplica una configuración de grupo de tiendas como punto de partida para un nuevo grupo, copiando tiendas y etiquetas pero creando un nuevo grupo de tiendas independiente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/copy-a-store-group/",
+    "normalizedTitle": "copiar un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "duplica una configuración de grupo de tiendas como punto de partida para un nuevo grupo copiando tiendas y etiquetas pero creando un nuevo grupo de tiendas independiente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea una agrupación nombrada de tiendas que comparten menú, promoción o configuraciones tributarias, una estructura fundamental para gestionar múltiples ubicaciones a escala.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/create-a-store-group/",
+    "normalizedTitle": "crear un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea una agrupación nombrada de tiendas que comparten menú promoción o configuraciones tributarias una estructura fundamental para gestionar múltiples ubicaciones a escala",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un grupo de reglas fiscales",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Crea un grupo de reglas de impuestos que agrupa varias reglas de impuestos relacionadas, permitiendo organizar y reutilizar configuraciones de impuestos a través de grupos de ti...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/create-tax-rule-group/",
+    "normalizedTitle": "crear un grupo de reglas fiscales",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "crea un grupo de reglas de impuestos que agrupa varias reglas de impuestos relacionadas permitiendo organizar y reutilizar configuraciones de impuestos a través de grupos de ti",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear reglas fiscales",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Define las reglas fiscales individuales dentro de un grupo de la tienda, especificando las tasas de impuestos, condiciones y filtros de producto aplicados a los artículos vendid...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/create-tax-rules/",
+    "normalizedTitle": "crear reglas fiscales",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "define las reglas fiscales individuales dentro de un grupo de la tienda especificando las tasas de impuestos condiciones y filtros de producto aplicados a los artículos vendid",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Eliminar un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina permanentemente a un grupo de tiendas del sistema, junto con todas las promociones asociadas y reglas fiscales.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/delete-a-store-group/",
+    "normalizedTitle": "eliminar un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina permanentemente a un grupo de tiendas del sistema junto con todas las promociones asociadas y reglas fiscales",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza los detalles de un grupo de tiendas, nombre, membresía de tiendas o reglas fiscales asociadas.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/edit-a-store-group/",
+    "normalizedTitle": "editar un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza los detalles de un grupo de tiendas nombre membresía de tiendas o reglas fiscales asociadas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar promociones",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Añade o elimina asignaciones de promoción para un grupo específico de tiendas, lo que le permite modificar qué promociones están activas en las tiendas miembros.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/edit-promotions/",
+    "normalizedTitle": "editar promociones",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "añade o elimina asignaciones de promoción para un grupo específico de tiendas lo que le permite modificar qué promociones están activas en las tiendas miembros",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Promociones de importación para un grupo de tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Las asignaciones de promoción Bulk imports de un grupo de tienda a otro para la configuración de campaña a gran escala o la duplicación de configuración.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/import-promotions-for-a-store-group/",
+    "normalizedTitle": "promociones de importación para un grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "las asignaciones de promoción bulk imports de un grupo de tienda a otro para la configuración de campaña a gran escala o la duplicación de configuración",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Grupos de tiendas",
+    "headings": [
+      "Temas",
+      "Grupos de tiendas Impuestos",
+      "Grupos de tiendas Promociones"
+    ],
+    "summary": "Grupos de tiendas",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/",
+    "normalizedTitle": "grupos de tiendas",
+    "normalizedHeadings": "temas grupos de tiendas impuestos grupos de tiendas promociones",
+    "normalizedSummary": "grupos de tiendas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Promociones del Grupo de Tiendas",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Elimina una o más promociones de un grupo de tiendas, desactivarlas inmediatamente en todas las tiendas miembros.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/unassign-promotions-from-store-group/",
+    "normalizedTitle": "promociones del grupo de tiendas",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "elimina una o más promociones de un grupo de tiendas desactivarlas inmediatamente en todas las tiendas miembros",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "View Stores in a Store Group",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Lists all stores currently belonging to a store group for visibility and verification purposes.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/store-groups/view-stores-in-a-store-group/",
+    "normalizedTitle": "view stores in a store group",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "lists all stores currently belonging to a store group for visibility and verification purposes",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Aceptar Pedidos en línea (Turn On o Off)",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Toggles whether a store accepts online orders through digital channels — used to quickly disable ordering during closures or operational issues.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/2a-accept-online-orders-turn-on-or-off/",
+    "normalizedTitle": "aceptar pedidos en línea turn on o off",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "toggles whether a store accepts online orders through digital channels used to quickly disable ordering during closures or operational issues",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Aparecer en Resultado de la Búsqueda (Turn On or Off)",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Controla si una tienda aparece en los resultados de búsqueda orientados al cliente, permitiendo a los operadores ocultar una ubicación sin eliminarla completamente.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/2b-appear-in-search-result-turn-on-or-off/",
+    "normalizedTitle": "aparecer en resultado de la búsqueda turn on or off",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "controla si una tienda aparece en los resultados de búsqueda orientados al cliente permitiendo a los operadores ocultar una ubicación sin eliminarla completamente",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Permitir Órdenes Futuros (en adelante o fuera)",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Permite o desactiva la capacidad de una tienda para aceptar pedidos puestos de antemano, relevantes para capacidades de entrega previas o programadas.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/2c-allow-future-orders-turn-on-or-off/",
+    "normalizedTitle": "permitir órdenes futuros en adelante o fuera",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "permite o desactiva la capacidad de una tienda para aceptar pedidos puestos de antemano relevantes para capacidades de entrega previas o programadas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Añadir Metafields a un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Adjunta metadatos personalizados públicos y privados (pares de valor clave) al menú de una tienda para la integración con sistemas de aguas abajo o requisitos específicos del me...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/add-metafields-to-a-menu/",
+    "normalizedTitle": "añadir metafields a un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "adjunta metadatos personalizados públicos y privados pares de valor clave al menú de una tienda para la integración con sistemas de aguas abajo o requisitos específicos del me",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Nuevo menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Enlaces un menú publicado al canal de pedidos de una tienda (por ejemplo, Digital, Kiosk, In Store), determinando lo que los clientes ven al ordenar desde esa ubicación.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/assign-new-menu/",
+    "normalizedTitle": "nuevo menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "enlaces un menú publicado al canal de pedidos de una tienda por ejemplo digital kiosk in store determinando lo que los clientes ven al ordenar desde esa ubicación",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear un Beneficiario",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Establece un beneficiario caritativo vinculado a tiendas específicas, permitiendo la recolección de donaciones o la funcionalidad de la campaña de caridad en esos lugares.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/create-a-beneficiary/",
+    "normalizedTitle": "crear un beneficiario",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "establece un beneficiario caritativo vinculado a tiendas específicas permitiendo la recolección de donaciones o la funcionalidad de la campaña de caridad en esos lugares",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear una tienda",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Registra una nueva ubicación de la tienda en Atlas con sus detalles requeridos, haciéndolo disponible para la asignación de menús y el pedido digital.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/create-a-store/",
+    "normalizedTitle": "crear una tienda",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "registra una nueva ubicación de la tienda en atlas con sus detalles requeridos haciéndolo disponible para la asignación de menús y el pedido digital",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar lista de parches",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Gestiona la lista ordenada de parches aplicados al menú de una tienda, permitiendo a los operadores añadir, eliminar o reordenar parches que la capa anula en el menú base (por e...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/edit-patch-list/",
+    "normalizedTitle": "editar lista de parches",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "gestiona la lista ordenada de parches aplicados al menú de una tienda permitiendo a los operadores añadir eliminar o reordenar parches que la capa anula en el menú base por e",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar detalles de la tienda",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza la información de una tienda existente como nombre, configuración o campos operativos.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/edit-store-details/",
+    "normalizedTitle": "editar detalles de la tienda",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "actualiza la información de una tienda existente como nombre configuración o campos operativos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Editar/ Eliminar un Beneficiario",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Para editar:",
+      "Suprimir:",
+      "Guías relacionadas"
+    ],
+    "summary": "Actualiza o elimina un registro beneficiario existente, incluyendo su nombre, estado de donación y tiendas asociadas.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/editdelete-a-beneficiary/",
+    "normalizedTitle": "editar eliminar un beneficiario",
+    "normalizedHeadings": "qué cubre esta guía pasos para editar suprimir guías relacionadas",
+    "normalizedSummary": "actualiza o elimina un registro beneficiario existente incluyendo su nombre estado de donación y tiendas asociadas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Tiendas",
+    "headings": [
+      "Temas",
+      "Configuración de tiendas",
+      "Menu Gestión",
+      "Tema: Gestión de la disponibilidad",
+      "Dominio relacionado",
+      "Información del almacén y cumplimiento",
+      "Beneficiary Management"
+    ],
+    "summary": "Tiendas",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/",
+    "normalizedTitle": "tiendas",
+    "normalizedHeadings": "temas configuración de tiendas menu gestión tema gestión de la disponibilidad dominio relacionado información del almacén y cumplimiento beneficiary management",
+    "normalizedSummary": "tiendas",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Tema Snooze",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Temporalmente elimina un elemento específico del menú de una tienda por un período y una razón definidas (por ejemplo, el outage de stock o el fallo del equipo), lo que le permi...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/item-snooze/",
+    "normalizedTitle": "tema snooze",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "temporalmente elimina un elemento específico del menú de una tienda por un período y una razón definidas por ejemplo el outage de stock o el fallo del equipo lo que le permi",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "POS",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra los dispositivos de punto de venta conectados de una tienda, su estado, y permite a los operadores actualizar la configuración del dispositivo o generar contraseñas únic...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/pos/",
+    "normalizedTitle": "pos",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "muestra los dispositivos de punto de venta conectados de una tienda su estado y permite a los operadores actualizar la configuración del dispositivo o generar contraseñas únic",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Publicar un menú",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Publique el menú asignado a los canales de pedidos en vivo de la tienda, haciendo que el menú cambie visible a los clientes.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/publish-a-menu/",
+    "normalizedTitle": "publicar un menú",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "publique el menú asignado a los canales de pedidos en vivo de la tienda haciendo que el menú cambie visible a los clientes",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Publish Menu",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Provoca un menú publicando directamente desde la vista Menús de la tienda, empujando la configuración actual del menú en directo a los canales de pedidos.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/publish-menu/",
+    "normalizedTitle": "publish menu",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "provoca un menú publicando directamente desde la vista menús de la tienda empujando la configuración actual del menú en directo a los canales de pedidos",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Lista del parche de transferencia",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Copia la configuración de la lista de parches de una tienda a una o más tiendas, racionalizando la gestión de parches en múltiples ubicaciones con las mismas anulaciones.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/transfer-patch-list/",
+    "normalizedTitle": "lista del parche de transferencia",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "copia la configuración de la lista de parches de una tienda a una o más tiendas racionalizando la gestión de parches en múltiples ubicaciones con las mismas anulaciones",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ver los Beneficiarios de una tienda",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Enumere a los beneficiarios vinculados a una tienda específica de visibilidad y gestión.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/view-a-stores-beneficiaries/",
+    "normalizedTitle": "ver los beneficiarios de una tienda",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "enumere a los beneficiarios vinculados a una tienda específica de visibilidad y gestión",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ver un menú de la tienda",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra todos los menús asignados a una tienda, mostrando qué menú está activo en cada canal de pedidos (Digital, Kiosk, In Store, etc.).",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/view-a-stores-menu/",
+    "normalizedTitle": "ver un menú de la tienda",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "muestra todos los menús asignados a una tienda mostrando qué menú está activo en cada canal de pedidos digital kiosk in store etc",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ver una tienda Publicar historia / Copiar menú Publicar el ID de trabajo",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra un registro de todos los menús publica trabajos para una tienda, incluyendo estado y horarios.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/view-a-stores-publish-history-copy-menu-publish-job-id/",
+    "normalizedTitle": "ver una tienda publicar historia copiar menú publicar el id de trabajo",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "muestra un registro de todos los menús publica trabajos para una tienda incluyendo estado y horarios",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "View Promotions",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra todas las promociones asignadas actualmente a una tienda, permitiéndole buscar y filtrar por nombre de promoción o código de redención.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/view-promotions/",
+    "normalizedTitle": "view promotions",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "muestra todas las promociones asignadas actualmente a una tienda permitiéndole buscar y filtrar por nombre de promoción o código de redención",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ver impuestos",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra todos los grupos de reglas tributarias y las reglas tributarias asociadas aplicadas a una tienda, separadas por grupo de tiendas, utilizados para verificar la configurac...",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/view-taxes/",
+    "normalizedTitle": "ver impuestos",
+    "normalizedHeadings": "qué cubre esta guía pasos guías relacionadas",
+    "normalizedSummary": "muestra todos los grupos de reglas tributarias y las reglas tributarias asociadas aplicadas a una tienda separadas por grupo de tiendas utilizados para verificar la configurac",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "View/Unassign a Store Groups",
+    "headings": [
+      "Qué cubre esta guía",
+      "Pasos",
+      "A Unassignar una tienda de un grupo:",
+      "Guías relacionadas"
+    ],
+    "summary": "Muestra a los grupos de tiendas a los que pertenece una tienda y permite a los operadores desactivar la tienda de un grupo cuando sea necesario.",
+    "section": "admin-portal-guide",
+    "url": "/es-ES/docs/admin-portal-guide/stores/viewunassign-a-stores-store-groups/",
+    "normalizedTitle": "view unassign a store groups",
+    "normalizedHeadings": "qué cubre esta guía pasos a unassignar una tienda de un grupo guías relacionadas",
+    "normalizedSummary": "muestra a los grupos de tiendas a los que pertenece una tienda y permite a los operadores desactivar la tienda de un grupo cuando sea necesario",
+    "normalizedSection": "admin portal guide"
+  },
+  {
+    "locale": "es-ES",
+    "title": "KFC Viaje completo QRG",
+    "headings": [
+      "Diagrama"
+    ],
+    "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
+    "section": "brand-experience-team.md",
+    "url": "/es-ES/docs/brand-experience-team/",
+    "normalizedTitle": "kfc viaje completo qrg",
+    "normalizedHeadings": "diagrama",
+    "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
+    "normalizedSection": "brand experience team md"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Créditos",
+    "headings": [],
+    "summary": "Créditos",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/credits/",
+    "normalizedTitle": "créditos",
+    "normalizedHeadings": "",
+    "normalizedSummary": "créditos",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Capacidades Byte Commerce Backend",
+    "headings": [
+      "Qué demonios de comercio posee",
+      "Contratos clave de datos",
+      "Fuentes técnicas"
+    ],
+    "summary": "Capacidades de backend de Byte Commerce",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/bcom-index/",
+    "normalizedTitle": "capacidades byte commerce backend",
+    "normalizedHeadings": "qué demonios de comercio posee contratos clave de datos fuentes técnicas",
+    "normalizedSummary": "capacidades de backend de byte commerce",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Carrito",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Carrito",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/cart/",
+    "normalizedTitle": "carrito",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "carrito",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Checkout",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Checkout",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/checkout/",
+    "normalizedTitle": "checkout",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "checkout",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Contenido &quot; Legal &quot;",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Contenido &quot; Legal &quot;",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/content-legal/",
+    "normalizedTitle": "contenido quot legal quot",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "contenido quot legal quot",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Donaciones &amp; Consejos",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Donaciones &amp; Consejos",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/donations-tips/",
+    "normalizedTitle": "donaciones amp consejos",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "donaciones amp consejos",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Participación &quot; Mensajería &quot;",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Participación &quot; Mensajería &quot;",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/engagement/",
+    "normalizedTitle": "participación quot mensajería quot",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "participación quot mensajería quot",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Capacidades de helio Byte",
+    "headings": [
+      "Dominios de Capacidad de Helio Byte",
+      "Fuentes técnicas"
+    ],
+    "summary": "Las capacidades de helio",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/helium-index/",
+    "normalizedTitle": "capacidades de helio byte",
+    "normalizedHeadings": "dominios de capacidad de helio byte fuentes técnicas",
+    "normalizedSummary": "las capacidades de helio",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Identidad In",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Identidad In",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/identity/",
+    "normalizedTitle": "identidad in",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "identidad in",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Localización &quot; Modo de Orden &quot;",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Localización &quot; Modo de Orden &quot;",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/localisation/",
+    "normalizedTitle": "localización quot modo de orden quot",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "localización quot modo de orden quot",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Menú Hojear &amp; PDP",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Menú Hojear &amp; PDP",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/menu/",
+    "normalizedTitle": "menú hojear amp pdp",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "menú hojear amp pdp",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Seguimiento de pedidos &quot; Historia",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Seguimiento de pedidos &quot; Historia",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/order-tracking/",
+    "normalizedTitle": "seguimiento de pedidos quot historia",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "seguimiento de pedidos quot historia",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Pagos &quot; prestamistas",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Pagos &quot; prestamistas",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/payments/",
+    "normalizedTitle": "pagos quot prestamistas",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "pagos quot prestamistas",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Portal de Byte — Admin &amp; Configuration",
+    "headings": [
+      "Cuadro de cuadros"
+    ],
+    "summary": "Portal de Byte — Admin &amp; Configuration",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/portal-admin/",
+    "normalizedTitle": "portal de byte admin amp configuration",
+    "normalizedHeadings": "cuadro de cuadros",
+    "normalizedSummary": "portal de byte admin amp configuration",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Capacidades Byte Portal",
+    "headings": [
+      "Qué Portal Byte posee",
+      "Fuentes técnicas"
+    ],
+    "summary": "Capacidades del Portal Byte",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/portal-index/",
+    "normalizedTitle": "capacidades byte portal",
+    "normalizedHeadings": "qué portal byte posee fuentes técnicas",
+    "normalizedSummary": "capacidades del portal byte",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Promociones &quot; Lealtad",
+    "headings": [
+      "Cuadro de cuadros",
+      "Fuentes técnicas"
+    ],
+    "summary": "Promociones &quot; Lealtad",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/domains/promotions-loyalty/",
+    "normalizedTitle": "promociones quot lealtad",
+    "normalizedHeadings": "cuadro de cuadros fuentes técnicas",
+    "normalizedSummary": "promociones quot lealtad",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Byte Connect",
+    "headings": [
+      "Atlas Context",
+      "La regla básica",
+      "Lo que Byte Connect hace",
+      "Capacidades clave",
+      "Lo que significa para el a bordo",
+      "Caveat operacional",
+      "Cuándo Referenciar esto"
+    ],
+    "summary": "Byte Connect",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/enablement/byte-connect/",
+    "normalizedTitle": "byte connect",
+    "normalizedHeadings": "atlas context la regla básica lo que byte connect hace capacidades clave lo que significa para el a bordo caveat operacional cuándo referenciar esto",
+    "normalizedSummary": "byte connect",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Límites de responsabilidad",
+    "headings": [
+      "Cuadro de propiedad",
+      "El principio básico"
+    ],
+    "summary": "🚫 Límites de responsabilidad",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/enablement/capability-boundaries/",
+    "normalizedTitle": "límites de responsabilidad",
+    "normalizedHeadings": "cuadro de propiedad el principio básico",
+    "normalizedSummary": "límites de responsabilidad",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Lista de lanzamiento de mercado",
+    "headings": [
+      "Cómo utilizar esta lista de verificación",
+      "Fase 1 — Fundación (Se debe completar antes de cualquier prueba)",
+      "1.1 Acceso Byte Portal &quot; Usuarios",
+      "1.2 Configuración de la tienda",
+      "1.3 Menú",
+      "1.4 Configuración fiscal",
+      "1.5 Pagos / PSP",
+      "Fase 2 — Canales &quot; Experiencias (Debe ser completo antes de UAT)",
+      "2.1 Localización",
+      "2.2 Modos de Orden",
+      "2.3 Cuentas de identidad",
+      "2.4 Promoción",
+      "2.5 Lealtad (Si el mercado está lanzando con Lealtad)",
+      "2.6 Seguimiento de entrega (Si el mercado tiene seguimiento en tiempo real)",
+      "Fase 3 — Contenido &quot; Legal (Se debe completar antes del día de lanzamiento)",
+      "3.1 Contenido del CMS",
+      "3.2 Cumplimiento jurídico",
+      "Fase 4 — Operaciones (antes del inicio de sesión)",
+      "4.1 Banderas de alimentación",
+      "4.2 Webhooks & Integrations (si procede)",
+      "4.3 Reembolsos y opciones",
+      "4.4 Observabilidad",
+      "Final Sign Off"
+    ],
+    "summary": "Lista de verificación de lanzamiento de mercado",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/enablement/market-launch-checklist/",
+    "normalizedTitle": "lista de lanzamiento de mercado",
+    "normalizedHeadings": "cómo utilizar esta lista de verificación fase 1 fundación se debe completar antes de cualquier prueba 1 1 acceso byte portal quot usuarios 1 2 configuración de la tienda 1 3 menú 1 4 configuración fiscal 1 5 pagos psp fase 2 canales quot experiencias debe ser completo antes de uat 2 1 localización 2 2 modos de orden 2 3 cuentas de identidad 2 4 promoción 2 5 lealtad si el mercado está lanzando con lealtad 2 6 seguimiento de entrega si el mercado tiene seguimiento en tiempo real fase 3 contenido quot legal se debe completar antes del día de lanzamiento 3 1 contenido del cms 3 2 cumplimiento jurídico fase 4 operaciones antes del inicio de sesión 4 1 banderas de alimentación 4 2 webhooks integrations si procede 4 3 reembolsos y opciones 4 4 observabilidad final sign off",
+    "normalizedSummary": "lista de verificación de lanzamiento de mercado",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Reality Check",
+    "headings": [
+      "Las grandes misconcepciones",
+      "❌ \"Byte Helium posee precios\"",
+      "❌ \"Podemos configurar el flujo de salida en Byte Helium\"",
+      "❌ \"Byte Portal nos permite escribir nuestro menú\"",
+      "❌ \"Las promociones están configuradas en Byte Helium\"",
+      "❌ \"Real time delivery tracking is always available\"",
+      "❌ \"Loyalty funciona automáticamente cuando un mercado va en directo\"",
+      "Dependencias ocultas",
+      "Puntos de falla comunes durante el rodillo",
+      "Cuestiones de configuración de la tienda",
+      "Menu no publicado",
+      "Códigos promocionales no abarcados correctamente",
+      "PSP credenciales no en bóveda",
+      "Locale/traducción incompleta",
+      "Zona de cobertura de entrega no configurada",
+      "La lealtad no está habilitada para el mercado",
+      "Donde los mercados lucharán más"
+    ],
+    "summary": "Comprobación de la Realidad vocacional — Lo que los mercados necesitan saber",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/enablement/reality-check/",
+    "normalizedTitle": "reality check",
+    "normalizedHeadings": "las grandes misconcepciones byte helium posee precios podemos configurar el flujo de salida en byte helium byte portal nos permite escribir nuestro menú las promociones están configuradas en byte helium real time delivery tracking is always available loyalty funciona automáticamente cuando un mercado va en directo dependencias ocultas puntos de falla comunes durante el rodillo cuestiones de configuración de la tienda menu no publicado códigos promocionales no abarcados correctamente psp credenciales no en bóveda locale traducción incompleta zona de cobertura de entrega no configurada la lealtad no está habilitada para el mercado donde los mercados lucharán más",
+    "normalizedSummary": "comprobación de la realidad vocacional lo que los mercados necesitan saber",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Capacidades Byte",
+    "headings": [
+      "Cómo utilizar esta sección",
+      "La Plataforma en un párrafo",
+      "Los Dominios de Capacidad 12",
+      "Lo que esta sección no cubre"
+    ],
+    "summary": "Capacidades Byte",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/",
+    "normalizedTitle": "capacidades byte",
+    "normalizedHeadings": "cómo utilizar esta sección la plataforma en un párrafo los dominios de capacidad 12 lo que esta sección no cubre",
+    "normalizedSummary": "capacidades byte",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Plataforma modelo mental",
+    "headings": [
+      "The Atlas Platform Picture",
+      "Plataforma de Jerarquía",
+      "Diagrama de Arquitectura Sistema"
+    ],
+    "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/mental-model/",
+    "normalizedTitle": "plataforma modelo mental",
+    "normalizedHeadings": "the atlas platform picture plataforma de jerarquía diagrama de arquitectura sistema",
+    "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Capas de plataforma",
+    "headings": [
+      "Responsabilidades básicas",
+      "Lo que cada parte esencial hace en más detalle",
+      "Atlas on Byte Helium — Front End",
+      "Byte Commerce",
+      "Portal de Byte — Plano de Control de Admin",
+      "Byte Connect",
+      "Menú Servicio / Menú Byte",
+      "Servicios externos"
+    ],
+    "summary": "🌍 Capas de plataforma",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/platform-layers/",
+    "normalizedTitle": "capas de plataforma",
+    "normalizedHeadings": "responsabilidades básicas lo que cada parte esencial hace en más detalle atlas on byte helium front end byte commerce portal de byte plano de control de admin byte connect menú servicio menú byte servicios externos",
+    "normalizedSummary": "capas de plataforma",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "API Versioning &quot; Deprecation",
+    "headings": [
+      "Deprecation Windows por API Domain",
+      "Notas"
+    ],
+    "summary": "🔗 API Versioning &quot; Deprecation Reference",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/reference/api-versioning/",
+    "normalizedTitle": "api versioning quot deprecation",
+    "normalizedHeadings": "deprecation windows por api domain notas",
+    "normalizedSummary": "api versioning quot deprecation reference",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Referencia de Backend de Comercio",
+    "headings": [
+      "Lo que hace",
+      "Comercio Backend Domain Overview",
+      "Contratos de datos clave de backend de comercio"
+    ],
+    "summary": "🗂 Commerce Backend — Feature Reference",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/reference/commerce-backend/",
+    "normalizedTitle": "referencia de backend de comercio",
+    "normalizedHeadings": "lo que hace comercio backend domain overview contratos de datos clave de backend de comercio",
+    "normalizedSummary": "commerce backend feature reference",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Glosario",
+    "headings": [],
+    "summary": "📋 Glosario de Plataforma",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/reference/glossary/",
+    "normalizedTitle": "glosario",
+    "normalizedHeadings": "",
+    "normalizedSummary": "glosario de plataforma",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Performance SLOs",
+    "headings": [
+      "Objetivos de la ejecución de la plataforma",
+      "Notas"
+    ],
+    "summary": "📐 Performance SLOs",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/reference/performance-slos/",
+    "normalizedTitle": "performance slos",
+    "normalizedHeadings": "objetivos de la ejecución de la plataforma notas",
+    "normalizedSummary": "performance slos",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Índice de la etiqueta de imágenes",
+    "headings": [
+      "Sistema de etiquetado",
+      "Referencia de la etiqueta principal"
+    ],
+    "summary": "Índice de la etiqueta de la función",
+    "section": "byte-capabilities",
+    "url": "/es-ES/docs/byte-capabilities/reference/tag-index/",
+    "normalizedTitle": "índice de la etiqueta de imágenes",
+    "normalizedHeadings": "sistema de etiquetado referencia de la etiqueta principal",
+    "normalizedSummary": "índice de la etiqueta de la función",
+    "normalizedSection": "byte capabilities"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Deployment Runbook",
+    "headings": [
+      "Regla por defecto",
+      "Flujo de trabajo estándar",
+      "Reglas de promoción",
+      "Notas de lanzamiento",
+      "Lista de verificación rápida"
+    ],
+    "summary": "Deployment Runbook",
+    "section": "deployment-runbook.md",
+    "url": "/es-ES/docs/deployment-runbook/",
+    "normalizedTitle": "deployment runbook",
+    "normalizedHeadings": "regla por defecto flujo de trabajo estándar reglas de promoción notas de lanzamiento lista de verificación rápida",
+    "normalizedSummary": "deployment runbook",
+    "normalizedSection": "deployment runbook md"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Bundles &amp; Deals\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Publishing a Bundle with Content",
+      "Publishing a Deal with Content",
+      "Casos de uso"
+    ],
+    "summary": "Guía: Bundles &amp; Deals",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-bundles-deals/",
+    "normalizedTitle": "guía bundles amp deals",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful publishing a bundle with content publishing a deal with content casos de uso",
+    "normalizedSummary": "guía bundles amp deals",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Categoría Contenido\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Productos de secuenciación en una categoría",
+      "Crear una Subcategoría",
+      "Agregar una subcategoría a una categoría",
+      "Subcategorías de secuencia",
+      "Productos de secuenciación dentro de una subcategoría",
+      "Casos de uso"
+    ],
+    "summary": "Guía: Categoría Contenido",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-category/",
+    "normalizedTitle": "guía categoría contenido",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful productos de secuenciación en una categoría crear una subcategoría agregar una subcategoría a una categoría subcategorías de secuencia productos de secuenciación dentro de una subcategoría casos de uso",
+    "normalizedSummary": "guía categoría contenido",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Cruz Sell en Carrito\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Casos de uso"
+    ],
+    "summary": "Guía: Cruz Sell en Carrito",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-cross-sell/",
+    "normalizedTitle": "guía cruz sell en carrito",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful casos de uso",
+    "normalizedSummary": "guía cruz sell en carrito",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Contenido del pie\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Tipos de contenido",
+      "Agregar una nueva sección al pie",
+      "Crear un enlace de pie { creating a footer link}",
+      "Añadiendo un PDF vinculado al Footer",
+      "Casos de uso",
+      "Guías relacionadas"
+    ],
+    "summary": "Guía: Contenido del pie",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-footer/",
+    "normalizedTitle": "guía contenido del pie",
+    "normalizedHeadings": "donde lo ves en el frente tipos de contenido agregar una nueva sección al pie crear un enlace de pie creating a footer link añadiendo un pdf vinculado al footer casos de uso guías relacionadas",
+    "normalizedSummary": "guía contenido del pie",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Inicio Contenido\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Actualización del título de la página principal",
+      "Actualizando el Hero Banner",
+      "Casos de uso"
+    ],
+    "summary": "Guía: Inicio Contenido",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-homepage/",
+    "normalizedTitle": "guía inicio contenido",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful actualización del título de la página principal actualizando el hero banner casos de uso",
+    "normalizedSummary": "guía inicio contenido",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Contenido del producto\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Publicar un producto con contenido",
+      "Publishing Pizza Crust Content",
+      "Publishing Pizza Tamaño Contenido",
+      "Publishing Pizza Topping Content",
+      "Casos de uso"
+    ],
+    "summary": "Guía: Contenido del producto",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-product/",
+    "normalizedTitle": "guía contenido del producto",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful publicar un producto con contenido publishing pizza crust content publishing pizza tamaño contenido publishing pizza topping content casos de uso",
+    "normalizedSummary": "guía contenido del producto",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Contenido Promo\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Casos de uso",
+      "Displaying a new coupon in checkout Configure una copia de promoción e imágenes para que los clientes lo vean claramente en la cesta cuando sean elegibles para usarlo."
+    ],
+    "summary": "Guía: Contenido Promo",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-promo/",
+    "normalizedTitle": "guía contenido promo",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful casos de uso displaying a new coupon in checkout configure una copia de promoción e imágenes para que los clientes lo vean claramente en la cesta cuando sean elegibles para usarlo",
+    "normalizedSummary": "guía contenido promo",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: SEO Tags &quot; Gestión\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Casos de uso"
+    ],
+    "summary": "Guía: SEO Tags &quot; Gestión",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-seo/",
+    "normalizedTitle": "guía seo tags quot gestión",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful casos de uso",
+    "normalizedSummary": "guía seo tags quot gestión",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Guía: Traducción de contenidos\"",
+    "headings": [
+      "Donde lo ves en el frente",
+      "Qué Configurar en Contentful",
+      "Modo de Traductor",
+      "Actualización de una traducción",
+      "Casos de uso"
+    ],
+    "summary": "Guía: Traducción de contenidos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/guide-translations/",
+    "normalizedTitle": "guía traducción de contenidos",
+    "normalizedHeadings": "donde lo ves en el frente qué configurar en contentful modo de traductor actualización de una traducción casos de uso",
+    "normalizedSummary": "guía traducción de contenidos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Sinopsis",
+    "headings": [
+      "Quien lo usa",
+      "Qué se puede manejar",
+      "Cómo funciona la publicación",
+      "Apoyo a la plataforma"
+    ],
+    "summary": "Sumario",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/contentful/",
+    "normalizedTitle": "sinopsis",
+    "normalizedHeadings": "quien lo usa qué se puede manejar cómo funciona la publicación apoyo a la plataforma",
+    "normalizedSummary": "sumario",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Encuestas de participación del cliente",
+    "headings": [
+      "Lo que esta capacidad hace",
+      "Donde aparece en el viaje del cliente",
+      "Por qué los mercados lo utilizan",
+      "Típico modelo operativo",
+      "Plataforma de estudio actual"
+    ],
+    "summary": "Encuestas de participación del cliente",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-engagement-surveys/",
+    "normalizedTitle": "encuestas de participación del cliente",
+    "normalizedHeadings": "lo que esta capacidad hace donde aparece en el viaje del cliente por qué los mercados lo utilizan típico modelo operativo plataforma de estudio actual",
+    "normalizedSummary": "encuestas de participación del cliente",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Qualtrics",
+    "headings": [
+      "Qué Qualtrics Handles",
+      "Típico KFC Escucha Flow",
+      "Datos comunes capturados",
+      "Consideraciones operacionales",
+      "Survey Triggering",
+      "Incentivos",
+      "Escalas",
+      "Notas de integración"
+    ],
+    "summary": "Qualtrics",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-engagement-surveys/qualtrics/",
+    "normalizedTitle": "qualtrics",
+    "normalizedHeadings": "qué qualtrics handles típico kfc escucha flow datos comunes capturados consideraciones operacionales survey triggering incentivos escalas notas de integración",
+    "normalizedSummary": "qualtrics",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Cuenta",
+    "headings": [],
+    "summary": "Cuenta",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/access-account-and-manage-profile/account/",
+    "normalizedTitle": "cuenta",
+    "normalizedHeadings": "",
+    "normalizedSummary": "cuenta",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Access Account and Manage Profile",
+    "headings": [],
+    "summary": "Access Account and Manage Profile",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/access-account-and-manage-profile/",
+    "normalizedTitle": "access account and manage profile",
+    "normalizedHeadings": "",
+    "normalizedSummary": "access account and manage profile",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ingresar",
+    "headings": [],
+    "summary": "Ingresar",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/access-account-and-manage-profile/sign-in/",
+    "normalizedTitle": "ingresar",
+    "normalizedHeadings": "",
+    "normalizedSummary": "ingresar",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Regístrate",
+    "headings": [],
+    "summary": "Regístrate",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/access-account-and-manage-profile/sign-up/",
+    "normalizedTitle": "regístrate",
+    "normalizedHeadings": "",
+    "normalizedSummary": "regístrate",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Encontrar un KFC",
+    "headings": [],
+    "summary": "Encontrar un KFC",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-a-store/find-a-kfc/",
+    "normalizedTitle": "encontrar un kfc",
+    "normalizedHeadings": "",
+    "normalizedSummary": "encontrar un kfc",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Busca una tienda",
+    "headings": [],
+    "summary": "Busca una tienda",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-a-store/",
+    "normalizedTitle": "busca una tienda",
+    "normalizedHeadings": "",
+    "normalizedSummary": "busca una tienda",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "KFC Store Details",
+    "headings": [],
+    "summary": "KFC Store Details",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-a-store/kfc-store-details/",
+    "normalizedTitle": "kfc store details",
+    "normalizedHeadings": "",
+    "normalizedSummary": "kfc store details",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Desafío",
+    "headings": [],
+    "summary": "Desafío",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-deals-and-rewards/challenge/",
+    "normalizedTitle": "desafío",
+    "normalizedHeadings": "",
+    "normalizedSummary": "desafío",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Paso 3 Buscar ofertas y recompensas",
+    "headings": [],
+    "summary": "Paso 3 Buscar ofertas y recompensas",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-deals-and-rewards/",
+    "normalizedTitle": "paso 3 buscar ofertas y recompensas",
+    "normalizedHeadings": "",
+    "normalizedSummary": "paso 3 buscar ofertas y recompensas",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Lento de lealtad",
+    "headings": [],
+    "summary": "Lento de lealtad",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-deals-and-rewards/loyalty-tile/",
+    "normalizedTitle": "lento de lealtad",
+    "normalizedHeadings": "",
+    "normalizedSummary": "lento de lealtad",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Opciones de promoción",
+    "headings": [],
+    "summary": "Opciones de promoción",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-deals-and-rewards/promo-options/",
+    "normalizedTitle": "opciones de promoción",
+    "normalizedHeadings": "",
+    "normalizedSummary": "opciones de promoción",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Lista de recompensas",
+    "headings": [],
+    "summary": "Lista de recompensas",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-deals-and-rewards/rewards-listing/",
+    "normalizedTitle": "lista de recompensas",
+    "normalizedHeadings": "",
+    "normalizedSummary": "lista de recompensas",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "BYOB Select",
+    "headings": [],
+    "summary": "BYOB Select",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/byob-select/",
+    "normalizedTitle": "byob select",
+    "normalizedHeadings": "",
+    "normalizedSummary": "byob select",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Menú Catering",
+    "headings": [],
+    "summary": "Menú Catering",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/catering-menu/",
+    "normalizedTitle": "menú catering",
+    "normalizedHeadings": "",
+    "normalizedSummary": "menú catering",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Solo para niños",
+    "headings": [],
+    "summary": "Solo para niños",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/childrens-only/",
+    "normalizedTitle": "solo para niños",
+    "normalizedHeadings": "",
+    "normalizedSummary": "solo para niños",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Página de detalle de productos (PDP)",
+    "headings": [],
+    "summary": "Página de detalle de productos (PDP)",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/format-options/",
+    "normalizedTitle": "página de detalle de productos pdp",
+    "normalizedHeadings": "",
+    "normalizedSummary": "página de detalle de productos pdp",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Página",
+    "headings": [],
+    "summary": "Página",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/home-page/",
+    "normalizedTitle": "página",
+    "normalizedHeadings": "",
+    "normalizedSummary": "página",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Paso 2 Buscar productos",
+    "headings": [],
+    "summary": "Paso 2 Buscar productos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/",
+    "normalizedTitle": "paso 2 buscar productos",
+    "normalizedHeadings": "",
+    "normalizedSummary": "paso 2 buscar productos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Menú Landing",
+    "headings": [],
+    "summary": "Menú Landing",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/menu-landing/",
+    "normalizedTitle": "menú landing",
+    "normalizedHeadings": "",
+    "normalizedSummary": "menú landing",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "PLP (Página de listado de productos)",
+    "headings": [],
+    "summary": "PLP (Página de listado de productos)",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/find-products/menu-listing/",
+    "normalizedTitle": "plp página de listado de productos",
+    "normalizedHeadings": "",
+    "normalizedSummary": "plp página de listado de productos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Contact KFC",
+    "headings": [],
+    "summary": "Contact KFC",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/get-help/contact-kfc/",
+    "normalizedTitle": "contact kfc",
+    "normalizedHeadings": "",
+    "normalizedSummary": "contact kfc",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Formulario de consulta",
+    "headings": [],
+    "summary": "Formulario de consulta",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/get-help/enquiry-form/",
+    "normalizedTitle": "formulario de consulta",
+    "normalizedHeadings": "",
+    "normalizedSummary": "formulario de consulta",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Preguntas frecuentes",
+    "headings": [],
+    "summary": "Preguntas frecuentes",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/get-help/faqs/",
+    "normalizedTitle": "preguntas frecuentes",
+    "normalizedHeadings": "",
+    "normalizedSummary": "preguntas frecuentes",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Ayuda",
+    "headings": [],
+    "summary": "Ayuda",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/get-help/",
+    "normalizedTitle": "ayuda",
+    "normalizedHeadings": "",
+    "normalizedSummary": "ayuda",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Viaje al cliente",
+    "headings": [],
+    "summary": "Viaje al cliente",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/",
+    "normalizedTitle": "viaje al cliente",
+    "normalizedHeadings": "",
+    "normalizedSummary": "viaje al cliente",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "App Tour",
+    "headings": [],
+    "summary": "App Tour",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/learn-about-kfc/app-tour/",
+    "normalizedTitle": "app tour",
+    "normalizedHeadings": "",
+    "normalizedSummary": "app tour",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Índice",
+    "headings": [],
+    "summary": "Índice",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/learn-about-kfc/content-landing/",
+    "normalizedTitle": "índice",
+    "normalizedHeadings": "",
+    "normalizedSummary": "índice",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Aprender acerca de KFC",
+    "headings": [],
+    "summary": "Aprender acerca de KFC",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/learn-about-kfc/",
+    "normalizedTitle": "aprender acerca de kfc",
+    "normalizedHeadings": "",
+    "normalizedSummary": "aprender acerca de kfc",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Nutrición y alérgenos",
+    "headings": [],
+    "summary": "Nutrición y alérgenos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/learn-about-kfc/nutrition-and-allergen/",
+    "normalizedTitle": "nutrición y alérgenos",
+    "normalizedHeadings": "",
+    "normalizedSummary": "nutrición y alérgenos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Carrito",
+    "headings": [],
+    "summary": "Carrito",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/order-and-get/cart/",
+    "normalizedTitle": "carrito",
+    "normalizedHeadings": "",
+    "normalizedSummary": "carrito",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Checkout",
+    "headings": [],
+    "summary": "Checkout",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/order-and-get/checkout/",
+    "normalizedTitle": "checkout",
+    "normalizedHeadings": "",
+    "normalizedSummary": "checkout",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Paso 4 Orden y Obtener",
+    "headings": [],
+    "summary": "Paso 4 Orden y Obtener",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/order-and-get/",
+    "normalizedTitle": "paso 4 orden y obtener",
+    "normalizedHeadings": "",
+    "normalizedSummary": "paso 4 orden y obtener",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Add on y Cross sell",
+    "headings": [],
+    "summary": "Add on y Cross sell",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/preview-product-and-customize/add-on-and-cross-sell/",
+    "normalizedTitle": "add on y cross sell",
+    "normalizedHeadings": "",
+    "normalizedSummary": "add on y cross sell",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Personalización de productos",
+    "headings": [],
+    "summary": "Personalización de productos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/preview-product-and-customize/customize/",
+    "normalizedTitle": "personalización de productos",
+    "normalizedHeadings": "",
+    "normalizedSummary": "personalización de productos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Avance Producto y Personalización (Movimiento)",
+    "headings": [],
+    "summary": "Avance Producto y Personalización (Movimiento)",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/preview-product-and-customize/",
+    "normalizedTitle": "avance producto y personalización movimiento",
+    "normalizedHeadings": "",
+    "normalizedSummary": "avance producto y personalización movimiento",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Nutrición y alérgenos",
+    "headings": [],
+    "summary": "Nutrición y alérgenos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/preview-product-and-customize/nutrition-and-allergen/",
+    "normalizedTitle": "nutrición y alérgenos",
+    "normalizedHeadings": "",
+    "normalizedSummary": "nutrición y alérgenos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Meal Size Prompt",
+    "headings": [],
+    "summary": "Meal Size Prompt",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/preview-product-and-customize/product-detail/",
+    "normalizedTitle": "meal size prompt",
+    "normalizedHeadings": "",
+    "normalizedSummary": "meal size prompt",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Dirección o selección de tiendas",
+    "headings": [],
+    "summary": "Dirección o selección de tiendas",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/address-or-store-selection/",
+    "normalizedTitle": "dirección o selección de tiendas",
+    "normalizedHeadings": "",
+    "normalizedSummary": "dirección o selección de tiendas",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Modo de orden de cambio",
+    "headings": [],
+    "summary": "Modo de orden de cambio",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/change-order-mode/",
+    "normalizedTitle": "modo de orden de cambio",
+    "normalizedHeadings": "",
+    "normalizedSummary": "modo de orden de cambio",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Paso 1 Orden de configuración",
+    "headings": [],
+    "summary": "Paso 1 Orden de configuración",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/",
+    "normalizedTitle": "paso 1 orden de configuración",
+    "normalizedHeadings": "",
+    "normalizedSummary": "paso 1 orden de configuración",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Reordenado",
+    "headings": [],
+    "summary": "Reordenado",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/reorder/",
+    "normalizedTitle": "reordenado",
+    "normalizedHeadings": "",
+    "normalizedSummary": "reordenado",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Configuración de orden de revisión",
+    "headings": [],
+    "summary": "Configuración de orden de revisión",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/review-order-settings/",
+    "normalizedTitle": "configuración de orden de revisión",
+    "normalizedHeadings": "",
+    "normalizedSummary": "configuración de orden de revisión",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Establecer el modo de orden",
+    "headings": [],
+    "summary": "Establecer el modo de orden",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/set-order-mode/",
+    "normalizedTitle": "establecer el modo de orden",
+    "normalizedHeadings": "",
+    "normalizedSummary": "establecer el modo de orden",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Store Manejo no disponible",
+    "headings": [],
+    "summary": "Store Manejo no disponible",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/setup-order/store-unavailable-handling/",
+    "normalizedTitle": "store manejo no disponible",
+    "normalizedHeadings": "",
+    "normalizedSummary": "store manejo no disponible",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Entrega",
+    "headings": [],
+    "summary": "Entrega",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/track-order/delivery/",
+    "normalizedTitle": "entrega",
+    "normalizedHeadings": "",
+    "normalizedSummary": "entrega",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Paso 5 Track Order",
+    "headings": [],
+    "summary": "Paso 5 Track Order",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/track-order/",
+    "normalizedTitle": "paso 5 track order",
+    "normalizedHeadings": "",
+    "normalizedSummary": "paso 5 track order",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Pickup",
+    "headings": [],
+    "summary": "Pickup",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/customer-journey/track-order/pickup/",
+    "normalizedTitle": "pickup",
+    "normalizedHeadings": "",
+    "normalizedSummary": "pickup",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "\"Sistema de diseño\"",
+    "headings": [
+      "Cómo se construye nuestra plataforma — De la identidad visual a su pantalla",
+      "¿Qué es un sistema de diseño?",
+      "Las tres capas",
+      "Capa 1 — Diseño (Lo que parece)",
+      "Capa 2 — Código (Cómo se construye)",
+      "Capa 3 — Aplicaciones de mercado (Lo que pasa en directo)",
+      "Por qué esto importa para los mercados de Atlas",
+      "Diagrama de Arquitectura de Plataforma"
+    ],
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/design-system/",
+    "normalizedTitle": "sistema de diseño",
+    "normalizedHeadings": "cómo se construye nuestra plataforma de la identidad visual a su pantalla qué es un sistema de diseño las tres capas capa 1 diseño lo que parece capa 2 código cómo se construye capa 3 aplicaciones de mercado lo que pasa en directo por qué esto importa para los mercados de atlas diagrama de arquitectura de plataforma",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Branch Deeplink",
+    "headings": [
+      "Lo que hace",
+      "Capacidades clave",
+      "Cómo se relaciona con los vínculos universales",
+      "Plataformas"
+    ],
+    "summary": "Branch Deeplink",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/features/branch-deeplink/",
+    "normalizedTitle": "branch deeplink",
+    "normalizedHeadings": "lo que hace capacidades clave cómo se relaciona con los vínculos universales plataformas",
+    "normalizedSummary": "branch deeplink",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Características generales",
+    "headings": [
+      "¿Qué cuenta como una característica?",
+      "Características actuales",
+      "Dependencias de valores"
+    ],
+    "summary": "Características",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/features/",
+    "normalizedTitle": "características generales",
+    "normalizedHeadings": "qué cuenta como una característica características actuales dependencias de valores",
+    "normalizedSummary": "características",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "KFC Deeplink ← Enlace Universal",
+    "headings": [
+      "Lo que hace",
+      "Por qué importa",
+      "Ámbito",
+      "Puntos de entrada",
+      "Plataformas"
+    ],
+    "summary": "KFC Deeplink ← Enlace Universal",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/features/kfc-deeplink-universal-link/",
+    "normalizedTitle": "kfc deeplink enlace universal",
+    "normalizedHeadings": "lo que hace por qué importa ámbito puntos de entrada plataformas",
+    "normalizedSummary": "kfc deeplink enlace universal",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "MarTech",
+    "headings": [
+      "Lo que hace",
+      "Cómo Flujo de Datos",
+      "Componentes",
+      "Seguimiento de eventos",
+      "mParticle",
+      "Braze",
+      "Plataformas"
+    ],
+    "summary": "MarTech",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/features/martech/",
+    "normalizedTitle": "martech",
+    "normalizedHeadings": "lo que hace cómo flujo de datos componentes seguimiento de eventos mparticle braze plataformas",
+    "normalizedSummary": "martech",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Menú Reserva de artículos",
+    "headings": [
+      "Lo que hace",
+      "Por qué Existe",
+      "Cómo funciona",
+      "Ventana de reserva",
+      "Ranuras del tiempo",
+      "Pago",
+      "Configuración",
+      "Plataformas"
+    ],
+    "summary": "Menú Reserva de artículos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/features/menu-item-reservation/",
+    "normalizedTitle": "menú reserva de artículos",
+    "normalizedHeadings": "lo que hace por qué existe cómo funciona ventana de reserva ranuras del tiempo pago configuración plataformas",
+    "normalizedSummary": "menú reserva de artículos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Social Sign In",
+    "headings": [
+      "Lo que hace",
+      "Proveedores de apoyo",
+      "Cómo funciona",
+      "Capacidad de mercado",
+      "Plataformas"
+    ],
+    "summary": "Social Sign In",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/features/social-sign-in/",
+    "normalizedTitle": "social sign in",
+    "normalizedHeadings": "lo que hace proveedores de apoyo cómo funciona capacidad de mercado plataformas",
+    "normalizedSummary": "social sign in",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Configuraciones de mercado",
+    "headings": [
+      "Qué puede ser configurado por mercado",
+      "Australia 🇦🇺 — Configuración actual",
+      "Solicitar un cambio de configuración"
+    ],
+    "summary": "Configuraciones de mercado",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/market-configurations/",
+    "normalizedTitle": "configuraciones de mercado",
+    "normalizedHeadings": "qué puede ser configurado por mercado australia configuración actual solicitar un cambio de configuración",
+    "normalizedSummary": "configuraciones de mercado",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Canales de pedidos",
+    "headings": [
+      "Vista del producto",
+      "Digital es la superficie de pedido del cliente principal",
+      "Los modos de orden viven dentro de la experiencia del canal",
+      "Estrategia de menú basada en canales es una fuerza",
+      "Ordenación programada está controlada, no se asume",
+      "Las operaciones de almacén dan forma directa a la experiencia del cliente",
+      "Posición recomendada",
+      "Lo que debemos evitar sobreestadización",
+      "Byte Portal Sources Behind These Presumptions"
+    ],
+    "summary": "Canales de pedidos",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/order-channels/",
+    "normalizedTitle": "canales de pedidos",
+    "normalizedHeadings": "vista del producto digital es la superficie de pedido del cliente principal los modos de orden viven dentro de la experiencia del canal estrategia de menú basada en canales es una fuerza ordenación programada está controlada no se asume las operaciones de almacén dan forma directa a la experiencia del cliente posición recomendada lo que debemos evitar sobreestadización byte portal sources behind these presumptions",
+    "normalizedSummary": "canales de pedidos",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Antecedentes",
+    "headings": [
+      "Lo que cubre el frente",
+      "Sistema de diseño",
+      "Filosofía del Diseño",
+      "Mercados en Alcance",
+      "Quien debe leer esto"
+    ],
+    "summary": "Antecedentes",
+    "section": "frontend",
+    "url": "/es-ES/docs/frontend/overview/",
+    "normalizedTitle": "antecedentes",
+    "normalizedHeadings": "lo que cubre el frente sistema de diseño filosofía del diseño mercados en alcance quien debe leer esto",
+    "normalizedSummary": "antecedentes",
+    "normalizedSection": "frontend"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Crear promociones",
+    "headings": [
+      "Qué cubre este libro de juegos",
+      "Prerrequisitos",
+      "Paso 1: Confirme la estructura de promoción",
+      "Paso 2: Crear la cáscara de promoción",
+      "Paso 3: Agregar reglas y efectos",
+      "Paso 4: Asignar la promoción a las tiendas",
+      "Paso 5: QA antes del lanzamiento",
+      "Paso 6: Monitor después del lanzamiento",
+      "Guías relacionadas del Portal de Admin",
+      "KFC Notes"
+    ],
+    "summary": "Crear promociones",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/onboarding/",
+    "normalizedTitle": "crear promociones",
+    "normalizedHeadings": "qué cubre este libro de juegos prerrequisitos paso 1 confirme la estructura de promoción paso 2 crear la cáscara de promoción paso 3 agregar reglas y efectos paso 4 asignar la promoción a las tiendas paso 5 qa antes del lanzamiento paso 6 monitor después del lanzamiento guías relacionadas del portal de admin kfc notes",
+    "normalizedSummary": "crear promociones",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Trato exclusivo",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "20% de descuento disponible sólo en la aplicación móvil KFC.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/app-exclusive-deal/",
+    "normalizedTitle": "trato exclusivo",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "20 de descuento disponible sólo en la aplicación móvil kfc",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Comprar 1 Obtener 1 Gratis (BOGO)",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "El cliente compra un Zinger Burger y recibe un segundo gratis.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/buy-1-get-1-free-bogo/",
+    "normalizedTitle": "comprar 1 obtener 1 gratis bogo",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "el cliente compra un zinger burger y recibe un segundo gratis",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Coupon Code Discount",
+    "headings": [
+      "Objetivo",
+      "Información básica",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "$10 para clientes que entran en el código .",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/coupon-code-discount/",
+    "normalizedTitle": "coupon code discount",
+    "normalizedHeadings": "objetivo información básica necesidades efectos",
+    "normalizedSummary": "10 para clientes que entran en el código",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Trato diario (Una vez por cliente por día)",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "Una bebida gratis con cualquier comida, limitada a uno por cliente por día.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/daily-deal-once-per-customer-per-day/",
+    "normalizedTitle": "trato diario una vez por cliente por día",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "una bebida gratis con cualquier comida limitada a uno por cliente por día",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Drive Thru Only Deal",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "Actualización gratuita disponible sólo en Drive Thru.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/drive-thru-only-deal/",
+    "normalizedTitle": "drive thru only deal",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "actualización gratuita disponible sólo en drive thru",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Entrega gratuita en grandes pedidos",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "Entrega gratuita cuando el total del carrito supera $40.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/free-delivery-on-large-orders/",
+    "normalizedTitle": "entrega gratuita en grandes pedidos",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "entrega gratuita cuando el total del carrito supera 40",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Almuerzo especial",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "$2 fuera de cualquier pedido colocado entre las 11am y las 2pm, de lunes a viernes.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/lunch-special-time-limited/",
+    "normalizedTitle": "almuerzo especial",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "2 fuera de cualquier pedido colocado entre las 11am y las 2pm de lunes a viernes",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Descuento mínimo para gastar",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "El cliente obtiene $5 de cualquier pedido más de $30.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/minimum-spend-discount/",
+    "normalizedTitle": "descuento mínimo para gastar",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "el cliente obtiene 5 de cualquier pedido más de 30",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Exclusivo para clientes registrados",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "15% de descuento para los miembros de lealtad conectados solamente.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/registered-customer-exclusive/",
+    "normalizedTitle": "exclusivo para clientes registrados",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "15 de descuento para los miembros de lealtad conectados solamente",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Stacked Multi Condition Promotion",
+    "headings": [
+      "Objetivo",
+      "Necesidades",
+      "Efectos"
+    ],
+    "summary": "Solo, los usuarios registrados obtienen un 10% de pedidos superiores a $25 los fines de semana.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotion-recipes/stacked-multi-condition-promotion/",
+    "normalizedTitle": "stacked multi condition promotion",
+    "normalizedHeadings": "objetivo necesidades efectos",
+    "normalizedSummary": "solo los usuarios registrados obtienen un 10 de pedidos superiores a 25 los fines de semana",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Guía de configuración",
+    "headings": [
+      "Lo que puedes construir",
+      "Páginas de receta",
+      "El Asistente de 4 pasos",
+      "Paso 1 Información básica",
+      "Campos obligatorios",
+      "Campos estándar",
+      "Código Automático contra la Redención",
+      "Opciones adicionales",
+      "Paso 2 Requisitos",
+      "Canal",
+      "Exclusión",
+      "Presencia del elemento",
+      "Artículo Cantidad",
+      "Manager Approval",
+      "Número máximo de veces se puede utilizar una promoción",
+      "Max Total Uses Por Cliente",
+      "Max Total Uses Por Cliente Por Día",
+      "Max Total Uses Por Redemption Code",
+      "Ocasión",
+      "Subtotal",
+      "Time Frame",
+      "Situación del usuario",
+      "Paso 3 Efectos",
+      "Tipo de efecto: Nivel de orden",
+      "Tipo de efecto: Nivel de artículo",
+      "Tipo de efecto: Entrega, Servicio y Tarifas Regulatorias",
+      "Tipos de efecto de precios — Comparación completa",
+      "Paso 4 Examen",
+      "Recetas de Promoción Común",
+      "Guías relacionadas"
+    ],
+    "summary": "Guía de configuración",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/promotions-setup-guide/",
+    "normalizedTitle": "guía de configuración",
+    "normalizedHeadings": "lo que puedes construir páginas de receta el asistente de 4 pasos paso 1 información básica campos obligatorios campos estándar código automático contra la redención opciones adicionales paso 2 requisitos canal exclusión presencia del elemento artículo cantidad manager approval número máximo de veces se puede utilizar una promoción max total uses por cliente max total uses por cliente por día max total uses por redemption code ocasión subtotal time frame situación del usuario paso 3 efectos tipo de efecto nivel de orden tipo de efecto nivel de artículo tipo de efecto entrega servicio y tarifas regulatorias tipos de efecto de precios comparación completa paso 4 examen recetas de promoción común guías relacionadas",
+    "normalizedSummary": "guía de configuración",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Braze Welcome Reward Canvas",
+    "headings": [
+      "Objetivo",
+      "Prerrequisitos",
+      "Paso 1: Define el público de entrada",
+      "Paso 2: Defina el gatillo y el retraso",
+      "Paso 3: Establecer la secuencia del mensaje",
+      "Paso 4: Adjuntar la lógica de recompensa",
+      "Paso 5: QA el viaje al cliente",
+      "Paso 6: Lanzamiento y monitorización",
+      "KFC Notes"
+    ],
+    "summary": "Utilice este libro de juegos cuando KFC quiere dar la bienvenida a un cliente recién identificado o recién registrado con un viaje de recompensa automatizado.",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/runbook/",
+    "normalizedTitle": "braze welcome reward canvas",
+    "normalizedHeadings": "objetivo prerrequisitos paso 1 define el público de entrada paso 2 defina el gatillo y el retraso paso 3 establecer la secuencia del mensaje paso 4 adjuntar la lógica de recompensa paso 5 qa el viaje al cliente paso 6 lanzamiento y monitorización kfc notes",
+    "normalizedSummary": "utilice este libro de juegos cuando kfc quiere dar la bienvenida a un cliente recién identificado o recién registrado con un viaje de recompensa automatizado",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Solución de problemas",
+    "headings": [
+      "Problemas comunes &quot;",
+      "Restaurante que no aparece en la aplicación del cliente",
+      "El cliente no puede completar el checkout",
+      "Menú elemento que muestra el precio incorrecto",
+      "Franchisee bloqueado fuera de Byte Portal",
+      "Ordenes que no llegan a la entrega",
+      "Sendero de escalada",
+      "Niveles de gravedad",
+      "JIRA Service Desk"
+    ],
+    "summary": "Solución de problemas",
+    "section": "playbooks",
+    "url": "/es-ES/docs/playbooks/troubleshooting/",
+    "normalizedTitle": "solución de problemas",
+    "normalizedHeadings": "problemas comunes quot restaurante que no aparece en la aplicación del cliente el cliente no puede completar el checkout menú elemento que muestra el precio incorrecto franchisee bloqueado fuera de byte portal ordenes que no llegan a la entrega sendero de escalada niveles de gravedad jira service desk",
+    "normalizedSummary": "solución de problemas",
+    "normalizedSection": "playbooks"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.12",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Guía del Portal de Admin",
+      "Manipulación de imágenes",
+      "Mejoras de apoyo",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.12",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-12/",
+    "normalizedTitle": "liberación 2026 03 12",
+    "normalizedHeadings": "aspectos destacados qué cambió guía del portal de admin manipulación de imágenes mejoras de apoyo en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 12",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.13",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Guía de vanguardia",
+      "Plataforma y experiencia en el sitio",
+      "Localización",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.13",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-13/",
+    "normalizedTitle": "liberación 2026 03 13",
+    "normalizedHeadings": "aspectos destacados qué cambió guía de vanguardia plataforma y experiencia en el sitio localización en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 13",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.14",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Flujo de trabajo de la contribución",
+      "Experiencia del sitio",
+      "Localización y estabilidad",
+      "Experiencia de desarrolladores",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.14",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-14/",
+    "normalizedTitle": "liberación 2026 03 14",
+    "normalizedHeadings": "aspectos destacados qué cambió flujo de trabajo de la contribución experiencia del sitio localización y estabilidad experiencia de desarrolladores en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 14",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.15",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Puntos de navegación y entrada",
+      "Qué nueva experiencia",
+      "Localización",
+      "Layout Polish",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.15",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-15/",
+    "normalizedTitle": "liberación 2026 03 15",
+    "normalizedHeadings": "aspectos destacados qué cambió puntos de navegación y entrada qué nueva experiencia localización layout polish en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 15",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.16",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Experiencia inicial",
+      "Vista previa de Atlas Peek",
+      "Navegación e información Arquitectura",
+      "Comportamiento responsable",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.16",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-16/",
+    "normalizedTitle": "liberación 2026 03 16",
+    "normalizedHeadings": "aspectos destacados qué cambió experiencia inicial vista previa de atlas peek navegación e información arquitectura comportamiento responsable en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 16",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.17",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Infraestructura temática",
+      "Prototipo Atlas Peek",
+      "Global Visual System",
+      "Atlas Chrome",
+      "Docs del sistema de diseño",
+      "Página de inicio y Novedades",
+      "Contribution Studio",
+      "Documentación",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.17",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-17/",
+    "normalizedTitle": "liberación 2026 03 17",
+    "normalizedHeadings": "aspectos destacados qué cambió infraestructura temática prototipo atlas peek global visual system atlas chrome docs del sistema de diseño página de inicio y novedades contribution studio documentación en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 17",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.19",
+    "headings": [
+      "Aspectos destacados",
+      "Qué cambió",
+      "Prototipo Atlas Peek",
+      "Navegación de la barra lateral",
+      "Navbar",
+      "Búsqueda",
+      "Documentación",
+      "Documentación Arquitectura",
+      "Guía del Portal de Admin",
+      "Capacidades Byte",
+      "Consolidación de prototipos",
+      "En inglés sencillo"
+    ],
+    "summary": "Liberación 2026.03.19",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-19/",
+    "normalizedTitle": "liberación 2026 03 19",
+    "normalizedHeadings": "aspectos destacados qué cambió prototipo atlas peek navegación de la barra lateral navbar búsqueda documentación documentación arquitectura guía del portal de admin capacidades byte consolidación de prototipos en inglés sencillo",
+    "normalizedSummary": "liberación 2026 03 19",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.20",
+    "headings": [],
+    "summary": "<div className=\"release notes page\" <div className=\"release detail hero\" <div className=\"release card topline\" <span className=\"release card date\" March 20, 2026</span <span cla...",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-20/",
+    "normalizedTitle": "liberación 2026 03 20",
+    "normalizedHeadings": "",
+    "normalizedSummary": "div classname release notes page div classname release detail hero div classname release card topline span classname release card date march 20 2026 span span cla",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.22",
+    "headings": [],
+    "summary": "<div className=\"release notes page\" <div className=\"release detail hero\" <div className=\"release card topline\" <span className=\"release card date\" March 22, 2026</span <span cla...",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-22/",
+    "normalizedTitle": "liberación 2026 03 22",
+    "normalizedHeadings": "",
+    "normalizedSummary": "div classname release notes page div classname release detail hero div classname release card topline span classname release card date march 22 2026 span span cla",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.03.23",
+    "headings": [],
+    "summary": "<div className=\"release notes page\" <div className=\"release detail hero\" <div className=\"release card topline\" <span className=\"release card date\" March 23, 2026</span <span cla...",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-03-23/",
+    "normalizedTitle": "liberación 2026 03 23",
+    "normalizedHeadings": "",
+    "normalizedSummary": "div classname release notes page div classname release detail hero div classname release card topline span classname release card date march 23 2026 span span cla",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Liberación 2026.05.04",
+    "headings": [],
+    "summary": "<div className=\"release notes page\" <div className=\"release detail hero\" <div className=\"release card topline\" <span className=\"release card date\" May 4, 2026</span <span classN...",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/2026-05-04/",
+    "normalizedTitle": "liberación 2026 05 04",
+    "normalizedHeadings": "",
+    "normalizedSummary": "div classname release notes page div classname release detail hero div classname release card topline span classname release card date may 4 2026 span span classn",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Cambio",
+    "headings": [],
+    "summary": "<div className=\"release notes page\" <div className=\"release notes hero\" <div className=\"release notes kicker\" Curated release stream</div <h1 Changelog</h1 <p className=\"release...",
+    "section": "release-notes",
+    "url": "/es-ES/docs/release-notes/",
+    "normalizedTitle": "cambio",
+    "normalizedHeadings": "",
+    "normalizedSummary": "div classname release notes page div classname release notes hero div classname release notes kicker curated release stream div h1 changelog h1 p classname release",
+    "normalizedSection": "release notes"
+  },
+  {
+    "locale": "es-ES",
+    "title": "Tech Stack",
+    "headings": [],
+    "summary": "import TechStackEmbed from '@site/src/components/TechStackEmbed';",
+    "section": "tech-stack",
+    "url": "/es-ES/docs/tech-stack/",
+    "normalizedTitle": "tech stack",
+    "normalizedHeadings": "",
+    "normalizedSummary": "import techstackembed from site src components techstackembed",
+    "normalizedSection": "tech stack"
+  }
+]

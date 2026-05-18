@@ -491,8 +491,7 @@ body {
 
 /* Step 2: Hide Contribute button */
 @media (max-width: 1400px) {
-  .navbar-contribute-button,
-  [class*="contribute"] {
+  .navbar-contribute-button {
     display: none !important;
   }
 }
@@ -1616,10 +1615,6 @@ table tr:nth-child(even) td {
 }
 
 @media (min-width: 997px) and (max-width: 1500px) {
-  .navbar-item--parity-qrg {
-    display: none;
-  }
-
   .navbar-item--search,
   .navbar-search:not(.hero-search) {
     display: none !important;
@@ -2710,4 +2705,128 @@ table tr:nth-child(even) td {
   .footer-entry-rail {
     width: auto;
   }
+}
+
+/* ── TRANSLATED DOCS ── */
+.atlas-translation-notice {
+  margin: 0 0 1.5rem;
+  padding: 0.875rem 1rem;
+  color: var(--kc-ink);
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, var(--kc-surface));
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 28%, var(--kc-border));
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 6px;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.atlas-translation-notice strong {
+  color: var(--ifm-color-primary);
+}
+
+/* ── CUSTOMER JOURNEY WIP CONFIGURATION TABLES ── */
+.atlas-config-wip-table {
+  position: relative;
+  margin: 1rem 0 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.atlas-config-wip-table table {
+  margin: 0;
+}
+
+.atlas-config-wip-table::before {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  content: '';
+  background: rgba(64, 64, 64, 0.68);
+  backdrop-filter: grayscale(1) blur(1px);
+}
+
+.atlas-config-wip-table::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: min(82%, 420px);
+  padding: 1rem 1.25rem;
+  color: #ffffff;
+  content: 'Documentation is coming\A Work in Progress';
+  background: rgba(0, 0, 0, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  font-weight: var(--kc-ui-weight);
+  line-height: 1.35;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: pre-line;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* ── FOOTER ENTRY CARDS ── */
+.footer-contribute-cta,
+.footer-whats-new-cta {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  background: var(--kc-red-action) !important;
+  border: 1px solid color-mix(in srgb, var(--kc-red-action) 78%, #000000);
+  box-shadow: none;
+}
+
+.footer-contribute-cta__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.footer-contribute-cta__eyebrow,
+.footer-contribute-cta__title,
+.footer-contribute-cta__body {
+  color: #ffffff !important;
+}
+
+.footer-contribute-cta__body {
+  flex: 1 1 auto;
+  color: rgba(255, 255, 255, 0.86) !important;
+}
+
+.footer-contribute-cta__button,
+.footer-whats-new-cta__button {
+  display: inline-flex !important;
+  min-height: 56px;
+  margin-top: 1.25rem !important;
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #000000 !important;
+  box-shadow: none;
+}
+
+.footer-contribute-cta__button:hover,
+.footer-whats-new-cta__button:hover {
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+[data-theme='dark'] .footer-contribute-cta__button,
+[data-theme='dark'] .footer-whats-new-cta__button {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+[data-theme='dark'] .footer-contribute-cta__button:hover,
+[data-theme='dark'] .footer-whats-new-cta__button:hover {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
 }

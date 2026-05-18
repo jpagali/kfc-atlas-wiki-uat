@@ -324,7 +324,7 @@
       const panelGrid = document.getElementById("panelGrid");
       const tabs = Array.from(document.querySelectorAll(".tab"));
       let lastReportedHeight = 0;
-      let currentLocale = initialLocale === "ja-JP" ? "ja-JP" : "en-US";
+      let currentLocale = "en-US";
 
       const copy = {
         "en-US": {
@@ -343,28 +343,11 @@
           architectureTag: "Interactive view",
           footer:
             "Hover behavior lives inside the architecture panel. Theme changes from the docs page are passed through to both inner views automatically."
-        },
-        "ja-JP": {
-          eyebrow: "プラットフォームエクスプローラー",
-          title: "プラットフォーム階層とシステムアーキテクチャをまとめて確認",
-          body:
-            "構造的な階層ビューと、実行時の関係性を示すビューを切り替えられます。各タブでは 1 つの視覚モデルだけを表示し、ページ全体を見やすく保ちます。",
-          tabsAria: "エクスプローラービュー",
-          tabHierarchy: "階層のみ",
-          tabArchitecture: "アーキテクチャのみ",
-          hierarchyTitle: "プラットフォーム階層",
-          hierarchyBody: "機能マップとレイヤー構造の整理",
-          hierarchyTag: "参照ビュー",
-          architectureTitle: "システムアーキテクチャ",
-          architectureBody: "関係図とホバー式ボックス説明",
-          architectureTag: "インタラクティブビュー",
-          footer:
-            "ホバー操作はアーキテクチャパネル内で動作します。ドキュメントページ側のテーマ変更は、両方の内部ビューへ自動的に渡されます。"
         }
       };
 
       function applyLocale(locale) {
-        currentLocale = locale === "ja-JP" ? "ja-JP" : "en-US";
+        currentLocale = "en-US";
         const localeCopy = copy[currentLocale];
         document.querySelectorAll("[data-i18n]").forEach((el) => {
           const key = el.getAttribute("data-i18n");

@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Atlas Wiki UAT",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo KFC",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tech Stack": {
+    "message": "Stack technique",
+    "description": "Navbar item with label Tech Stack"
+  },
+  "item.label.Byte Portal Guide": {
+    "message": "Guide du portail Byte",
+    "description": "Navbar item with label Byte Portal Guide"
+  },
+  "item.label.Front-End Guide": {
+    "message": "Guide avant-garde",
+    "description": "Navbar item with label Front-End Guide"
+  },
+  "item.label.Playbooks": {
+    "message": "Livres de lecture",
+    "description": "Navbar item with label Playbooks"
+  },
+  "item.label.What's New": {
+    "message": "Quoi de neuf ?",
+    "description": "Navbar item with label What's New"
+  },
+  "item.label.Renegade-Atlas Parity QRG": {
+    "message": "Renegade-Atlas Parité QRG",
+    "description": "Navbar item with label Renegade-Atlas Parity QRG"
+  },
+  "item.label.Atlas Peek": {
+    "message": "Atlas Peek",
+    "description": "Navbar item with label Atlas Peek"
+  }
+}

@@ -13,6 +13,27 @@ const localeConfigs = [
     buildAssetPath: path.join(buildDir, 'search-index.en-US.json'),
     sizeBudgetBytes: 250 * 1024,
   },
+  {
+    locale: 'fr-FR',
+    docsDir: path.join(rootDir, 'i18n', 'fr-FR', 'docusaurus-plugin-content-docs', 'current'),
+    searchIndexPath: path.join(rootDir, 'static', 'search-index.fr-FR.json'),
+    buildAssetPath: path.join(buildDir, 'search-index.fr-FR.json'),
+    sizeBudgetBytes: 320 * 1024,
+  },
+  {
+    locale: 'es-ES',
+    docsDir: path.join(rootDir, 'i18n', 'es-ES', 'docusaurus-plugin-content-docs', 'current'),
+    searchIndexPath: path.join(rootDir, 'static', 'search-index.es-ES.json'),
+    buildAssetPath: path.join(buildDir, 'search-index.es-ES.json'),
+    sizeBudgetBytes: 320 * 1024,
+  },
+  {
+    locale: 'de-DE',
+    docsDir: path.join(rootDir, 'i18n', 'de-DE', 'docusaurus-plugin-content-docs', 'current'),
+    searchIndexPath: path.join(rootDir, 'static', 'search-index.de-DE.json'),
+    buildAssetPath: path.join(buildDir, 'search-index.de-DE.json'),
+    sizeBudgetBytes: 320 * 1024,
+  },
 ];
 
 const criticalPaths = [
@@ -22,6 +43,9 @@ const criticalPaths = [
   '/docs/release-notes/',
   '/docs/admin-portal-guide/agents/',
   '/docs/frontend/customer-journey/',
+  '/fr-FR/docs/about-knowledge-center/',
+  '/es-ES/docs/about-knowledge-center/',
+  '/de-DE/docs/about-knowledge-center/',
 ];
 
 const failures = [];
@@ -75,17 +99,16 @@ function walkMarkdownFiles(dir) {
   return fs.readdirSync(dir, {withFileTypes: true}).flatMap((entry) => {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) return walkMarkdownFiles(fullPath);
-    if (entry.isFile() && entry.name.endsWith('.md')) return [fullPath];
+    if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))) return [fullPath];
     return [];
   });
 }
 
-function toDocUrl(locale, filePath) {
-  const docsRoot = docsDir;
+function toDocUrl(locale, docsRoot, filePath) {
   const relativePath = path.relative(docsRoot, filePath).replace(/\\/g, '/');
-  const withoutExtension = relativePath.replace(/\.md$/, '');
+  const withoutExtension = relativePath.replace(/\.mdx?$/, '');
   const normalizedPath = withoutExtension.replace(/\/index$/, '');
-  const prefix = '/docs';
+  const prefix = locale === 'en-US' ? '/docs' : `/${locale}/docs`;
   return normalizedPath ? `${prefix}/${normalizedPath}/` : `${prefix}/`;
 }
 
@@ -148,7 +171,7 @@ function validateSearchIndex() {
 
     const expectedDocs = walkMarkdownFiles(localeDocsDir).map((filePath) => ({
       locale,
-      url: toDocUrl(locale, filePath),
+      url: toDocUrl(locale, localeDocsDir, filePath),
     }));
 
     const expectedKeys = new Set(expectedDocs.map(({locale, url}) => `${locale}:${url}`));
@@ -220,6 +243,8 @@ function validateBuildOutput() {
 
   const requiredAssets = [
     path.join(buildDir, 'img', 'atlas-logo.png'),
+    path.join(buildDir, 'atlas-wiki-sw.js'),
+    path.join(buildDir, 'video', 'colonel-sanders-cooking-chicken.mp4'),
     ...localeConfigs.map(({buildAssetPath}) => buildAssetPath),
   ];
 

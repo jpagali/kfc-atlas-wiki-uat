@@ -6,7 +6,7 @@ sidebar_label: Credits
 
 # Credits
 
-The Byte Capabilities was researched, and documented by:
+Byte Capabilities was researched and documented by:
 
 [**Varima Henry** and **Wesley Weidemann** in Confluence](https://yumbrands.atlassian.net/wiki/spaces/ITBFR/overview?homepageId=3880354415) to see their work.
 

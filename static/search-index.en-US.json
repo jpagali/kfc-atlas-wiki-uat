@@ -2207,12 +2207,12 @@
     "headings": [
       "Diagram"
     ],
-    "summary": "KFC Full Journey QRG",
+    "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
     "section": "brand-experience-team.md",
     "url": "/docs/brand-experience-team/",
     "normalizedTitle": "kfc full journey qrg",
     "normalizedHeadings": "diagram",
-    "normalizedSummary": "kfc full journey qrg",
+    "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
     "normalizedSection": "brand experience team md"
   },
   {
@@ -2578,12 +2578,12 @@
       "Platform Hierarchy",
       "System Architecture Diagram"
     ],
-    "summary": "🧠 Platform Mental Model",
+    "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
     "section": "byte-capabilities",
     "url": "/docs/byte-capabilities/mental-model/",
     "normalizedTitle": "platform mental model",
     "normalizedHeadings": "the atlas platform picture platform hierarchy system architecture diagram",
-    "normalizedSummary": "platform mental model",
+    "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
     "normalizedSection": "byte capabilities"
   },
   {
@@ -2956,12 +2956,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Sign In",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/sign-in/",
     "normalizedTitle": "sign in",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "sign in",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -2975,12 +2975,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Sign Up",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/sign-up/",
     "normalizedTitle": "sign up",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "sign up",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3041,21 +3041,19 @@
   },
   {
     "locale": "en-US",
-    "title": "Rewards, Offers and Loyalty",
+    "title": "Step 3 Rewards, Offers and Loyalty",
     "headings": [
-      "Screen Capture Sequence",
-      "What This Feature Is",
-      "Why It Is Designed This Way",
-      "WIP: What Can Be Configured On This Screen",
-      "What This Screen Should Communicate",
-      "Design Read On This Screen"
+      "What This Step Covers",
+      "Journey Map",
+      "Screenshots",
+      "Pages in This Section"
     ],
-    "summary": "Rewards, Offers and Loyalty",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-deals-and-rewards/",
-    "normalizedTitle": "rewards offers and loyalty",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "rewards offers and loyalty",
+    "normalizedTitle": "step 3 rewards offers and loyalty",
+    "normalizedHeadings": "what this step covers journey map screenshots pages in this section",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3111,12 +3109,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Build Your Own Bucket",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/byob-select/",
     "normalizedTitle": "build your own bucket",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "build your own bucket",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3187,28 +3185,29 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Homepage",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/home-page/",
     "normalizedTitle": "homepage",
     "normalizedHeadings": "screen capture sequence state map zoomed detail states what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "homepage",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
     "locale": "en-US",
     "title": "Step 2 Find Products",
     "headings": [
-      "Pages in This Section",
-      "PDP Subpages",
-      "Prototype Backed Scope"
+      "What This Step Covers",
+      "Journey Map",
+      "Screenshots",
+      "Pages in This Section"
     ],
-    "summary": "This step covers how customers discover what they can order once the ordering context is set.",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/",
     "normalizedTitle": "step 2 find products",
-    "normalizedHeadings": "pages in this section pdp subpages prototype backed scope",
-    "normalizedSummary": "this step covers how customers discover what they can order once the ordering context is set",
+    "normalizedHeadings": "what this step covers journey map screenshots pages in this section",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3222,12 +3221,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Menu Landing / Category",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/menu-landing/",
     "normalizedTitle": "menu landing category",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "menu landing category",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3241,12 +3240,12 @@
       "What This Screen Should Usually Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "PLP (Product Listing Page)",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/menu-listing/",
     "normalizedTitle": "plp product listing page",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should usually communicate design read on this screen",
-    "normalizedSummary": "plp product listing page",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3261,12 +3260,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Secret Menu",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/secret-menu/",
     "normalizedTitle": "secret menu",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way secret menu pdp customization wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "secret menu",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3412,12 +3411,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Cart",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/cart/",
     "normalizedTitle": "cart",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "cart",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3431,27 +3430,29 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Checkout",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/checkout/",
     "normalizedTitle": "checkout",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "checkout",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
     "locale": "en-US",
     "title": "Step 4 Order and Get",
     "headings": [
-      "Pages in This Section",
-      "Prototype Backed Scope"
+      "What This Step Covers",
+      "Journey Map",
+      "Screenshots",
+      "Pages in This Section"
     ],
-    "summary": "This step covers the conversion stage, where the customer moves from intent into a completed order.",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/",
     "normalizedTitle": "step 4 order and get",
-    "normalizedHeadings": "pages in this section prototype backed scope",
-    "normalizedSummary": "this step covers the conversion stage where the customer moves from intent into a completed order",
+    "normalizedHeadings": "what this step covers journey map screenshots pages in this section",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3465,12 +3466,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Add on and Cross sell",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/add-on-and-cross-sell/",
     "normalizedTitle": "add on and cross sell",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "add on and cross sell",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3484,12 +3485,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Product Customization",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/customize/",
     "normalizedTitle": "product customization",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "product customization",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3515,12 +3516,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Nutrition and Allergen",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/nutrition-and-allergen/",
     "normalizedTitle": "nutrition and allergen",
     "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "nutrition and allergen",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3535,12 +3536,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Product Detail Page (PDP)",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/product-detail/",
     "normalizedTitle": "product detail page pdp",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way customization levels wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "product detail page pdp",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3582,27 +3583,29 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Delivery",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/delivery/",
     "normalizedTitle": "delivery",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "delivery",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
     "locale": "en-US",
     "title": "Step 1 Setup Order",
     "headings": [
-      "Pages in This Section",
-      "Why This Comes First"
+      "What This Step Covers",
+      "Journey Map",
+      "Screenshots",
+      "Pages in This Section"
     ],
-    "summary": "This step covers everything the customer must define before the menu becomes relevant. These conditions shape what the customer can see, buy, schedule, or reorder.",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/",
     "normalizedTitle": "step 1 setup order",
-    "normalizedHeadings": "pages in this section why this comes first",
-    "normalizedSummary": "this step covers everything the customer must define before the menu becomes relevant these conditions shape what the customer can see buy schedule or reorder",
+    "normalizedHeadings": "what this step covers journey map screenshots pages in this section",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3616,12 +3619,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Pickup",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/pickup/",
     "normalizedTitle": "pickup",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "pickup",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3663,12 +3666,12 @@
       "What This Screen Should Communicate",
       "Design Read On This Screen"
     ],
-    "summary": "Set Order Mode",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/set-order-mode/",
     "normalizedTitle": "set order mode",
     "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
-    "normalizedSummary": "set order mode",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -3703,14 +3706,17 @@
     "locale": "en-US",
     "title": "Step 5 Track Order",
     "headings": [
+      "What This Step Covers",
+      "Journey Map",
+      "Screenshots",
       "Pages in This Section"
     ],
-    "summary": "This step covers the post purchase experience after the order is placed.",
+    "summary": "This step covers the post purchase experience after the customer places an order.",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/track-order/",
     "normalizedTitle": "step 5 track order",
-    "normalizedHeadings": "pages in this section",
-    "normalizedSummary": "this step covers the post purchase experience after the order is placed",
+    "normalizedHeadings": "what this step covers journey map screenshots pages in this section",
+    "normalizedSummary": "this step covers the post purchase experience after the customer places an order",
     "normalizedSection": "frontend"
   },
   {
@@ -3740,12 +3746,12 @@
       "Why This Matters for Atlas Markets",
       "Platform Architecture Diagram"
     ],
-    "summary": "KFC Atlas Design System How Our Platform Is Built — From Visual Identity to Your Screen",
+    "summary": "import useBaseUrl from '@docusaurus/useBaseUrl';",
     "section": "frontend",
     "url": "/docs/frontend/design-system/",
     "normalizedTitle": "design system",
     "normalizedHeadings": "how our platform is built from visual identity to your screen what is a design system the three layers layer 1 design what it looks like layer 2 code how it gets built layer 3 market applications what goes live why this matters for atlas markets platform architecture diagram",
-    "normalizedSummary": "kfc atlas design system how our platform is built from visual identity to your screen",
+    "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
   {
@@ -4415,5 +4421,17 @@
     "normalizedHeadings": "",
     "normalizedSummary": "div classname release notes page div classname release notes hero div classname release notes kicker curated release stream div h1 changelog h1 p classname release",
     "normalizedSection": "release notes"
+  },
+  {
+    "locale": "en-US",
+    "title": "Tech Stack",
+    "headings": [],
+    "summary": "import TechStackEmbed from '@site/src/components/TechStackEmbed';",
+    "section": "tech-stack",
+    "url": "/docs/tech-stack/",
+    "normalizedTitle": "tech stack",
+    "normalizedHeadings": "",
+    "normalizedSummary": "import techstackembed from site src components techstackembed",
+    "normalizedSection": "tech stack"
   }
 ]
