@@ -2203,15 +2203,15 @@
   },
   {
     "locale": "en-US",
-    "title": "KFC Full Journey QRG",
+    "title": "Brand Experience Team",
     "headings": [
-      "Diagram"
+      "Org Chart"
     ],
     "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
     "section": "brand-experience-team.md",
     "url": "/docs/brand-experience-team/",
-    "normalizedTitle": "kfc full journey qrg",
-    "normalizedHeadings": "diagram",
+    "normalizedTitle": "brand experience team",
+    "normalizedHeadings": "org chart",
     "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
     "normalizedSection": "brand experience team md"
   },
@@ -2921,13 +2921,16 @@
     "locale": "en-US",
     "title": "Account",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Why This Step Is Designed This Way"
     ],
     "summary": "Account",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/account/",
     "normalizedTitle": "account",
-    "normalizedHeadings": "why this step is designed this way",
+    "normalizedHeadings": "how this journey works a signed in user b guest user why this step is designed this way",
     "normalizedSummary": "account",
     "normalizedSection": "frontend"
   },
@@ -2949,6 +2952,9 @@
     "locale": "en-US",
     "title": "Sign In",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -2960,7 +2966,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/sign-in/",
     "normalizedTitle": "sign in",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -2968,6 +2974,9 @@
     "locale": "en-US",
     "title": "Sign Up",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -2979,7 +2988,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/sign-up/",
     "normalizedTitle": "sign up",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3043,6 +3052,9 @@
     "locale": "en-US",
     "title": "Step 3 Rewards, Offers and Loyalty",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "What This Step Covers",
       "Journey Map",
       "Screenshots",
@@ -3052,7 +3064,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-deals-and-rewards/",
     "normalizedTitle": "step 3 rewards offers and loyalty",
-    "normalizedHeadings": "what this step covers journey map screenshots pages in this section",
+    "normalizedHeadings": "how this journey works a signed in user b guest user what this step covers journey map screenshots pages in this section",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3102,6 +3114,9 @@
     "locale": "en-US",
     "title": "Build Your Own Bucket",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -3113,7 +3128,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/byob-select/",
     "normalizedTitle": "build your own bucket",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3176,6 +3191,9 @@
     "locale": "en-US",
     "title": "Homepage",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "State Map",
       "Zoomed Detail States",
@@ -3189,7 +3207,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/home-page/",
     "normalizedTitle": "homepage",
-    "normalizedHeadings": "screen capture sequence state map zoomed detail states what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence state map zoomed detail states what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3214,6 +3232,9 @@
     "locale": "en-US",
     "title": "Menu Landing / Category",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3225,7 +3246,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/menu-landing/",
     "normalizedTitle": "menu landing category",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3233,6 +3254,9 @@
     "locale": "en-US",
     "title": "PLP (Product Listing Page)",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3244,7 +3268,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/menu-listing/",
     "normalizedTitle": "plp product listing page",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should usually communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should usually communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3252,6 +3276,9 @@
     "locale": "en-US",
     "title": "Secret Menu",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3264,7 +3291,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/find-products/secret-menu/",
     "normalizedTitle": "secret menu",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way secret menu pdp customization wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way secret menu pdp customization wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3404,6 +3431,9 @@
     "locale": "en-US",
     "title": "Cart",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3415,7 +3445,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/cart/",
     "normalizedTitle": "cart",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3423,6 +3453,9 @@
     "locale": "en-US",
     "title": "Checkout",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -3434,7 +3467,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/order-and-get/checkout/",
     "normalizedTitle": "checkout",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3459,6 +3492,9 @@
     "locale": "en-US",
     "title": "Add on and Cross sell",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -3470,7 +3506,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/add-on-and-cross-sell/",
     "normalizedTitle": "add on and cross sell",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3478,6 +3514,9 @@
     "locale": "en-US",
     "title": "Product Customization",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -3489,7 +3528,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/customize/",
     "normalizedTitle": "product customization",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3509,6 +3548,9 @@
     "locale": "en-US",
     "title": "Nutrition and Allergen",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why This Step Is Designed This Way",
@@ -3520,7 +3562,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/nutrition-and-allergen/",
     "normalizedTitle": "nutrition and allergen",
-    "normalizedHeadings": "screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why this step is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3528,6 +3570,9 @@
     "locale": "en-US",
     "title": "Product Detail Page (PDP)",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3540,7 +3585,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/preview-product-and-customize/product-detail/",
     "normalizedTitle": "product detail page pdp",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way customization levels wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way customization levels wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3576,6 +3621,9 @@
     "locale": "en-US",
     "title": "Delivery",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3587,7 +3635,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/delivery/",
     "normalizedTitle": "delivery",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3612,6 +3660,9 @@
     "locale": "en-US",
     "title": "Pickup",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3623,7 +3674,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/pickup/",
     "normalizedTitle": "pickup",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },
@@ -3659,6 +3710,9 @@
     "locale": "en-US",
     "title": "Set Order Mode",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
       "Screen Capture Sequence",
       "What This Feature Is",
       "Why It Is Designed This Way",
@@ -3670,7 +3724,7 @@
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/setup-order/set-order-mode/",
     "normalizedTitle": "set order mode",
-    "normalizedHeadings": "screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
+    "normalizedHeadings": "how this journey works a signed in user b guest user screen capture sequence what this feature is why it is designed this way wip what can be configured on this screen what this screen should communicate design read on this screen",
     "normalizedSummary": "import usebaseurl from docusaurus usebaseurl",
     "normalizedSection": "frontend"
   },

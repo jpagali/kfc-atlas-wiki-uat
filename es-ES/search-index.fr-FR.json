@@ -2203,15 +2203,15 @@
   },
   {
     "locale": "fr-FR",
-    "title": "KFC Voyage complet QRG",
+    "title": "Brand Experience Team",
     "headings": [
-      "Schéma"
+      "Org Chart"
     ],
     "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
     "section": "brand-experience-team.md",
     "url": "/fr-FR/docs/brand-experience-team/",
-    "normalizedTitle": "kfc voyage complet qrg",
-    "normalizedHeadings": "schéma",
+    "normalizedTitle": "brand experience team",
+    "normalizedHeadings": "org chart",
     "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
     "normalizedSection": "brand experience team md"
   },
