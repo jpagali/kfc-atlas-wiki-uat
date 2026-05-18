@@ -2203,15 +2203,15 @@
   },
   {
     "locale": "en-US",
-    "title": "KFC Full Journey QRG",
+    "title": "Brand Experience Team",
     "headings": [
-      "Diagram"
+      "Org Chart"
     ],
     "summary": "import ThemeSyncedIframe from '@site/src/components/ThemeSyncedIframe';",
     "section": "brand-experience-team.md",
     "url": "/docs/brand-experience-team/",
-    "normalizedTitle": "kfc full journey qrg",
-    "normalizedHeadings": "diagram",
+    "normalizedTitle": "brand experience team",
+    "normalizedHeadings": "org chart",
     "normalizedSummary": "import themesyncediframe from site src components themesyncediframe",
     "normalizedSection": "brand experience team md"
   },
@@ -3823,30 +3823,6 @@
     "normalizedTitle": "martech",
     "normalizedHeadings": "what it does how the data flows components event tracking mparticle braze platforms",
     "normalizedSummary": "martech",
-    "normalizedSection": "frontend"
-  },
-  {
-    "locale": "en-US",
-    "title": "\"Japan — Christmas Ordering\"",
-    "headings": [
-      "Background",
-      "The Product: KFC Christmas Party Barrel",
-      "How the Reservation Flow Works in Japan",
-      "1. Campaign Opens (October–November)",
-      "2. Customer Reserves",
-      "3. Confirmation",
-      "4. Pickup (December 23–25)",
-      "Why Pre Payment Is Required",
-      "Volume and Capacity Management",
-      "Configuration Summary",
-      "Learnings for Other Markets"
-    ],
-    "summary": "Japan — Christmas Ordering",
-    "section": "frontend",
-    "url": "/docs/frontend/features/menu-item-reservation-japan-christmas/",
-    "normalizedTitle": "japan christmas ordering",
-    "normalizedHeadings": "background the product kfc christmas party barrel how the reservation flow works in japan 1 campaign opens october november 2 customer reserves 3 confirmation 4 pickup december 23 25 why pre payment is required volume and capacity management configuration summary learnings for other markets",
-    "normalizedSummary": "japan christmas ordering",
     "normalizedSection": "frontend"
   },
   {

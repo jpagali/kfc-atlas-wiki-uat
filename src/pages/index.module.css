@@ -254,9 +254,7 @@
   margin: 0 auto 36px;
   padding: 28px;
   border-radius: 28px;
-  background:
-    radial-gradient(circle at top right, rgba(228, 0, 43, 0.24), transparent 24%),
-    linear-gradient(135deg, var(--kc-surface), var(--kc-surface-alt));
+  background: var(--kc-surface);
   border: 1px solid var(--kc-border);
   box-shadow: 0 24px 58px rgba(20, 8, 5, 0.12);
 }
@@ -336,20 +334,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 72px;
+  height: 56px;
   margin: 0 auto;
-  border-radius: 999px;
-  background: var(--kc-surface-alt);
+  background: transparent;
 }
 
 .marketFlagImage {
   display: block;
-  width: 32px;
-  height: 24px;
+  width: 64px;
+  height: 48px;
   object-fit: cover;
   border-radius: 4px;
-  box-shadow: 0 0 0 1px var(--kc-border);
 }
 
 .marketName {
@@ -411,20 +407,18 @@
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 999px;
-  background: var(--kc-surface);
+  width: 44px;
+  height: 34px;
+  background: transparent;
 }
 
 .upcomingMarketFlagImage {
   display: block;
-  width: 20px;
-  height: 15px;
+  width: 40px;
+  height: 30px;
   object-fit: cover;
   border-radius: 3px;
   filter: grayscale(12%);
-  box-shadow: 0 0 0 1px var(--kc-border);
 }
 
 .upcomingMarketName {
@@ -788,16 +782,12 @@
 
 .prototypeCallout {
   border: 2px solid #000000;
-  background:
-    linear-gradient(90deg, rgba(245, 0, 43, 0.96) 0 86px, transparent 86px 100%),
-    #ffffff;
+  background: #ffffff;
 }
 
 :global([data-theme='dark']) .prototypeCallout {
   border-color: rgba(255, 255, 255, 0.82);
-  background:
-    linear-gradient(90deg, rgba(245, 0, 43, 0.96) 0 86px, transparent 86px 100%),
-    #111111;
+  background: #111111;
 }
 
 .prototypeTitle,
@@ -838,7 +828,7 @@
 .marketFlag,
 .upcomingMarketFlag {
   border-radius: 4px;
-  background: var(--kc-red-action);
+  background: transparent;
 }
 
 .marketFlagImage,

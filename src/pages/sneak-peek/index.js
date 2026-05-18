@@ -155,42 +155,6 @@ function SneakPeekViewer() {
   }, [isMobileAppView]);
 
   React.useEffect(() => {
-    if (!isMobileAppView) return undefined;
-
-    let startX = 0;
-    let startY = 0;
-    let swipeCount = 0;
-
-    const handleTouchStart = (event) => {
-      const touch = event.changedTouches[0];
-      startX = touch.clientX;
-      startY = touch.clientY;
-    };
-
-    const handleTouchEnd = (event) => {
-      const touch = event.changedTouches[0];
-      const deltaX = touch.clientX - startX;
-      const deltaY = Math.abs(touch.clientY - startY);
-
-      if (deltaX < -72 && deltaY < 80) {
-        swipeCount += 1;
-        if (swipeCount >= 2) {
-          window.location.href = homeHref;
-        }
-      } else if (Math.abs(deltaX) > 36 || deltaY > 80) {
-        swipeCount = 0;
-      }
-    };
-
-    window.addEventListener('touchstart', handleTouchStart, {passive: true});
-    window.addEventListener('touchend', handleTouchEnd, {passive: true});
-    return () => {
-      window.removeEventListener('touchstart', handleTouchStart);
-      window.removeEventListener('touchend', handleTouchEnd);
-    };
-  }, [homeHref, isMobileAppView]);
-
-  React.useEffect(() => {
     const blockEvent = (event) => {
       event.preventDefault();
       showProtectionMessage();
@@ -289,6 +253,15 @@ function SneakPeekViewer() {
         </header>
       ) : null}
 
+      {isMobileAppView ? (
+        <nav className={styles.mobileReturnBar} aria-label="Prototype navigation">
+          <Link to={homeHref} className={styles.mobileReturnButton}>
+            Back to Wiki
+          </Link>
+          <span>Use your browser Back button to return to the previous wiki page.</span>
+        </nav>
+      ) : null}
+
       <section className={styles.stage} aria-label="RNA prototype preview">
         <div className={isMobileAppView ? styles.mobileViewport : styles.phoneShell}>
           {!isMobileAppView ? (
@@ -333,7 +306,7 @@ function SneakPeekViewer() {
 
       {showMobileHint ? (
         <div className={styles.mobileHint} role="dialog" aria-live="polite">
-          <p>To go back to the wiki, swipe left two times.</p>
+          <p>You are viewing the prototype. Use your browser Back button to return to the previous wiki page, or tap Back to Wiki.</p>
           <button type="button" onClick={() => setShowMobileHint(false)}>Got it</button>
         </div>
       ) : null}
