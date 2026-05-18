@@ -115,7 +115,7 @@ These captures show the PLP after product images have loaded. The full-scroll ca
       <ul>
         <li>Order context stays visible at the top so customers know whether they are browsing pickup or delivery.</li>
         <li>The category rail keeps the customer anchored while they move through a long product list.</li>
-        <li>Product cards combine image, tag, title, price, energy, and short descriptor for fast comparison.</li>
+        <li>Product cards combine image, product tag, title, price, energy, and dietary attributes for fast comparison.</li>
         <li>The scroll continues into the next category, reducing the need to return to Menu Landing.</li>
       </ul>
     </div>
@@ -142,8 +142,8 @@ These captures show the PLP after product images have loaded. The full-scroll ca
     <p><strong>Category rail:</strong> shows the active category and supports quick switching across menu sections.</p>
   </div>
   <div className="plp-zoom-card">
-    <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-03-product-grid-top.png')} alt="PLP product grid with loaded product images and product card metadata" />
-    <p><strong>Product grid:</strong> pairs image, title, price, energy, and short copy for comparison.</p>
+    <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-03-product-grid-top.png')} alt="PLP product grid with loaded product images, tags, titles, prices, energy values, and dietary attributes" />
+    <p><strong>Product grid:</strong> pairs image, product tag, title, price, energy, and dietary attributes for comparison. Product descriptions are reserved for PDP.</p>
   </div>
   <div className="plp-zoom-card">
     <img src={useBaseUrl('/img/customer-journey/menu/plp-detail-04-category-transition.png')} alt="PLP scroll transition from Featured Offers into Burgers" />
@@ -174,7 +174,7 @@ The tab rail keeps the customer anchored in the menu structure, while product ca
 | Configurable Area | What Markets Should Be Able To Control | Current Documentation Status |
 |---|---|---|
 | Category tabs | Category order, labels, active default, and visibility | WIP |
-| Product cards | Product title, image, price, tags, calories or nutrition metadata | WIP |
+| Product cards | Product title, image, price, product tags, calories or nutrition metadata, and dietary attributes | WIP |
 | Product sorting | Default sort, category order, featured placement, and availability handling | WIP |
 | Promotion treatment | Value labels, limited-time badges, campaign placement, and offer eligibility | WIP |
 | Image fallback | Fallback assets when product images are missing or slow to load | WIP |
@@ -193,5 +193,5 @@ The tab rail keeps the customer anchored in the menu structure, while product ca
 - The top category bar keeps the customer anchored inside browse while still making cross-category switching fast.
 - The product grid gives strong visual comparison without forcing the user into one-card-at-a-time browsing.
 - The red active tab treatment makes the current category state easy to understand at a glance.
-- Product cards are built around the commercial essentials first: image, title, price, and short supporting descriptor.
+- Product cards are built around the commercial essentials first: image, product tag, title, price, energy, and dietary attributes. Product descriptions belong on PDP, not PLP.
 - The customer can scroll into additional category sections, which supports broad menu discovery without forcing a reset back to the category tile page.

@@ -1,7 +1,10 @@
-const CACHE_NAME = "kfc-atlas-prototype-v39";
+const CACHE_NAME = "kfc-atlas-prototype-v52";
 const CORE_ASSETS = [
   "./",
   "./rna-sneak-peek-prototype.html",
+  "./i18n/market-flags.js",
+  "./i18n/translations.js",
+  "./assets/splash/kfc-bucket-white.png",
   "./manifest.webmanifest",
   "./app-icon.svg",
   "./app-icon-180.png",
@@ -12,7 +15,7 @@ const CORE_ASSETS = [
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(CORE_ASSETS))
+      .then((cache) => Promise.all(CORE_ASSETS.map((asset) => cache.add(asset).catch(() => null))))
       .then(() => self.skipWaiting())
   );
 });

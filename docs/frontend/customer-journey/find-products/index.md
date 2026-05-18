@@ -32,7 +32,7 @@ Find Products starts after the customer has enough context for Atlas to show an 
   </div>
   <div>
     <img src={useBaseUrl('/img/customer-journey/menu/plp-00-full-scroll-featured-to-burgers.png')} alt="Full scroll PLP showing featured products and category transition" style={{ width: '100%', height: 'auto', maxHeight: '520px', objectFit: 'cover', objectPosition: 'top center', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />
-    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>PLP: product image, title, price, and category context stay together.</p>
+    <p style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>PLP: product image, tag, title, price, energy, dietary attributes, and category context stay together. Product descriptions are reserved for PDP.</p>
   </div>
   <div>
     <img src={useBaseUrl('/img/customer-journey/pdp/pdp-01-top.png')} alt="Product Detail Page top state" style={{ width: '100%', height: 'auto', borderRadius: '14px', border: '1px solid rgba(0, 0, 0, 0.08)' }} />

@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 
 const PROTOTYPE_URL = 'https://jpagali.github.io/kfc-ui-sandbox/rna-sneak-peek-prototype.html';
 const PROTOTYPE_BASE = 'https://jpagali.github.io/kfc-ui-sandbox/';
+const PROTOTYPE_VERSION = '4ad22c0';
 const CONTACT_MESSAGE = 'Please reach out to jyp4013@yum.com';
 const DB_NAME = 'rna-sneak-peek-session-package';
 const DB_STORE = 'packages';
@@ -19,8 +20,8 @@ const PROTOTYPE_STATE_KEYS = [
 ];
 const PROTOTYPE_COOKIE_KEYS = ['rna_sneak_peek_state_v2'];
 const SCRIPT_ASSETS = [
-  'i18n/market-flags.js?v=13',
-  'i18n/translations.js?v=13',
+  'i18n/market-flags.js?v=15',
+  'i18n/translations.js?v=14',
   'kfc-au-menu-data.js?v=12',
 ];
 
@@ -322,7 +323,7 @@ async function getPrototypePackage({forceRefresh = false} = {}) {
 
   if (!forceRefresh) {
     const stored = await readStoredPackage();
-    if (stored?.sessionId === sessionId) {
+    if (stored?.sessionId === sessionId && stored?.prototypeVersion === PROTOTYPE_VERSION) {
       try {
         const decrypted = await decryptPackage(stored, key);
         return {...decrypted, fromCache: true};
@@ -337,10 +338,11 @@ async function getPrototypePackage({forceRefresh = false} = {}) {
   const packageData = {
     ...fetchedPackage,
     sessionId,
+    prototypeVersion: PROTOTYPE_VERSION,
     fetchedAt: new Date().toISOString(),
   };
   const encrypted = await encryptPackage(packageData, key);
-  await writeStoredPackage({...encrypted, sessionId});
+  await writeStoredPackage({...encrypted, sessionId, prototypeVersion: PROTOTYPE_VERSION});
   return {...packageData, fromCache: false};
 }
 
@@ -387,12 +389,12 @@ function preparePrototypeDocument(packageData, objectUrls) {
   let html = packageData.html;
   html = html.replace(/<head([^>]*)>/i, `<head$1><base href="${PROTOTYPE_BASE}">`);
   html = html.replace(
-    /<script src="i18n\/market-flags\.js\?v=13"><\/script>/,
-    `<script src="${scriptUrls['i18n/market-flags.js?v=13'] || `${PROTOTYPE_BASE}i18n/market-flags.js?v=13`}"></script>`
+    /<script src="i18n\/market-flags\.js\?v=15"><\/script>/,
+    `<script src="${scriptUrls['i18n/market-flags.js?v=15'] || `${PROTOTYPE_BASE}i18n/market-flags.js?v=15`}"></script>`
   );
   html = html.replace(
-    /<script src="i18n\/translations\.js\?v=13"><\/script>/,
-    `<script src="${scriptUrls['i18n/translations.js?v=13'] || `${PROTOTYPE_BASE}i18n/translations.js?v=13`}"></script>`
+    /<script src="i18n\/translations\.js\?v=14"><\/script>/,
+    `<script src="${scriptUrls['i18n/translations.js?v=14'] || `${PROTOTYPE_BASE}i18n/translations.js?v=14`}"></script>`
   );
   html = html.replaceAll(
     '"kfc-au-menu-data.js?v=12"',
