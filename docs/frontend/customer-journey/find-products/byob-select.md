@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Build Your Own Bucket
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in Build Your Own Bucket journey](/img/customer-journey/gif-library/signed-in/S12-build-your-own-bucket.gif)
+
+**What this shows**
+
+- Shows the builder entry and slot-by-slot configuration path.
+- Keeps selected choices organized as the customer builds the bucket.
+- Supports deeper customization while preserving order context.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest Build Your Own Bucket journey](/img/customer-journey/gif-library/guest/G08-guest-byob.gif)
+
+**What this shows**
+
+- Lets guests understand the builder and configure slots before sign-in.
+- Preserves bundle intent through item selection and customization.
+- Defers authentication until account-specific or checkout actions are required.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Build Your Own Bucket is the configurable bundle journey where customers assemble a bucket from guided slots instead of choosing a fixed bundle.
 
 ## Screen Capture Sequence

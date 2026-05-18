@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Step 3 - Rewards, Offers and Loyalty
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in rewards hub journey](/img/customer-journey/gif-library/signed-in/S17-rewards-hub.gif)
+
+**What this shows**
+
+- Shows rewards and offers as an account-aware value hub.
+- Connects localized rewards to order context and product actions.
+- Lets the customer move from value discovery into menu ordering.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest rewards gate journey](/img/customer-journey/gif-library/guest/G11-guest-rewards-gate.gif)
+
+**What this shows**
+
+- Shows that rewards access is gated for unauthenticated customers.
+- Allows guests to understand the value proposition before sign-in.
+- Keeps rewards redemption tied to account and localization requirements.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 This step covers how customers discover value through rewards, offers, loyalty content, and localized deal surfaces.
 
 ## What This Step Covers

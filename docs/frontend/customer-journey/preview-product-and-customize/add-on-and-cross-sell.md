@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Add-on and Cross-sell
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in add-on and upsell journey](/img/customer-journey/gif-library/signed-in/S13-add-to-cart-upsell-modal.gif)
+
+**What this shows**
+
+- Shows the add-to-cart confirmation and upsell modal moment.
+- Makes add-ons visible while purchase intent is active.
+- Supports basket growth without forcing the customer away from the product path.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest add-on and upsell journey](/img/customer-journey/gif-library/guest/G09-guest-add-to-cart-upsell.gif)
+
+**What this shows**
+
+- Lets guests add products and see upsell prompts before authentication.
+- Preserves selected add-ons in the cart-building path.
+- Keeps checkout authentication separate from add-on discovery.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Add-on and Cross-sell covers the moments where Atlas recommends complementary items after the customer has made a primary product decision.
 
 ## Screen Capture Sequence

@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Cart
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in cart review journey](/img/customer-journey/gif-library/signed-in/S14-cart-review.gif)
+
+**What this shows**
+
+- Shows cart review with selected items, add-ons, and order context.
+- Keeps account-aware value, rewards, and checkout readiness visible.
+- Allows the customer to review, edit, and continue to checkout.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest cart review journey](/img/customer-journey/gif-library/guest/G10-guest-cart-review.gif)
+
+**What this shows**
+
+- Allows guests to review the basket before sign-in.
+- Keeps item edits and cart intent available before authentication.
+- Introduces the account gate only when checkout readiness requires it.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Cart is the review step before checkout. It lets the customer validate item accuracy, quantity, customization, promos, and order value before they commit to payment.
 
 ## Screen Capture Sequence

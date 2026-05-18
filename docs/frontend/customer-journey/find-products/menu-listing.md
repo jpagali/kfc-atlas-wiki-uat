@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # PLP (Product Listing Page)
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in product listing journey](/img/customer-journey/gif-library/signed-in/S06-plp-browsing.gif)
+
+**What this shows**
+
+- Shows category tabs, loaded product imagery, and product cards together.
+- Lets the customer move between categories without losing order context.
+- Keeps account-aware navigation available while browsing products.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest product listing journey](/img/customer-journey/gif-library/guest/G05-guest-plp-browsing.gif)
+
+**What this shows**
+
+- Supports product discovery and category movement before sign-in.
+- Lets guests compare items, pricing, and product recognition in the grid.
+- Preserves browse intent until an account-specific action is required.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 The PLP is the product comparison surface after a customer selects a menu category. It is separate from Menu Landing because the customer is no longer deciding which category to enter. They are comparing products inside an active category and deciding what to open, customize, or add.
 
 ## Screen Capture Sequence

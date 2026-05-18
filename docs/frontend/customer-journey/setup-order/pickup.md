@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Pickup
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in pickup setup journey](/img/customer-journey/gif-library/signed-in/S02-start-pickup-order.gif)
+
+**What this shows**
+
+- Uses existing customer context to move quickly into pickup setup.
+- Connects store selection to localized menu, pricing, and pickup rules.
+- Supports repeat behavior by preserving the customer journey after store selection.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest pickup setup journey](/img/customer-journey/gif-library/guest/G02-guest-pickup-setup.gif)
+
+**What this shows**
+
+- Allows store search, map review, and pickup setup without an account.
+- Makes distance, store details, and selection actions visible before menu browsing.
+- Preserves ordering intent while account-specific shortcuts remain unavailable.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Pickup is the order-mode path where the customer selects a store before browsing the menu. The store decision controls menu availability, service hours, fulfillment handoff options, and checkout rules.
 
 ## Screen Capture Sequence

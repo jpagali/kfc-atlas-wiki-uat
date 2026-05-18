@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Nutrition and Allergen
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in nutrition and allergen journey](/img/customer-journey/gif-library/signed-in/S11-nutrition-allergen.gif)
+
+**What this shows**
+
+- Shows nutrition and allergen information from the product decision point.
+- Lets the customer switch between nutrition and allergen states before purchase.
+- Keeps dietary information close to customization and add-to-cart actions.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest PDP information journey](/img/customer-journey/gif-library/guest/G07-guest-pdp-customization.gif)
+
+**What this shows**
+
+- Lets guests review product details before account creation.
+- Keeps product information available without forcing sign-in first.
+- Preserves the path back to customization and cart building.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Nutrition and Allergen covers the PDP information sheet that gives customers product-level nutrition and allergen details close to the purchase decision.
 
 ## Screen Capture Sequence

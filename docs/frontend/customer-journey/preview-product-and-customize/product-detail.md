@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Product Detail Page (PDP)
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in product detail journey](/img/customer-journey/gif-library/signed-in/S08-product-detail.gif)
+
+**What this shows**
+
+- Shows product detail, price, quantity, and add-to-cart entry in one decision surface.
+- Keeps the product tied to the selected store or delivery context.
+- Allows customization and nutrition review before cart commitment.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest product detail and customization journey](/img/customer-journey/gif-library/guest/G07-guest-pdp-customization.gif)
+
+**What this shows**
+
+- Lets guests inspect and customize a product before authentication.
+- Preserves configured product intent as the customer moves toward cart or checkout.
+- Defers account-specific actions until they are required by the flow.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 The Product Detail Page is where the customer moves from product comparison into one selected item. It explains the product, exposes price and nutrition context, and starts the customization path.
 
 ## Screen Capture Sequence

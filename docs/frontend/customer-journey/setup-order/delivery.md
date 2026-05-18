@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Delivery
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in delivery setup journey](/img/customer-journey/gif-library/signed-in/S03-start-delivery-order.gif)
+
+**What this shows**
+
+- Uses saved delivery context where available.
+- Resolves address, serviceability, timing, and delivery store before menu browsing.
+- Keeps the customer moving from setup into an orderable menu.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest delivery setup journey](/img/customer-journey/gif-library/guest/G03-guest-delivery-setup.gif)
+
+**What this shows**
+
+- Lets the customer enter or confirm an address before sign-in.
+- Shows serviceability and delivery context before cart building begins.
+- Preserves guest intent while saved-address behavior remains account-aware.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Delivery is the order-mode path where the customer provides a delivery address before browsing the menu. The address determines serviceability, delivery store assignment, fees, timing, and eligible offers.
 
 ## Screen Capture Sequence

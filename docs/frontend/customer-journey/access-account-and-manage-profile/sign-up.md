@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sign Up
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in destination after account creation](/img/customer-journey/gif-library/signed-in/S01-signed-in-home.gif)
+
+**What this shows**
+
+- Shows the account-aware destination after account creation succeeds.
+- Confirms that rewards, personalization, and saved context become available after sign-up.
+- Provides the target state for the completed new-account journey.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest sign-in and create-account journey](/img/customer-journey/gif-library/guest/G13-guest-sign-in-create-account.gif)
+
+**What this shows**
+
+- Shows the unauthenticated path into sign-in or account creation.
+- Covers phone number, OTP, and account creation progression.
+- Preserves the customer path so account creation can return to the intended experience.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users already have access to account-aware shortcuts and rewards. Guests use Sign Up to create that account context before account-specific actions can continue.
+
 Sign Up covers account creation for a new customer. The flow starts with mobile number verification, continues through OTP, then asks the customer to complete the account profile before redirecting to the signed-in homepage.
 
 ## Screen Capture Sequence

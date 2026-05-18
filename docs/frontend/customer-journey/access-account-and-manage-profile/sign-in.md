@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sign In
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in destination after returning-user authentication](/img/customer-journey/gif-library/signed-in/S01-signed-in-home.gif)
+
+**What this shows**
+
+- Shows the account-aware state the returning customer reaches after OTP success.
+- Restores rewards, personalization, and saved context after authentication.
+- Provides the fallback destination when there is no interrupted checkout or rewards task.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest sign-in and create-account journey](/img/customer-journey/gif-library/guest/G13-guest-sign-in-create-account.gif)
+
+**What this shows**
+
+- Shows the unauthenticated entry into phone number and OTP authentication.
+- Supports returning-user sign-in without forcing account creation.
+- Preserves the original task so the customer can continue after authentication.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users are already in the account-aware experience. Guests or signed-out returning customers authenticate through OTP, then return to the homepage or the task they started.
+
 Sign In covers the returning-customer path. For an existing user, the flow should only require phone number entry, OTP verification, and redirect back into the signed-in homepage or interrupted task.
 
 ## Screen Capture Sequence

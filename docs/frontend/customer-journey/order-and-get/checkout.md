@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Checkout
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in checkout journey](/img/customer-journey/gif-library/signed-in/S22-checkout-pickup.gif)
+
+**What this shows**
+
+- Shows fulfillment details, order review, promo, payment, and final submit readiness.
+- Uses account context for saved details and faster payment progression.
+- Keeps the final order check focused before submission.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest checkout gate journey](/img/customer-journey/gif-library/guest/G12-guest-checkout-gate.gif)
+
+**What this shows**
+
+- Shows where authentication is required before checkout can continue.
+- Preserves cart intent while asking the customer to sign in or create an account.
+- Makes the account gate part of checkout readiness rather than product browsing.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Checkout is the final validation and payment step before order placement. It brings together fulfillment details, basket review, promo or coupon handling, payment selection, and the final submit action.
 
 ## Screen Capture Sequence

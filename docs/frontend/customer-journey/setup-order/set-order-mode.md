@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Set Order Mode
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in order setting edit journey](/img/customer-journey/gif-library/signed-in/S04-edit-order-settings.gif)
+
+**What this shows**
+
+- Lets returning customers adjust a saved fulfillment context.
+- Uses known store or address context to reduce repeated setup work.
+- Keeps the order mode change close to the homepage and cart context.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest pickup setup journey](/img/customer-journey/gif-library/guest/G02-guest-pickup-setup.gif)
+
+**What this shows**
+
+- Starts with a fresh pickup or delivery decision.
+- Guides the customer into store or address selection before menu browsing.
+- Allows browsing intent to continue once the fulfillment context is set.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Set Order Mode is the moment where the customer chooses how they want to receive the order. In the prototype, this begins from the homepage location prompt or `Start Order` CTA and opens a focused order-mode sheet.
 
 ## Screen Capture Sequence

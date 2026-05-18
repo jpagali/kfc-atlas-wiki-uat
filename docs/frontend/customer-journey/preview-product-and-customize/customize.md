@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Product Customization
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in product customization journey](/img/customer-journey/gif-library/signed-in/S10-product-customization.gif)
+
+**What this shows**
+
+- Shows modifier groups and selection rules inside the PDP flow.
+- Keeps price changes visible as the customer adjusts the item.
+- Supports valid product configuration before adding to cart.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest product customization journey](/img/customer-journey/gif-library/guest/G07-guest-pdp-customization.gif)
+
+**What this shows**
+
+- Allows customization before sign-in so the customer can build intent.
+- Keeps selected options attached to the product path.
+- Moves account gates later, when checkout or saved information is needed.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Product Customization covers the PDP states where the customer changes size, bundled components, defaults, and deeper modifier options before adding a product to cart.
 
 ## Screen Capture Sequence

@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Homepage
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in homepage journey](/img/customer-journey/gif-library/signed-in/S01-signed-in-home.gif)
+
+**What this shows**
+
+- Recognizes the returning customer and restores saved order context.
+- Surfaces rewards, offers, and reorder shortcuts earlier in the experience.
+- Moves the customer from discovery into ordering with fewer setup steps.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest homepage journey](/img/customer-journey/gif-library/guest/G01-guest-home.gif)
+
+**What this shows**
+
+- Shows the brand, menu discovery, and starting points before account context exists.
+- Lets the customer browse and build intent before sign-in is required.
+- Keeps account-specific content out of view until authentication is complete.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 The homepage is the signed-in customer's entry point after app launch or return visit. It gives the customer a fast way to start an order, discover current promotions, review rewards, and jump back into familiar ordering behavior.
 
 ## Screen Capture Sequence

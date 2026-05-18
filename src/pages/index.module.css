@@ -884,6 +884,28 @@
   box-shadow: none;
 }
 
+.marketsSection,
+.sectionsSection {
+  background: var(--kc-canvas) !important;
+}
+
+.prototypeCallout {
+  overflow: hidden;
+  background: #ffffff !important;
+  background-image: none !important;
+}
+
+:global([data-theme='dark']) .prototypeCallout {
+  background: #111111 !important;
+  background-image: none !important;
+}
+
+.prototypeCallout::before,
+.prototypeCallout::after {
+  display: none !important;
+  content: none !important;
+}
+
 @media screen and (max-width: 996px) {
   .hero {
     background: #000000;

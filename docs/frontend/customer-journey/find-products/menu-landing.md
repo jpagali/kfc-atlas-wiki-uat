@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Menu Landing / Category
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in menu landing category journey](/img/customer-journey/gif-library/signed-in/S05-menu-landing-category-tiles.gif)
+
+**What this shows**
+
+- Shows category browsing after the customer has order context.
+- Supports campaign and category discovery with localized availability.
+- Keeps rewards and account-aware navigation available around the menu.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+![Guest menu landing journey](/img/customer-journey/gif-library/guest/G04-guest-menu-landing.gif)
+
+**What this shows**
+
+- Allows menu exploration after a basic order context is set.
+- Keeps category tiles and browse paths available before account creation.
+- Defers account-specific actions until checkout, rewards, or saved details are needed.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in users see account-aware shortcuts and rewards access. Guests can browse and build intent, but authentication is required for account-specific actions such as checkout, rewards redemption, or saved details.
+
 Menu Landing is the first structured menu surface after order context is set. It is the category gateway before the customer moves into a Product Listing Page (PLP), campaign destination, or guided builder.
 
 ## Screen Capture Sequence

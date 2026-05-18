@@ -6,6 +6,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Secret Menu
 
+## How This Journey Works
+
+<div className="journey-gif-grid">
+
+<div>
+
+### A. Signed-In User
+
+![Signed-in Secret Menu unlock journey](/img/customer-journey/gif-library/signed-in/S19-secret-menu-unlock.gif)
+
+**What this shows**
+
+- Shows the hidden unlock mechanic and countdown reveal moment.
+- Creates a campaign-led product discovery path outside standard categories.
+- Carries the customer into a Secret Menu surface that still supports ordering.
+
+</div>
+
+<div>
+
+### B. Guest User
+
+_Current library note: no prototype-backed GIF is available for this customer state in this pass._
+
+**What this shows**
+
+- No guest-specific Secret Menu GIF is included in the current library.
+- Do not present guest Secret Menu unlock as prototype-backed in this pass.
+- Guests can continue standard menu browsing until a supported guest state exists.
+
+</div>
+
+</div>
+
+**Key difference:** Signed-in Secret Menu behavior is prototype-backed through the unlock and reveal path. Guest-specific Secret Menu behavior should remain documented as pending until a dedicated guest clip or design state exists.
+
 Secret Menu is a special discovery path that sits outside standard menu browsing. It creates a premium reveal moment for limited-time or campaign-led products, then carries the customer into a Secret Menu PDP where the item can still be reviewed and customized before adding to cart.
 
 ## Screen Capture Sequence
