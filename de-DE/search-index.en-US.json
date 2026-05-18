@@ -2924,13 +2924,14 @@
       "How This Journey Works",
       "A. Signed In User",
       "B. Guest User",
+      "Prototype Coverage Note",
       "Why This Step Is Designed This Way"
     ],
     "summary": "Account",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/account/",
     "normalizedTitle": "account",
-    "normalizedHeadings": "how this journey works a signed in user b guest user why this step is designed this way",
+    "normalizedHeadings": "how this journey works a signed in user b guest user prototype coverage note why this step is designed this way",
     "normalizedSummary": "account",
     "normalizedSection": "frontend"
   },
@@ -2938,13 +2939,17 @@
     "locale": "en-US",
     "title": "Access Account and Manage Profile",
     "headings": [
+      "How This Journey Works",
+      "A. Signed In User",
+      "B. Guest User",
+      "Journey Map",
       "Pages in This Section"
     ],
     "summary": "Access Account and Manage Profile",
     "section": "frontend",
     "url": "/docs/frontend/customer-journey/access-account-and-manage-profile/",
     "normalizedTitle": "access account and manage profile",
-    "normalizedHeadings": "pages in this section",
+    "normalizedHeadings": "how this journey works a signed in user b guest user journey map pages in this section",
     "normalizedSummary": "access account and manage profile",
     "normalizedSection": "frontend"
   },
