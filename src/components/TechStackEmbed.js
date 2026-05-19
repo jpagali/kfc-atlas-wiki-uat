@@ -1,8 +1,7 @@
 import React from 'react';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function TechStackEmbed() {
-  const techStackUrl = useBaseUrl('/atlas-tech-stack/?embed=1&fit=contain');
+  const techStackUrl = 'https://jpagali.github.io/kfc-ui-sandbox/atlas-tech-stack/?embed=1&fit=contain';
 
   return (
     <div
