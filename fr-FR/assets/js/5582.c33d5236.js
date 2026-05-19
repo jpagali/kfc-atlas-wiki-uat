@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkkfc_atlas_portal=globalThis.webpackChunkkfc_atlas_portal||[]).push([[5582],{53201(a,e,l){l.d(e,{createPieServices:()=>s.f});var s=l(97761);l(6902)}}]);
