@@ -185,22 +185,26 @@
   aspect-ratio: 466 / 982;
   padding: var(--prototype-bezel-size);
   border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 54px;
+  border-radius: 82px;
   background:
     linear-gradient(145deg, #3c3c40 0%, #0b0b0d 32%, #060607 68%, #303033 100%);
   box-shadow:
     0 34px 90px rgba(0, 0, 0, 0.6),
     0 0 0 7px rgba(255, 255, 255, 0.035),
-    inset 0 0 0 2px rgba(255, 255, 255, 0.06);
+    inset 0 0 0 1px rgba(255, 255, 255, 0.10),
+    inset 0 0 0 3px rgba(0, 0, 0, 0.55);
 }
 
 .phoneShell::after {
   content: "";
   position: absolute;
-  inset: 9px;
+  inset: 5px;
   pointer-events: none;
-  border-radius: 45px;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  border-radius: 77px;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 0 24px rgba(255, 255, 255, 0.035);
+  z-index: 5;
 }
 
 .sideButtonLeft,
@@ -212,24 +216,24 @@
 }
 
 .sideButtonLeft {
-  top: 96px;
-  left: -3px;
-  height: 78px;
+  top: 156px;
+  left: -5px;
+  height: 118px;
 }
 
 .sideButtonRight {
-  top: 146px;
-  right: -3px;
-  height: 112px;
+  top: 220px;
+  right: -5px;
+  height: 166px;
 }
 
 .dynamicIsland {
   position: absolute;
-  z-index: 4;
-  top: 24px;
+  z-index: 6;
+  top: 38px;
   left: 50%;
-  width: 112px;
-  height: 31px;
+  width: 126px;
+  height: 36px;
   transform: translateX(-50%);
   border-radius: 999px;
   background: #050505;
@@ -248,7 +252,7 @@
 .screen {
   width: 100%;
   height: 100%;
-  border-radius: 42px;
+  border-radius: 68px;
 }
 
 .phoneShell .screen {
