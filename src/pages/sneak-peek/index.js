@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 
 const PROTOTYPE_URL = 'https://jpagali.github.io/kfc-ui-sandbox/rna-sneak-peek-prototype.html';
 const PROTOTYPE_BASE = 'https://jpagali.github.io/kfc-ui-sandbox/';
-const PROTOTYPE_VERSION = 'iphone-17-pro-max-v7';
+const PROTOTYPE_VERSION = 'iphone-17-pro-max-v8';
 const CONTACT_MESSAGE = 'Please reach out to jyp4013@yum.com';
 const DB_NAME = 'rna-sneak-peek-session-package';
 const DB_STORE = 'packages';
