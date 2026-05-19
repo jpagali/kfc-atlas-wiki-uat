@@ -173,10 +173,17 @@
 }
 
 .phoneShell {
+  --prototype-viewport-width: 440px;
+  --prototype-viewport-height: 956px;
+  --prototype-bezel-size: 12px;
+  --prototype-frame-border-size: 1px;
   position: relative;
-  width: min(402px, calc(100vw - 44px));
-  aspect-ratio: 71.5 / 149.6;
-  padding: 12px;
+  width: min(
+    calc(var(--prototype-viewport-width) + (var(--prototype-bezel-size) * 2) + (var(--prototype-frame-border-size) * 2)),
+    calc(100vw - 44px)
+  );
+  aspect-ratio: 466 / 982;
+  padding: var(--prototype-bezel-size);
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 54px;
   background:
@@ -495,7 +502,10 @@
   }
 
   .phoneShell {
-    width: min(392px, calc(100vw - 32px));
+    width: min(
+      calc(var(--prototype-viewport-width) + (var(--prototype-bezel-size) * 2) + (var(--prototype-frame-border-size) * 2)),
+      calc(100vw - 32px)
+    );
   }
 }
 
