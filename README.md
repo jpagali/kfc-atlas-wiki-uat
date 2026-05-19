@@ -1,91 +1,121 @@
-# Website
+# KFC Atlas Wiki UAT
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains the Docusaurus-based KFC Atlas Wiki UAT site.
 
-## Installation
+The current public UAT reference is:
+
+https://jpagali.github.io/kfc-atlas-wiki-uat/
+
+## Source of Truth
+
+GitHub UAT is the source of truth for the current wiki implementation.
+
+| Environment | Purpose | Notes |
+|---|---|---|
+| GitHub UAT | Primary UAT validation site | Deployed from `origin/main` to GitHub Pages. |
+| GitLab | Internal mirror / GitLab Pages path | Should follow GitHub UAT exactly unless a GitLab-specific deployment fix is required. |
+
+GitLab `main` is protected. Sync changes to GitLab through a merge request instead of direct pushes to `main`.
+
+## Local Setup
+
+Install dependencies:
 
 ```bash
-yarn
+npm ci
 ```
 
-## Local Development
+Build the full site:
 
 ```bash
-npm run start
+npm run build
 ```
 
-This command builds the site and serves the generated output on `http://localhost:3001/`.
+The build generates all configured locales:
 
-It is the recommended local workflow when you want one-port testing with both English and Japanese available in the same site instance.
+- `en-US`
+- `fr-FR`
+- `es-ES`
+- `de-DE`
 
-If you want the locale-specific development servers for editing work, use:
+## Local Preview
+
+Serve the built site:
+
+```bash
+npm run serve -- --port 3004 --host 127.0.0.1
+```
+
+Then open:
+
+```text
+http://127.0.0.1:3004/
+```
+
+For Docusaurus development mode in English:
 
 ```bash
 npm run start:dev-en
-npm run start:dev-ja
 ```
 
-Those start locale-specific Docusaurus development servers on:
-- English on `http://localhost:3001/`
-- Japanese on `http://localhost:3002/ja-JP/`
+## Atlas Peek Prototype
 
-If you want the same built-site preview on a separate port instead of `npm start`, use:
+The Atlas Peek page does **not** use a local static prototype file.
 
-```bash
-npm run preview
+The `/sneak-peek` route loads the current RNA prototype from the sandbox:
+
+```text
+https://jpagali.github.io/kfc-ui-sandbox/rna-sneak-peek-prototype.html
 ```
 
-This serves both locales together on `http://localhost:3005/`.
-
-If you need to verify that both locales are generated correctly, use:
-
-```bash
-npm run build
-```
-
-and inspect the output in `build/` and `build/ja-JP/`.
-
-To preview the full built site locally, including cross-locale navigation between English and Japanese, use:
-
-```bash
-npm run start
-```
-
-This serves the generated `build/` output from one port, which is the recommended way to test EN/JP switching because it includes both `/` and `/ja-JP/` in the same site instance.
-
-## Build
-
-```bash
-npm run build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Do not reintroduce `static/rna-sneak-peek-prototype.html` unless the deployment model intentionally changes back to a repo-hosted prototype bundle.
 
 ## Deployment
 
-This site is deployed to GitHub Pages via GitHub Actions.
+### GitHub UAT
 
-Production deploys run automatically when changes are pushed to the `main` branch.
+GitHub Pages deploys from `origin/main` using:
 
-The workflow is defined in `.github/workflows/deploy-gh-pages.yml` and will:
+```text
+.github/workflows/deploy-gh-pages.yml
+```
+
+The workflow runs:
 
 ```bash
 npm ci
 npm run build
 ```
 
-Then publish the generated `build` output to GitHub Pages.
+and publishes the generated `build/` output to GitHub Pages.
 
-## Release Flow
+### GitLab
 
-Default promotion order:
+GitLab should be aligned to the same file tree as GitHub UAT.
 
-1. Land the change on `staging` first.
-2. Run verification there:
-   `npm run build`, local preview if needed, and any cloud-stability checks.
-3. Once `staging` looks good, promote the same change to `main`.
-4. Update release notes as part of the `main` promotion unless the change needs a staging-only note.
-5. Push `main`.
-6. GitHub Actions deploys the site to GitHub Pages automatically.
+Recommended sync flow:
 
-See [docs/deployment-runbook.md](docs/deployment-runbook.md) for the detailed staging-first workflow.
+1. Confirm GitHub UAT is correct.
+2. Create a GitLab sync branch from `gitlab/main`.
+3. Apply the GitHub UAT tree from `origin/main`.
+4. Verify there are no file differences against `origin/main`.
+5. Open a GitLab merge request into protected `main`.
+
+Useful verification:
+
+```bash
+git diff --name-status gitlab/<sync-branch> origin/main
+```
+
+Expected result: no output.
+
+## Verification Checklist
+
+Before promoting a change:
+
+1. Run `npm run build`.
+2. Preview locally on a fixed port, such as `3004`.
+3. Check the homepage loads.
+4. Check `/sneak-peek` loads the sandbox-backed Atlas Peek shell.
+5. Confirm locale navigation matches `en-US`, `fr-FR`, `es-ES`, and `de-DE`.
+6. Keep unrelated local working-tree changes out of the commit.
